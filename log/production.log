@@ -1,0 +1,332 @@
+I, [2018-01-09T10:35:58.146980 #18246]  INFO -- : [424d8621-4de7-4f6d-bbe4-f64927256d05] Started GET "/" for 173.230.119.109 at 2018-01-09 10:35:58 -0500
+I, [2018-01-09T10:35:58.190533 #18246]  INFO -- : [424d8621-4de7-4f6d-bbe4-f64927256d05] Processing by PagesController#index as HTML
+I, [2018-01-09T10:35:58.217963 #18246]  INFO -- : [424d8621-4de7-4f6d-bbe4-f64927256d05]   Rendering pages/index.html.erb
+I, [2018-01-09T10:35:58.225827 #18246]  INFO -- : [424d8621-4de7-4f6d-bbe4-f64927256d05]   Rendered partials/_header.html.erb (1.2ms)
+I, [2018-01-09T10:35:58.230072 #18246]  INFO -- : [424d8621-4de7-4f6d-bbe4-f64927256d05]   Rendered pages/index.html.erb (11.9ms)
+I, [2018-01-09T10:35:58.230774 #18246]  INFO -- : [424d8621-4de7-4f6d-bbe4-f64927256d05] Completed 500 Internal Server Error in 40ms
+F, [2018-01-09T10:35:58.233377 #18246] FATAL -- : [424d8621-4de7-4f6d-bbe4-f64927256d05]   
+F, [2018-01-09T10:35:58.233539 #18246] FATAL -- : [424d8621-4de7-4f6d-bbe4-f64927256d05] ActionView::Template::Error (Unsupported charset: '"unicode"'):
+F, [2018-01-09T10:35:58.234228 #18246] FATAL -- : [424d8621-4de7-4f6d-bbe4-f64927256d05]     86: <<<<<<< HEAD
+[424d8621-4de7-4f6d-bbe4-f64927256d05]     87: <div style="max-height:250px;>
+[424d8621-4de7-4f6d-bbe4-f64927256d05]     88:   <div id="news-carousel" class="carousel scroll">
+[424d8621-4de7-4f6d-bbe4-f64927256d05]     89:     <% @articles.each do |article| %>
+[424d8621-4de7-4f6d-bbe4-f64927256d05]     90:       <div style="width:300px;">
+[424d8621-4de7-4f6d-bbe4-f64927256d05]     91:         <img src= <%= article.img %> height="150px" class="img-rounded center-img" />
+[424d8621-4de7-4f6d-bbe4-f64927256d05]     92:         <h4 class="text-center"><%= article.title %></h4>
+F, [2018-01-09T10:35:58.234326 #18246] FATAL -- : [424d8621-4de7-4f6d-bbe4-f64927256d05]   
+F, [2018-01-09T10:35:58.234600 #18246] FATAL -- : [424d8621-4de7-4f6d-bbe4-f64927256d05] app/views/pages/index.html.erb:89:in `_app_views_pages_index_html_erb___3410335852025402048_17256868920'
+[424d8621-4de7-4f6d-bbe4-f64927256d05] app/controllers/pages_controller.rb:7:in `index'
+I, [2018-01-09T10:39:41.925105 #18410]  INFO -- : [e7486dee-61c7-49dd-8af2-5a49de28fc05] Started GET "/" for 173.230.119.109 at 2018-01-09 10:39:41 -0500
+I, [2018-01-09T10:39:41.969338 #18410]  INFO -- : [e7486dee-61c7-49dd-8af2-5a49de28fc05] Processing by PagesController#index as HTML
+I, [2018-01-09T10:39:41.996655 #18410]  INFO -- : [e7486dee-61c7-49dd-8af2-5a49de28fc05]   Rendering pages/index.html.erb
+I, [2018-01-09T10:39:42.004263 #18410]  INFO -- : [e7486dee-61c7-49dd-8af2-5a49de28fc05]   Rendered partials/_header.html.erb (1.1ms)
+I, [2018-01-09T10:39:42.009240 #18410]  INFO -- : [e7486dee-61c7-49dd-8af2-5a49de28fc05]   Rendered pages/index.html.erb (12.4ms)
+I, [2018-01-09T10:39:42.009956 #18410]  INFO -- : [e7486dee-61c7-49dd-8af2-5a49de28fc05] Completed 500 Internal Server Error in 40ms
+F, [2018-01-09T10:39:42.012557 #18410] FATAL -- : [e7486dee-61c7-49dd-8af2-5a49de28fc05]   
+F, [2018-01-09T10:39:42.012715 #18410] FATAL -- : [e7486dee-61c7-49dd-8af2-5a49de28fc05] ActionView::Template::Error (Unsupported charset: '"unicode"'):
+F, [2018-01-09T10:39:42.013504 #18410] FATAL -- : [e7486dee-61c7-49dd-8af2-5a49de28fc05]     86: <<<<<<< HEAD
+[e7486dee-61c7-49dd-8af2-5a49de28fc05]     87: <div style="max-height:250px;>
+[e7486dee-61c7-49dd-8af2-5a49de28fc05]     88:   <div id="news-carousel" class="carousel scroll">
+[e7486dee-61c7-49dd-8af2-5a49de28fc05]     89:     <% @articles.each do |article| %>
+[e7486dee-61c7-49dd-8af2-5a49de28fc05]     90:       <div style="width:300px;">
+[e7486dee-61c7-49dd-8af2-5a49de28fc05]     91:         <img src= <%= article.img %> height="150px" class="img-rounded center-img" />
+[e7486dee-61c7-49dd-8af2-5a49de28fc05]     92:         <h4 class="text-center"><%= article.title %></h4>
+F, [2018-01-09T10:39:42.013614 #18410] FATAL -- : [e7486dee-61c7-49dd-8af2-5a49de28fc05]   
+F, [2018-01-09T10:39:42.013722 #18410] FATAL -- : [e7486dee-61c7-49dd-8af2-5a49de28fc05] app/views/pages/index.html.erb:89:in `_app_views_pages_index_html_erb___835044425380232015_17256868020'
+[e7486dee-61c7-49dd-8af2-5a49de28fc05] app/controllers/pages_controller.rb:7:in `index'
+I, [2018-01-09T10:39:45.926183 #18410]  INFO -- : [303d3615-cb86-4a9f-bce0-d3a9374c2109] Started GET "/adming" for 173.230.119.109 at 2018-01-09 10:39:45 -0500
+F, [2018-01-09T10:39:45.928132 #18410] FATAL -- : [303d3615-cb86-4a9f-bce0-d3a9374c2109]   
+F, [2018-01-09T10:39:45.928244 #18410] FATAL -- : [303d3615-cb86-4a9f-bce0-d3a9374c2109] ActionController::RoutingError (No route matches [GET] "/adming"):
+F, [2018-01-09T10:39:45.928321 #18410] FATAL -- : [303d3615-cb86-4a9f-bce0-d3a9374c2109]   
+F, [2018-01-09T10:39:45.928473 #18410] FATAL -- : [303d3615-cb86-4a9f-bce0-d3a9374c2109] actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] railties (5.1.4) lib/rails/engine.rb:522:in `call'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[303d3615-cb86-4a9f-bce0-d3a9374c2109] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2018-01-09T10:39:48.502332 #18410]  INFO -- : [47838709-6dab-4505-8361-d2778392c0ae] Started GET "/admin" for 173.230.119.109 at 2018-01-09 10:39:48 -0500
+I, [2018-01-09T10:39:48.507421 #18410]  INFO -- : [47838709-6dab-4505-8361-d2778392c0ae] Processing by Admin::DashboardController#index as HTML
+I, [2018-01-09T10:39:48.519646 #18410]  INFO -- : [47838709-6dab-4505-8361-d2778392c0ae] Completed 401 Unauthorized in 12ms
+I, [2018-01-09T10:39:48.769857 #18410]  INFO -- : [872c8186-ceff-46b9-946c-65b1d8d3f03a] Started GET "/admin/login" for 173.230.119.109 at 2018-01-09 10:39:48 -0500
+I, [2018-01-09T10:39:48.775431 #18410]  INFO -- : [872c8186-ceff-46b9-946c-65b1d8d3f03a] Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+I, [2018-01-09T10:39:48.788153 #18410]  INFO -- : [872c8186-ceff-46b9-946c-65b1d8d3f03a] Completed 500 Internal Server Error in 12ms
+F, [2018-01-09T10:39:48.792184 #18410] FATAL -- : [872c8186-ceff-46b9-946c-65b1d8d3f03a]   
+F, [2018-01-09T10:39:48.792312 #18410] FATAL -- : [872c8186-ceff-46b9-946c-65b1d8d3f03a] Mysql2::Error (Unsupported charset: '"unicode"'):
+F, [2018-01-09T10:39:48.792438 #18410] FATAL -- : [872c8186-ceff-46b9-946c-65b1d8d3f03a]   
+F, [2018-01-09T10:39:48.792582 #18410] FATAL -- : [872c8186-ceff-46b9-946c-65b1d8d3f03a] mysql2 (0.4.10) lib/mysql2/client.rb:47:in `charset_name='
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] mysql2 (0.4.10) lib/mysql2/client.rb:47:in `initialize'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `new'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `mysql2_connection'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/connection_handling.rb:88:in `connection'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/model_schema.rb:471:in `load_schema!'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/attributes.rb:233:in `load_schema!'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/attribute_decorators.rb:50:in `load_schema!'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/model_schema.rb:464:in `block in load_schema'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] /usr/local/lib/ruby/2.3/monitor.rb:214:in `mon_synchronize'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/model_schema.rb:461:in `load_schema'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/model_schema.rb:353:in `attribute_types'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/attribute_methods.rb:179:in `has_attribute?'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/inheritance.rb:55:in `new'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] devise (4.3.0) app/controllers/devise/sessions_controller.rb:9:in `new'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_dispatch/routing/mapper.rb:16:in `block in <class:Constraints>'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] warden (1.2.7) lib/warden/manager.rb:35:in `call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] rack (2.0.3) lib/rack/etag.rb:25:in `call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] rack (2.0.3) lib/rack/head.rb:12:in `call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] railties (5.1.4) lib/rails/engine.rb:522:in `call'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[872c8186-ceff-46b9-946c-65b1d8d3f03a] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2018-01-09T10:46:15.838071 #18651]  INFO -- : [ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] Started GET "/admin/login" for 173.230.119.109 at 2018-01-09 10:46:15 -0500
+I, [2018-01-09T10:46:15.881936 #18651]  INFO -- : [ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+I, [2018-01-09T10:46:15.926210 #18651]  INFO -- : [ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] Completed 500 Internal Server Error in 44ms
+F, [2018-01-09T10:46:15.930327 #18651] FATAL -- : [ebf62c22-27bc-42de-97ba-6aaa0bd70a9e]   
+F, [2018-01-09T10:46:15.930498 #18651] FATAL -- : [ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] Mysql2::Error (Access denied for user 'isigman'@'localhost' (using password: NO)):
+F, [2018-01-09T10:46:15.930595 #18651] FATAL -- : [ebf62c22-27bc-42de-97ba-6aaa0bd70a9e]   
+F, [2018-01-09T10:46:15.930738 #18651] FATAL -- : [ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] mysql2 (0.4.10) lib/mysql2/client.rb:89:in `connect'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] mysql2 (0.4.10) lib/mysql2/client.rb:89:in `initialize'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `new'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `mysql2_connection'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/connection_handling.rb:88:in `connection'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/model_schema.rb:471:in `load_schema!'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/attributes.rb:233:in `load_schema!'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/attribute_decorators.rb:50:in `load_schema!'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/model_schema.rb:464:in `block in load_schema'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] /usr/local/lib/ruby/2.3/monitor.rb:214:in `mon_synchronize'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/model_schema.rb:461:in `load_schema'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/model_schema.rb:353:in `attribute_types'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/attribute_methods.rb:179:in `has_attribute?'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/inheritance.rb:55:in `new'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] devise (4.3.0) app/controllers/devise/sessions_controller.rb:9:in `new'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_dispatch/routing/mapper.rb:16:in `block in <class:Constraints>'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] warden (1.2.7) lib/warden/manager.rb:35:in `call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] rack (2.0.3) lib/rack/etag.rb:25:in `call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] rack (2.0.3) lib/rack/head.rb:12:in `call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] railties (5.1.4) lib/rails/engine.rb:522:in `call'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[ebf62c22-27bc-42de-97ba-6aaa0bd70a9e] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2018-01-09T10:46:15.941726 #18652]  INFO -- : [3d629947-5b31-4443-a99a-492ea48b5ace] Started GET "/" for 173.230.119.109 at 2018-01-09 10:46:15 -0500
+I, [2018-01-09T10:46:15.986054 #18652]  INFO -- : [3d629947-5b31-4443-a99a-492ea48b5ace] Processing by PagesController#index as HTML
+I, [2018-01-09T10:46:16.014592 #18652]  INFO -- : [3d629947-5b31-4443-a99a-492ea48b5ace]   Rendering pages/index.html.erb
+I, [2018-01-09T10:46:16.022354 #18652]  INFO -- : [3d629947-5b31-4443-a99a-492ea48b5ace]   Rendered partials/_header.html.erb (1.2ms)
+I, [2018-01-09T10:46:16.033697 #18652]  INFO -- : [3d629947-5b31-4443-a99a-492ea48b5ace]   Rendered pages/index.html.erb (18.9ms)
+I, [2018-01-09T10:46:16.034247 #18652]  INFO -- : [3d629947-5b31-4443-a99a-492ea48b5ace] Completed 500 Internal Server Error in 48ms
+F, [2018-01-09T10:46:16.036578 #18652] FATAL -- : [3d629947-5b31-4443-a99a-492ea48b5ace]   
+F, [2018-01-09T10:46:16.036679 #18652] FATAL -- : [3d629947-5b31-4443-a99a-492ea48b5ace] ActionView::Template::Error (Access denied for user 'isigman'@'localhost' (using password: NO)):
+F, [2018-01-09T10:46:16.037384 #18652] FATAL -- : [3d629947-5b31-4443-a99a-492ea48b5ace]     86: <<<<<<< HEAD
+[3d629947-5b31-4443-a99a-492ea48b5ace]     87: <div style="max-height:250px;>
+[3d629947-5b31-4443-a99a-492ea48b5ace]     88:   <div id="news-carousel" class="carousel scroll">
+[3d629947-5b31-4443-a99a-492ea48b5ace]     89:     <% @articles.each do |article| %>
+[3d629947-5b31-4443-a99a-492ea48b5ace]     90:       <div style="width:300px;">
+[3d629947-5b31-4443-a99a-492ea48b5ace]     91:         <img src= <%= article.img %> height="150px" class="img-rounded center-img" />
+[3d629947-5b31-4443-a99a-492ea48b5ace]     92:         <h4 class="text-center"><%= article.title %></h4>
+F, [2018-01-09T10:46:16.037461 #18652] FATAL -- : [3d629947-5b31-4443-a99a-492ea48b5ace]   
+F, [2018-01-09T10:46:16.037545 #18652] FATAL -- : [3d629947-5b31-4443-a99a-492ea48b5ace] app/views/pages/index.html.erb:89:in `_app_views_pages_index_html_erb__4264021295122691214_17256885300'
+[3d629947-5b31-4443-a99a-492ea48b5ace] app/controllers/pages_controller.rb:7:in `index'
+I, [2018-01-09T10:46:20.814017 #18651]  INFO -- : [ece91095-d9b3-485c-9f9f-92c822ff2e94] Started GET "/" for 173.230.119.109 at 2018-01-09 10:46:20 -0500
+I, [2018-01-09T10:46:20.818245 #18651]  INFO -- : [ece91095-d9b3-485c-9f9f-92c822ff2e94] Processing by PagesController#index as HTML
+I, [2018-01-09T10:46:20.827019 #18651]  INFO -- : [ece91095-d9b3-485c-9f9f-92c822ff2e94]   Rendering pages/index.html.erb
+I, [2018-01-09T10:46:20.834810 #18651]  INFO -- : [ece91095-d9b3-485c-9f9f-92c822ff2e94]   Rendered partials/_header.html.erb (1.3ms)
+I, [2018-01-09T10:46:20.840116 #18651]  INFO -- : [ece91095-d9b3-485c-9f9f-92c822ff2e94]   Rendered pages/index.html.erb (12.2ms)
+I, [2018-01-09T10:46:20.840560 #18651]  INFO -- : [ece91095-d9b3-485c-9f9f-92c822ff2e94] Completed 500 Internal Server Error in 22ms
+F, [2018-01-09T10:46:20.843236 #18651] FATAL -- : [ece91095-d9b3-485c-9f9f-92c822ff2e94]   
+F, [2018-01-09T10:46:20.843336 #18651] FATAL -- : [ece91095-d9b3-485c-9f9f-92c822ff2e94] ActionView::Template::Error (Access denied for user 'isigman'@'localhost' (using password: NO)):
+F, [2018-01-09T10:46:20.844076 #18651] FATAL -- : [ece91095-d9b3-485c-9f9f-92c822ff2e94]     86: <<<<<<< HEAD
+[ece91095-d9b3-485c-9f9f-92c822ff2e94]     87: <div style="max-height:250px;>
+[ece91095-d9b3-485c-9f9f-92c822ff2e94]     88:   <div id="news-carousel" class="carousel scroll">
+[ece91095-d9b3-485c-9f9f-92c822ff2e94]     89:     <% @articles.each do |article| %>
+[ece91095-d9b3-485c-9f9f-92c822ff2e94]     90:       <div style="width:300px;">
+[ece91095-d9b3-485c-9f9f-92c822ff2e94]     91:         <img src= <%= article.img %> height="150px" class="img-rounded center-img" />
+[ece91095-d9b3-485c-9f9f-92c822ff2e94]     92:         <h4 class="text-center"><%= article.title %></h4>
+F, [2018-01-09T10:46:20.844188 #18651] FATAL -- : [ece91095-d9b3-485c-9f9f-92c822ff2e94]   
+F, [2018-01-09T10:46:20.844291 #18651] FATAL -- : [ece91095-d9b3-485c-9f9f-92c822ff2e94] app/views/pages/index.html.erb:89:in `_app_views_pages_index_html_erb__4264021295122691214_17257621060'
+[ece91095-d9b3-485c-9f9f-92c822ff2e94] app/controllers/pages_controller.rb:7:in `index'
+I, [2018-01-09T11:24:40.243050 #20817]  INFO -- : [b5d4471c-605a-49a0-8123-4e83c720b092] Started GET "/" for 173.230.119.109 at 2018-01-09 11:24:40 -0500
+I, [2018-01-09T11:24:40.286778 #20817]  INFO -- : [b5d4471c-605a-49a0-8123-4e83c720b092] Processing by PagesController#index as HTML
+I, [2018-01-09T11:24:40.315110 #20817]  INFO -- : [b5d4471c-605a-49a0-8123-4e83c720b092]   Rendering pages/index.html.erb
+I, [2018-01-09T11:24:40.324305 #20817]  INFO -- : [b5d4471c-605a-49a0-8123-4e83c720b092]   Rendered partials/_header.html.erb (1.2ms)
+I, [2018-01-09T11:24:40.335449 #20817]  INFO -- : [b5d4471c-605a-49a0-8123-4e83c720b092]   Rendered pages/index.html.erb (19.5ms)
+I, [2018-01-09T11:24:40.336085 #20817]  INFO -- : [b5d4471c-605a-49a0-8123-4e83c720b092] Completed 500 Internal Server Error in 49ms
+F, [2018-01-09T11:24:40.338718 #20817] FATAL -- : [b5d4471c-605a-49a0-8123-4e83c720b092]   
+F, [2018-01-09T11:24:40.338846 #20817] FATAL -- : [b5d4471c-605a-49a0-8123-4e83c720b092] ActionView::Template::Error (Unknown database 'csi_production'):
+F, [2018-01-09T11:24:40.339815 #20817] FATAL -- : [b5d4471c-605a-49a0-8123-4e83c720b092]     86: <<<<<<< HEAD
+[b5d4471c-605a-49a0-8123-4e83c720b092]     87: <div style="max-height:250px;>
+[b5d4471c-605a-49a0-8123-4e83c720b092]     88:   <div id="news-carousel" class="carousel scroll">
+[b5d4471c-605a-49a0-8123-4e83c720b092]     89:     <% @articles.each do |article| %>
+[b5d4471c-605a-49a0-8123-4e83c720b092]     90:       <div style="width:300px;">
+[b5d4471c-605a-49a0-8123-4e83c720b092]     91:         <img src= <%= article.img %> height="150px" class="img-rounded center-img" />
+[b5d4471c-605a-49a0-8123-4e83c720b092]     92:         <h4 class="text-center"><%= article.title %></h4>
+F, [2018-01-09T11:24:40.339920 #20817] FATAL -- : [b5d4471c-605a-49a0-8123-4e83c720b092]   
+F, [2018-01-09T11:24:40.340017 #20817] FATAL -- : [b5d4471c-605a-49a0-8123-4e83c720b092] app/views/pages/index.html.erb:89:in `_app_views_pages_index_html_erb__221163153204596996_17256886580'
+[b5d4471c-605a-49a0-8123-4e83c720b092] app/controllers/pages_controller.rb:7:in `index'
+I, [2018-01-09T11:34:26.970051 #21136]  INFO -- : [f63c8b00-c549-4b4e-8e02-0b1aba4d9ac0] Started GET "/" for 173.230.119.109 at 2018-01-09 11:34:26 -0500
+I, [2018-01-09T11:34:27.014760 #21136]  INFO -- : [f63c8b00-c549-4b4e-8e02-0b1aba4d9ac0] Processing by PagesController#index as HTML
+I, [2018-01-09T11:34:27.042632 #21136]  INFO -- : [f63c8b00-c549-4b4e-8e02-0b1aba4d9ac0]   Rendering pages/index.html.erb
+I, [2018-01-09T11:34:27.051312 #21136]  INFO -- : [f63c8b00-c549-4b4e-8e02-0b1aba4d9ac0]   Rendered partials/_header.html.erb (1.3ms)
+I, [2018-01-09T11:34:27.063384 #21136]  INFO -- : [f63c8b00-c549-4b4e-8e02-0b1aba4d9ac0]   Rendered pages/index.html.erb (20.5ms)
+I, [2018-01-09T11:34:27.064042 #21136]  INFO -- : [f63c8b00-c549-4b4e-8e02-0b1aba4d9ac0] Completed 500 Internal Server Error in 49ms
+F, [2018-01-09T11:34:27.066636 #21136] FATAL -- : [f63c8b00-c549-4b4e-8e02-0b1aba4d9ac0]   
+F, [2018-01-09T11:34:27.066763 #21136] FATAL -- : [f63c8b00-c549-4b4e-8e02-0b1aba4d9ac0] ActionView::Template::Error (Unknown database 'csi_production'):
+F, [2018-01-09T11:34:27.067768 #21136] FATAL -- : [f63c8b00-c549-4b4e-8e02-0b1aba4d9ac0]     86: <<<<<<< HEAD
+[f63c8b00-c549-4b4e-8e02-0b1aba4d9ac0]     87: <div style="max-height:250px;>
+[f63c8b00-c549-4b4e-8e02-0b1aba4d9ac0]     88:   <div id="news-carousel" class="carousel scroll">
+[f63c8b00-c549-4b4e-8e02-0b1aba4d9ac0]     89:     <% @articles.each do |article| %>
+[f63c8b00-c549-4b4e-8e02-0b1aba4d9ac0]     90:       <div style="width:300px;">
+[f63c8b00-c549-4b4e-8e02-0b1aba4d9ac0]     91:         <img src= <%= article.img %> height="150px" class="img-rounded center-img" />
+[f63c8b00-c549-4b4e-8e02-0b1aba4d9ac0]     92:         <h4 class="text-center"><%= article.title %></h4>
+F, [2018-01-09T11:34:27.067901 #21136] FATAL -- : [f63c8b00-c549-4b4e-8e02-0b1aba4d9ac0]   
+F, [2018-01-09T11:34:27.068004 #21136] FATAL -- : [f63c8b00-c549-4b4e-8e02-0b1aba4d9ac0] app/views/pages/index.html.erb:89:in `_app_views_pages_index_html_erb___3995191902940719970_17256888740'
+[f63c8b00-c549-4b4e-8e02-0b1aba4d9ac0] app/controllers/pages_controller.rb:7:in `index'
+I, [2018-01-09T11:42:10.133168 #21389]  INFO -- : [a9f4181a-ec25-480c-8739-d7c84c48b29f] Started GET "/" for 173.230.119.109 at 2018-01-09 11:42:10 -0500
+I, [2018-01-09T11:42:10.176421 #21389]  INFO -- : [a9f4181a-ec25-480c-8739-d7c84c48b29f] Processing by PagesController#index as HTML
+I, [2018-01-09T11:42:10.203607 #21389]  INFO -- : [a9f4181a-ec25-480c-8739-d7c84c48b29f]   Rendering pages/index.html.erb
+I, [2018-01-09T11:42:10.210748 #21389]  INFO -- : [a9f4181a-ec25-480c-8739-d7c84c48b29f]   Rendered partials/_header.html.erb (1.1ms)
+D, [2018-01-09T11:42:10.226485 #21389] DEBUG -- : [a9f4181a-ec25-480c-8739-d7c84c48b29f]   [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-09T11:42:10.230453 #21389] DEBUG -- : [a9f4181a-ec25-480c-8739-d7c84c48b29f]   [1m[36mArticle Load (1.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-09T11:42:10.233189 #21389]  INFO -- : [a9f4181a-ec25-480c-8739-d7c84c48b29f]   Rendered pages/index.html.erb (29.3ms)
+I, [2018-01-09T11:42:10.234014 #21389]  INFO -- : [a9f4181a-ec25-480c-8739-d7c84c48b29f] Completed 500 Internal Server Error in 57ms (ActiveRecord: 2.6ms)
+F, [2018-01-09T11:42:10.236793 #21389] FATAL -- : [a9f4181a-ec25-480c-8739-d7c84c48b29f]   
+F, [2018-01-09T11:42:10.236907 #21389] FATAL -- : [a9f4181a-ec25-480c-8739-d7c84c48b29f] ActionView::Template::Error (Mysql2::Error: Table 'csi_production.articles' doesn't exist: SELECT `articles`.* FROM `articles`):
+F, [2018-01-09T11:42:10.237582 #21389] FATAL -- : [a9f4181a-ec25-480c-8739-d7c84c48b29f]     86: <<<<<<< HEAD
+[a9f4181a-ec25-480c-8739-d7c84c48b29f]     87: <div style="max-height:250px;>
+[a9f4181a-ec25-480c-8739-d7c84c48b29f]     88:   <div id="news-carousel" class="carousel scroll">
+[a9f4181a-ec25-480c-8739-d7c84c48b29f]     89:     <% @articles.each do |article| %>
+[a9f4181a-ec25-480c-8739-d7c84c48b29f]     90:       <div style="width:300px;">
+[a9f4181a-ec25-480c-8739-d7c84c48b29f]     91:         <img src= <%= article.img %> height="150px" class="img-rounded center-img" />
+[a9f4181a-ec25-480c-8739-d7c84c48b29f]     92:         <h4 class="text-center"><%= article.title %></h4>
+F, [2018-01-09T11:42:10.237658 #21389] FATAL -- : [a9f4181a-ec25-480c-8739-d7c84c48b29f]   
+F, [2018-01-09T11:42:10.237751 #21389] FATAL -- : [a9f4181a-ec25-480c-8739-d7c84c48b29f] app/views/pages/index.html.erb:89:in `_app_views_pages_index_html_erb__2971782362866422159_17256886100'
+[a9f4181a-ec25-480c-8739-d7c84c48b29f] app/controllers/pages_controller.rb:7:in `index'
