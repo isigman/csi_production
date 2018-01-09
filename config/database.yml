@@ -81,7 +81,7 @@ test:
 #
 production:
   <<: *default
-  DATABASE_URL: postgres://gionwsabyaqgey:6aee9a0ed7f185f5aefa65238e281671bdd35726f963a7101d62d3b40f5f4320@ec2-107-20-176-7.compute-1.amazonaws.com:5432/dcev1tc5lao3bc
+  adapter: mysql
   database: csi_production
-  username: csi
-  password: <%= ENV['CSI_DATABASE_PASSWORD'] %>
+  username: root
+  password: csi_admin
