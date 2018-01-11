@@ -3,7 +3,7 @@ $( document ).ready(function( $ ) {
 	  dots: true,
 	  arrows: true,
 	  infinite: true,
-	  speed: 600,
+	  speed: 800,
 	  fade: true,
 	  cssEase: 'linear'
 	});

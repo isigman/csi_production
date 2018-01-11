@@ -1658,3 +1658,332 @@ F, [2018-01-11T00:39:28.457555 #88736] FATAL -- : [57c5b68a-3d00-4d6e-a8a2-1bce9
 [57c5b68a-3d00-4d6e-a8a2-1bce9d84be67] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
 [57c5b68a-3d00-4d6e-a8a2-1bce9d84be67] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
 [57c5b68a-3d00-4d6e-a8a2-1bce9d84be67] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2018-01-11T00:59:26.544230 #88736]  INFO -- : [9566616d-a27d-4e74-937e-3b7a2fc83aaf] Started GET "/hndUnblock.cgi" for 189.34.50.142 at 2018-01-11 00:59:26 -0500
+F, [2018-01-11T00:59:26.546182 #88736] FATAL -- : [9566616d-a27d-4e74-937e-3b7a2fc83aaf]   
+F, [2018-01-11T00:59:26.546291 #88736] FATAL -- : [9566616d-a27d-4e74-937e-3b7a2fc83aaf] ActionController::RoutingError (No route matches [GET] "/hndUnblock.cgi"):
+F, [2018-01-11T00:59:26.546380 #88736] FATAL -- : [9566616d-a27d-4e74-937e-3b7a2fc83aaf]   
+F, [2018-01-11T00:59:26.546532 #88736] FATAL -- : [9566616d-a27d-4e74-937e-3b7a2fc83aaf] actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] railties (5.1.4) lib/rails/engine.rb:522:in `call'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[9566616d-a27d-4e74-937e-3b7a2fc83aaf] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2018-01-11T00:59:29.558895 #88736]  INFO -- : [e4ef418f-6e50-48ae-89ee-47a4927c2c29] Started GET "/tmUnblock.cgi" for 189.34.50.142 at 2018-01-11 00:59:29 -0500
+F, [2018-01-11T00:59:29.560546 #88736] FATAL -- : [e4ef418f-6e50-48ae-89ee-47a4927c2c29]   
+F, [2018-01-11T00:59:29.560651 #88736] FATAL -- : [e4ef418f-6e50-48ae-89ee-47a4927c2c29] ActionController::RoutingError (No route matches [GET] "/tmUnblock.cgi"):
+F, [2018-01-11T00:59:29.560733 #88736] FATAL -- : [e4ef418f-6e50-48ae-89ee-47a4927c2c29]   
+F, [2018-01-11T00:59:29.560841 #88736] FATAL -- : [e4ef418f-6e50-48ae-89ee-47a4927c2c29] actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] railties (5.1.4) lib/rails/engine.rb:522:in `call'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[e4ef418f-6e50-48ae-89ee-47a4927c2c29] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2018-01-11T00:59:32.960096 #88736]  INFO -- : [88251857-64ac-49c7-90b3-2e5c0df8e199] Started GET "/moo" for 189.34.50.142 at 2018-01-11 00:59:32 -0500
+F, [2018-01-11T00:59:32.961686 #88736] FATAL -- : [88251857-64ac-49c7-90b3-2e5c0df8e199]   
+F, [2018-01-11T00:59:32.961791 #88736] FATAL -- : [88251857-64ac-49c7-90b3-2e5c0df8e199] ActionController::RoutingError (No route matches [GET] "/moo"):
+F, [2018-01-11T00:59:32.961862 #88736] FATAL -- : [88251857-64ac-49c7-90b3-2e5c0df8e199]   
+F, [2018-01-11T00:59:32.962040 #88736] FATAL -- : [88251857-64ac-49c7-90b3-2e5c0df8e199] actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] railties (5.1.4) lib/rails/engine.rb:522:in `call'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[88251857-64ac-49c7-90b3-2e5c0df8e199] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2018-01-11T00:59:36.001776 #88736]  INFO -- : [26eee014-8bcd-4815-9147-cb3d15ad1f26] Started GET "/" for 189.34.50.142 at 2018-01-11 00:59:36 -0500
+I, [2018-01-11T00:59:36.003965 #88736]  INFO -- : [26eee014-8bcd-4815-9147-cb3d15ad1f26] Processing by PagesController#index as */*
+I, [2018-01-11T00:59:36.020984 #88736]  INFO -- : [26eee014-8bcd-4815-9147-cb3d15ad1f26]   Rendering pages/index.html.erb
+I, [2018-01-11T00:59:36.039308 #88736]  INFO -- : [26eee014-8bcd-4815-9147-cb3d15ad1f26]   Rendered partials/_header.html.erb (1.1ms)
+D, [2018-01-11T00:59:36.056018 #88736] DEBUG -- : [26eee014-8bcd-4815-9147-cb3d15ad1f26]   [1m[35m (1.0ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T00:59:36.058842 #88736] DEBUG -- : [26eee014-8bcd-4815-9147-cb3d15ad1f26]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T00:59:36.123055 #88736]  INFO -- : [26eee014-8bcd-4815-9147-cb3d15ad1f26]   Rendered partials/_footer.html.erb (0.8ms)
+I, [2018-01-11T00:59:36.123286 #88736]  INFO -- : [26eee014-8bcd-4815-9147-cb3d15ad1f26]   Rendered pages/index.html.erb (102.1ms)
+I, [2018-01-11T00:59:36.123779 #88736]  INFO -- : [26eee014-8bcd-4815-9147-cb3d15ad1f26] Completed 200 OK in 120ms (Views: 116.7ms | ActiveRecord: 5.4ms)
+I, [2018-01-11T00:59:39.714509 #88736]  INFO -- : [6c0c9464-e519-4494-b8d9-663db08d5aae] Started POST "/getcfg.php" for 189.34.50.142 at 2018-01-11 00:59:39 -0500
+F, [2018-01-11T00:59:39.716098 #88736] FATAL -- : [6c0c9464-e519-4494-b8d9-663db08d5aae]   
+F, [2018-01-11T00:59:39.716206 #88736] FATAL -- : [6c0c9464-e519-4494-b8d9-663db08d5aae] ActionController::RoutingError (No route matches [POST] "/getcfg.php"):
+F, [2018-01-11T00:59:39.716292 #88736] FATAL -- : [6c0c9464-e519-4494-b8d9-663db08d5aae]   
+F, [2018-01-11T00:59:39.716387 #88736] FATAL -- : [6c0c9464-e519-4494-b8d9-663db08d5aae] actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] railties (5.1.4) lib/rails/engine.rb:522:in `call'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:160:in `accept_and_process_next_request'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[6c0c9464-e519-4494-b8d9-663db08d5aae] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2018-01-11T00:59:45.196773 #88736]  INFO -- : [85a9fab5-e8df-479d-b9fb-364d472d93b4] Started POST "/getcfg.php" for 189.34.50.142 at 2018-01-11 00:59:45 -0500
+F, [2018-01-11T00:59:45.198342 #88736] FATAL -- : [85a9fab5-e8df-479d-b9fb-364d472d93b4]   
+F, [2018-01-11T00:59:45.198454 #88736] FATAL -- : [85a9fab5-e8df-479d-b9fb-364d472d93b4] ActionController::RoutingError (No route matches [POST] "/getcfg.php"):
+F, [2018-01-11T00:59:45.198541 #88736] FATAL -- : [85a9fab5-e8df-479d-b9fb-364d472d93b4]   
+F, [2018-01-11T00:59:45.198638 #88736] FATAL -- : [85a9fab5-e8df-479d-b9fb-364d472d93b4] actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] railties (5.1.4) lib/rails/engine.rb:522:in `call'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:160:in `accept_and_process_next_request'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[85a9fab5-e8df-479d-b9fb-364d472d93b4] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2018-01-11T01:08:19.568389 #89771]  INFO -- : [5ee7926f-3542-469a-a15d-f137d5626277] Started GET "/about" for 173.230.118.237 at 2018-01-11 01:08:19 -0500
+I, [2018-01-11T01:08:19.612722 #89771]  INFO -- : [5ee7926f-3542-469a-a15d-f137d5626277] Processing by PagesController#about as HTML
+I, [2018-01-11T01:08:19.641619 #89771]  INFO -- : [5ee7926f-3542-469a-a15d-f137d5626277]   Rendering pages/about.html.erb within layouts/application.html.erb
+I, [2018-01-11T01:08:19.647025 #89771]  INFO -- : [5ee7926f-3542-469a-a15d-f137d5626277]   Rendered pages/about.html.erb within layouts/application.html.erb (4.9ms)
+I, [2018-01-11T01:08:19.654805 #89771]  INFO -- : [5ee7926f-3542-469a-a15d-f137d5626277]   Rendered partials/_header.html.erb (1.1ms)
+I, [2018-01-11T01:08:19.657863 #89771]  INFO -- : [5ee7926f-3542-469a-a15d-f137d5626277]   Rendered partials/_footer.html.erb (0.8ms)
+I, [2018-01-11T01:08:19.658975 #89771]  INFO -- : [5ee7926f-3542-469a-a15d-f137d5626277] Completed 200 OK in 46ms (Views: 24.8ms)
+I, [2018-01-11T01:08:19.868576 #89771]  INFO -- : [bd4bde04-1baf-4854-b79a-7064e362e4bf] Started GET "/img/group-outside.jpg" for 173.230.118.237 at 2018-01-11 01:08:19 -0500
+F, [2018-01-11T01:08:19.873613 #89771] FATAL -- : [bd4bde04-1baf-4854-b79a-7064e362e4bf]   
+F, [2018-01-11T01:08:19.873758 #89771] FATAL -- : [bd4bde04-1baf-4854-b79a-7064e362e4bf] ActionController::RoutingError (No route matches [GET] "/img/group-outside.jpg"):
+F, [2018-01-11T01:08:19.873856 #89771] FATAL -- : [bd4bde04-1baf-4854-b79a-7064e362e4bf]   
+F, [2018-01-11T01:08:19.874050 #89771] FATAL -- : [bd4bde04-1baf-4854-b79a-7064e362e4bf] actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] railties (5.1.4) lib/rails/engine.rb:522:in `call'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[bd4bde04-1baf-4854-b79a-7064e362e4bf] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2018-01-11T01:08:19.876789 #89771]  INFO -- : [551c97cb-f173-40d5-9075-3b7ce03730c3] Started GET "/img/headshots/leda_altidor.jpg" for 173.230.118.237 at 2018-01-11 01:08:19 -0500
+F, [2018-01-11T01:08:19.878358 #89771] FATAL -- : [551c97cb-f173-40d5-9075-3b7ce03730c3]   
+F, [2018-01-11T01:08:19.878456 #89771] FATAL -- : [551c97cb-f173-40d5-9075-3b7ce03730c3] ActionController::RoutingError (No route matches [GET] "/img/headshots/leda_altidor.jpg"):
+F, [2018-01-11T01:08:19.878546 #89771] FATAL -- : [551c97cb-f173-40d5-9075-3b7ce03730c3]   
+F, [2018-01-11T01:08:19.878646 #89771] FATAL -- : [551c97cb-f173-40d5-9075-3b7ce03730c3] actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] railties (5.1.4) lib/rails/engine.rb:522:in `call'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[551c97cb-f173-40d5-9075-3b7ce03730c3] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2018-01-11T01:08:19.880795 #89771]  INFO -- : [9f11af07-ffcf-4474-ad1d-cef202057814] Started GET "/img/headshots/caleb_shirrey.jpg" for 173.230.118.237 at 2018-01-11 01:08:19 -0500
+F, [2018-01-11T01:08:19.883044 #89771] FATAL -- : [9f11af07-ffcf-4474-ad1d-cef202057814]   
+F, [2018-01-11T01:08:19.883144 #89771] FATAL -- : [9f11af07-ffcf-4474-ad1d-cef202057814] ActionController::RoutingError (No route matches [GET] "/img/headshots/caleb_shirrey.jpg"):
+F, [2018-01-11T01:08:19.883240 #89771] FATAL -- : [9f11af07-ffcf-4474-ad1d-cef202057814]   
+F, [2018-01-11T01:08:19.883332 #89771] FATAL -- : [9f11af07-ffcf-4474-ad1d-cef202057814] actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[9f11af07-ffcf-4474-ad1d-cef202057814] actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[9f11af07-ffcf-4474-ad1d-cef202057814] railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+[9f11af07-ffcf-4474-ad1d-cef202057814] railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+[9f11af07-ffcf-4474-ad1d-cef202057814] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[9f11af07-ffcf-4474-ad1d-cef202057814] activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+[9f11af07-ffcf-4474-ad1d-cef202057814] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+[9f11af07-ffcf-4474-ad1d-cef202057814] railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+[9f11af07-ffcf-4474-ad1d-cef202057814] actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[9f11af07-ffcf-4474-ad1d-cef202057814] actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[9f11af07-ffcf-4474-ad1d-cef202057814] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[9f11af07-ffcf-4474-ad1d-cef202057814] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[9f11af07-ffcf-4474-ad1d-cef202057814] activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[9f11af07-ffcf-4474-ad1d-cef202057814] actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[9f11af07-ffcf-4474-ad1d-cef202057814] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[9f11af07-ffcf-4474-ad1d-cef202057814] railties (5.1.4) lib/rails/engine.rb:522:in `call'
+[9f11af07-ffcf-4474-ad1d-cef202057814] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[9f11af07-ffcf-4474-ad1d-cef202057814] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+[9f11af07-ffcf-4474-ad1d-cef202057814] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[9f11af07-ffcf-4474-ad1d-cef202057814] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[9f11af07-ffcf-4474-ad1d-cef202057814] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2018-01-11T01:13:49.333297 #89976]  INFO -- : [91e6c364-7452-4105-babf-9a4610f19e6f] Started GET "/about" for 173.230.118.237 at 2018-01-11 01:13:49 -0500
+I, [2018-01-11T01:13:49.382208 #89976]  INFO -- : [91e6c364-7452-4105-babf-9a4610f19e6f] Processing by PagesController#about as HTML
+I, [2018-01-11T01:13:49.410711 #89976]  INFO -- : [91e6c364-7452-4105-babf-9a4610f19e6f]   Rendering pages/about.html.erb within layouts/application.html.erb
+I, [2018-01-11T01:13:49.416071 #89976]  INFO -- : [91e6c364-7452-4105-babf-9a4610f19e6f]   Rendered pages/about.html.erb within layouts/application.html.erb (4.8ms)
+I, [2018-01-11T01:13:49.424476 #89976]  INFO -- : [91e6c364-7452-4105-babf-9a4610f19e6f]   Rendered partials/_header.html.erb (1.2ms)
+I, [2018-01-11T01:13:49.427536 #89976]  INFO -- : [91e6c364-7452-4105-babf-9a4610f19e6f]   Rendered partials/_footer.html.erb (0.8ms)
+I, [2018-01-11T01:13:49.428650 #89976]  INFO -- : [91e6c364-7452-4105-babf-9a4610f19e6f] Completed 200 OK in 46ms (Views: 24.9ms)
+I, [2018-01-11T01:13:49.616039 #89976]  INFO -- : [c7286a8a-7454-4e57-8ecb-7e3ab5bae690] Started GET "/img/headshots/caleb_shirrey.JPG" for 173.230.118.237 at 2018-01-11 01:13:49 -0500
+F, [2018-01-11T01:13:49.618253 #89976] FATAL -- : [c7286a8a-7454-4e57-8ecb-7e3ab5bae690]   
+F, [2018-01-11T01:13:49.618431 #89976] FATAL -- : [c7286a8a-7454-4e57-8ecb-7e3ab5bae690] ActionController::RoutingError (No route matches [GET] "/img/headshots/caleb_shirrey.JPG"):
+F, [2018-01-11T01:13:49.618532 #89976] FATAL -- : [c7286a8a-7454-4e57-8ecb-7e3ab5bae690]   
+F, [2018-01-11T01:13:49.618669 #89976] FATAL -- : [c7286a8a-7454-4e57-8ecb-7e3ab5bae690] actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] railties (5.1.4) lib/rails/engine.rb:522:in `call'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[c7286a8a-7454-4e57-8ecb-7e3ab5bae690] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2018-01-11T01:13:49.621333 #89976]  INFO -- : [e1d261ca-3c2f-404a-a16a-3876c0c200e2] Started GET "/img/group-outside.jpg" for 173.230.118.237 at 2018-01-11 01:13:49 -0500
+F, [2018-01-11T01:13:49.622770 #89976] FATAL -- : [e1d261ca-3c2f-404a-a16a-3876c0c200e2]   
+F, [2018-01-11T01:13:49.622901 #89976] FATAL -- : [e1d261ca-3c2f-404a-a16a-3876c0c200e2] ActionController::RoutingError (No route matches [GET] "/img/group-outside.jpg"):
+F, [2018-01-11T01:13:49.622999 #89976] FATAL -- : [e1d261ca-3c2f-404a-a16a-3876c0c200e2]   
+F, [2018-01-11T01:13:49.623101 #89976] FATAL -- : [e1d261ca-3c2f-404a-a16a-3876c0c200e2] actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] railties (5.1.4) lib/rails/engine.rb:522:in `call'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[e1d261ca-3c2f-404a-a16a-3876c0c200e2] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2018-01-11T01:16:12.027708 #90079]  INFO -- : [3dfc25dd-e6e4-42e1-8c5c-22b7945adf7e] Started GET "/about" for 173.230.118.237 at 2018-01-11 01:16:12 -0500
+I, [2018-01-11T01:16:12.069147 #90079]  INFO -- : [3dfc25dd-e6e4-42e1-8c5c-22b7945adf7e] Processing by PagesController#about as HTML
+I, [2018-01-11T01:16:12.096447 #90079]  INFO -- : [3dfc25dd-e6e4-42e1-8c5c-22b7945adf7e]   Rendering pages/about.html.erb within layouts/application.html.erb
+I, [2018-01-11T01:16:12.101915 #90079]  INFO -- : [3dfc25dd-e6e4-42e1-8c5c-22b7945adf7e]   Rendered pages/about.html.erb within layouts/application.html.erb (4.9ms)
+I, [2018-01-11T01:16:12.110506 #90079]  INFO -- : [3dfc25dd-e6e4-42e1-8c5c-22b7945adf7e]   Rendered partials/_header.html.erb (1.2ms)
+I, [2018-01-11T01:16:12.113472 #90079]  INFO -- : [3dfc25dd-e6e4-42e1-8c5c-22b7945adf7e]   Rendered partials/_footer.html.erb (0.9ms)
+I, [2018-01-11T01:16:12.114577 #90079]  INFO -- : [3dfc25dd-e6e4-42e1-8c5c-22b7945adf7e] Completed 200 OK in 45ms (Views: 25.3ms)
+I, [2018-01-11T01:16:28.250332 #90079]  INFO -- : [e774f5c4-ae3d-4525-8456-e7b2676bcafd] Started GET "/about" for 173.230.118.237 at 2018-01-11 01:16:28 -0500
+I, [2018-01-11T01:16:28.252612 #90079]  INFO -- : [e774f5c4-ae3d-4525-8456-e7b2676bcafd] Processing by PagesController#about as HTML
+I, [2018-01-11T01:16:28.254583 #90079]  INFO -- : [e774f5c4-ae3d-4525-8456-e7b2676bcafd]   Rendering pages/about.html.erb within layouts/application.html.erb
+I, [2018-01-11T01:16:28.255071 #90079]  INFO -- : [e774f5c4-ae3d-4525-8456-e7b2676bcafd]   Rendered pages/about.html.erb within layouts/application.html.erb (0.2ms)
+I, [2018-01-11T01:16:28.256832 #90079]  INFO -- : [e774f5c4-ae3d-4525-8456-e7b2676bcafd]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T01:16:28.257400 #90079]  INFO -- : [e774f5c4-ae3d-4525-8456-e7b2676bcafd]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T01:16:28.257821 #90079]  INFO -- : [e774f5c4-ae3d-4525-8456-e7b2676bcafd] Completed 200 OK in 5ms (Views: 3.8ms)
+I, [2018-01-11T01:16:29.227758 #90079]  INFO -- : [4fdd8531-7644-4131-a66c-a6875b21fb85] Started GET "/conference_2018" for 173.230.118.237 at 2018-01-11 01:16:29 -0500
+I, [2018-01-11T01:16:29.229445 #90079]  INFO -- : [4fdd8531-7644-4131-a66c-a6875b21fb85] Processing by PagesController#conference_2018 as HTML
+I, [2018-01-11T01:16:29.233617 #90079]  INFO -- : [4fdd8531-7644-4131-a66c-a6875b21fb85]   Rendering pages/conference.html.erb within layouts/application.html.erb
+I, [2018-01-11T01:16:29.234818 #90079]  INFO -- : [4fdd8531-7644-4131-a66c-a6875b21fb85]   Rendered pages/conference.html.erb within layouts/application.html.erb (1.0ms)
+I, [2018-01-11T01:16:29.236468 #90079]  INFO -- : [4fdd8531-7644-4131-a66c-a6875b21fb85]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T01:16:29.236948 #90079]  INFO -- : [4fdd8531-7644-4131-a66c-a6875b21fb85]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T01:16:29.237374 #90079]  INFO -- : [4fdd8531-7644-4131-a66c-a6875b21fb85] Completed 200 OK in 8ms (Views: 6.7ms)
+I, [2018-01-11T01:16:34.304865 #90079]  INFO -- : [d4c08e61-c233-4d65-b6e9-78a602d0f6f6] Started GET "/" for 173.230.118.237 at 2018-01-11 01:16:34 -0500
+I, [2018-01-11T01:16:34.306636 #90079]  INFO -- : [d4c08e61-c233-4d65-b6e9-78a602d0f6f6] Processing by PagesController#index as HTML
+I, [2018-01-11T01:16:34.313203 #90079]  INFO -- : [d4c08e61-c233-4d65-b6e9-78a602d0f6f6]   Rendering pages/index.html.erb
+I, [2018-01-11T01:16:34.316833 #90079]  INFO -- : [d4c08e61-c233-4d65-b6e9-78a602d0f6f6]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T01:16:34.334675 #90079] DEBUG -- : [d4c08e61-c233-4d65-b6e9-78a602d0f6f6]   [1m[35m (1.1ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T01:16:34.338124 #90079] DEBUG -- : [d4c08e61-c233-4d65-b6e9-78a602d0f6f6]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T01:16:34.395711 #90079]  INFO -- : [d4c08e61-c233-4d65-b6e9-78a602d0f6f6]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T01:16:34.395979 #90079]  INFO -- : [d4c08e61-c233-4d65-b6e9-78a602d0f6f6]   Rendered pages/index.html.erb (82.6ms)
+I, [2018-01-11T01:16:34.396489 #90079]  INFO -- : [d4c08e61-c233-4d65-b6e9-78a602d0f6f6] Completed 200 OK in 90ms (Views: 85.4ms | ActiveRecord: 6.3ms)
+I, [2018-01-11T01:16:34.544555 #90079]  INFO -- : [796834b6-f2b8-487a-b7db-05a2984a9557] Started GET "/" for 173.230.118.237 at 2018-01-11 01:16:34 -0500
+I, [2018-01-11T01:16:34.546300 #90079]  INFO -- : [796834b6-f2b8-487a-b7db-05a2984a9557] Processing by PagesController#index as HTML
+I, [2018-01-11T01:16:34.548372 #90079]  INFO -- : [796834b6-f2b8-487a-b7db-05a2984a9557]   Rendering pages/index.html.erb
+I, [2018-01-11T01:16:34.548924 #90079]  INFO -- : [796834b6-f2b8-487a-b7db-05a2984a9557]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T01:16:34.550980 #90079] DEBUG -- : [796834b6-f2b8-487a-b7db-05a2984a9557]   [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T01:16:34.558042 #90079]  INFO -- : [796834b6-f2b8-487a-b7db-05a2984a9557]   Rendered partials/_footer.html.erb (0.2ms)
+I, [2018-01-11T01:16:34.558245 #90079]  INFO -- : [796834b6-f2b8-487a-b7db-05a2984a9557]   Rendered pages/index.html.erb (9.7ms)
+I, [2018-01-11T01:16:34.558810 #90079]  INFO -- : [796834b6-f2b8-487a-b7db-05a2984a9557] Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.8ms)
+I, [2018-01-11T01:18:12.946968 #90189]  INFO -- : [7dab6596-e8fd-4c25-9731-50ed60b35cf5] Started GET "/" for 173.230.118.237 at 2018-01-11 01:18:12 -0500
+I, [2018-01-11T01:18:12.991186 #90189]  INFO -- : [7dab6596-e8fd-4c25-9731-50ed60b35cf5] Processing by PagesController#index as HTML
+I, [2018-01-11T01:18:13.020149 #90189]  INFO -- : [7dab6596-e8fd-4c25-9731-50ed60b35cf5]   Rendering pages/index.html.erb
+I, [2018-01-11T01:18:13.028047 #90189]  INFO -- : [7dab6596-e8fd-4c25-9731-50ed60b35cf5]   Rendered partials/_header.html.erb (1.3ms)
+D, [2018-01-11T01:18:13.046206 #90189] DEBUG -- : [7dab6596-e8fd-4c25-9731-50ed60b35cf5]   [1m[35m (1.0ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T01:18:13.049438 #90189] DEBUG -- : [7dab6596-e8fd-4c25-9731-50ed60b35cf5]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T01:18:13.109377 #90189]  INFO -- : [7dab6596-e8fd-4c25-9731-50ed60b35cf5]   Rendered partials/_footer.html.erb (0.8ms)
+I, [2018-01-11T01:18:13.109601 #90189]  INFO -- : [7dab6596-e8fd-4c25-9731-50ed60b35cf5]   Rendered pages/index.html.erb (89.2ms)
+I, [2018-01-11T01:18:13.110698 #90189]  INFO -- : [7dab6596-e8fd-4c25-9731-50ed60b35cf5] Completed 200 OK in 119ms (Views: 95.9ms | ActiveRecord: 5.1ms)
+I, [2018-01-11T01:21:13.366861 #90313]  INFO -- : [be1c63d8-1c35-443a-82ff-736ca86c7479] Started GET "/" for 173.230.118.237 at 2018-01-11 01:21:13 -0500
+I, [2018-01-11T01:21:13.411046 #90313]  INFO -- : [be1c63d8-1c35-443a-82ff-736ca86c7479] Processing by PagesController#index as HTML
+I, [2018-01-11T01:21:13.440177 #90313]  INFO -- : [be1c63d8-1c35-443a-82ff-736ca86c7479]   Rendering pages/index.html.erb
+I, [2018-01-11T01:21:13.449050 #90313]  INFO -- : [be1c63d8-1c35-443a-82ff-736ca86c7479]   Rendered partials/_header.html.erb (1.4ms)
+D, [2018-01-11T01:21:13.467636 #90313] DEBUG -- : [be1c63d8-1c35-443a-82ff-736ca86c7479]   [1m[35m (1.0ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T01:21:13.471113 #90313] DEBUG -- : [be1c63d8-1c35-443a-82ff-736ca86c7479]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T01:21:13.531009 #90313]  INFO -- : [be1c63d8-1c35-443a-82ff-736ca86c7479]   Rendered partials/_footer.html.erb (0.8ms)
+I, [2018-01-11T01:21:13.531246 #90313]  INFO -- : [be1c63d8-1c35-443a-82ff-736ca86c7479]   Rendered pages/index.html.erb (90.8ms)
+I, [2018-01-11T01:21:13.532295 #90313]  INFO -- : [be1c63d8-1c35-443a-82ff-736ca86c7479] Completed 200 OK in 121ms (Views: 98.2ms | ActiveRecord: 5.3ms)
