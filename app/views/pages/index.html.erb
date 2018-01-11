@@ -87,9 +87,8 @@
   <div id="news-carousel" class="carousel scroll">
     <% @articles.each do |article| %>
       <div style="width:300px;">
-        <img src= <%= article.img %> height="150px" class="img-rounded center-img" />
-        <h4 class="text-center"><%= article.title %></h4>
-        <p class="text-center"><%= article.summary %></p>
+        <a href=<%=article.link%>><img src= <%= article.img %> height="150px" class="img-rounded center-img" />
+        <h4 class="text-center"><%= article.title %></h4></a>
       </div>
     <% end %>
   </div>

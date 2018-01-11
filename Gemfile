@@ -27,6 +27,8 @@ gem 'devise'
 gem 'formtastic'
 #paperclip for uploads of files
 gem 'paperclip'
+# imagemagick wrapper
+gem 'imagemagick-identify'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
