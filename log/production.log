@@ -1987,3 +1987,1019 @@ D, [2018-01-11T01:21:13.471113 #90313] DEBUG -- : [be1c63d8-1c35-443a-82ff-736ca
 I, [2018-01-11T01:21:13.531009 #90313]  INFO -- : [be1c63d8-1c35-443a-82ff-736ca86c7479]   Rendered partials/_footer.html.erb (0.8ms)
 I, [2018-01-11T01:21:13.531246 #90313]  INFO -- : [be1c63d8-1c35-443a-82ff-736ca86c7479]   Rendered pages/index.html.erb (90.8ms)
 I, [2018-01-11T01:21:13.532295 #90313]  INFO -- : [be1c63d8-1c35-443a-82ff-736ca86c7479] Completed 200 OK in 121ms (Views: 98.2ms | ActiveRecord: 5.3ms)
+I, [2018-01-11T01:29:56.853427 #90313]  INFO -- : [55a513cc-f3c1-46c3-96cd-2869ab3249b8] Started GET "/invoker/JMXInvokerServlet" for 203.24.188.242 at 2018-01-11 01:29:56 -0500
+F, [2018-01-11T01:29:56.855512 #90313] FATAL -- : [55a513cc-f3c1-46c3-96cd-2869ab3249b8]   
+F, [2018-01-11T01:29:56.855630 #90313] FATAL -- : [55a513cc-f3c1-46c3-96cd-2869ab3249b8] ActionController::RoutingError (No route matches [GET] "/invoker/JMXInvokerServlet"):
+F, [2018-01-11T01:29:56.855713 #90313] FATAL -- : [55a513cc-f3c1-46c3-96cd-2869ab3249b8]   
+F, [2018-01-11T01:29:56.855883 #90313] FATAL -- : [55a513cc-f3c1-46c3-96cd-2869ab3249b8] actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] railties (5.1.4) lib/rails/engine.rb:522:in `call'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[55a513cc-f3c1-46c3-96cd-2869ab3249b8] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2018-01-11T03:51:35.032486 #90313]  INFO -- : [8a85e19c-687d-47d1-9ea5-27edbc97e366] Started GET "/invoker/JMXInvokerServlet" for 203.24.188.242 at 2018-01-11 03:51:35 -0500
+F, [2018-01-11T03:51:35.034836 #90313] FATAL -- : [8a85e19c-687d-47d1-9ea5-27edbc97e366]   
+F, [2018-01-11T03:51:35.034947 #90313] FATAL -- : [8a85e19c-687d-47d1-9ea5-27edbc97e366] ActionController::RoutingError (No route matches [GET] "/invoker/JMXInvokerServlet"):
+F, [2018-01-11T03:51:35.035023 #90313] FATAL -- : [8a85e19c-687d-47d1-9ea5-27edbc97e366]   
+F, [2018-01-11T03:51:35.035272 #90313] FATAL -- : [8a85e19c-687d-47d1-9ea5-27edbc97e366] actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] railties (5.1.4) lib/rails/engine.rb:522:in `call'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[8a85e19c-687d-47d1-9ea5-27edbc97e366] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2018-01-11T04:32:21.474677 #90313]  INFO -- : [56c27704-78f6-4b9b-a68d-0cadccb4bb3c] Started GET "/" for 69.28.68.86 at 2018-01-11 04:32:21 -0500
+I, [2018-01-11T04:32:21.477580 #90313]  INFO -- : [56c27704-78f6-4b9b-a68d-0cadccb4bb3c] Processing by PagesController#index as HTML
+I, [2018-01-11T04:32:21.479816 #90313]  INFO -- : [56c27704-78f6-4b9b-a68d-0cadccb4bb3c]   Rendering pages/index.html.erb
+I, [2018-01-11T04:32:21.480535 #90313]  INFO -- : [56c27704-78f6-4b9b-a68d-0cadccb4bb3c]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T04:32:21.484282 #90313] DEBUG -- : [56c27704-78f6-4b9b-a68d-0cadccb4bb3c]   [1m[36mArticle Load (1.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T04:32:21.491272 #90313]  INFO -- : [56c27704-78f6-4b9b-a68d-0cadccb4bb3c]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T04:32:21.491483 #90313]  INFO -- : [56c27704-78f6-4b9b-a68d-0cadccb4bb3c]   Rendered pages/index.html.erb (11.5ms)
+I, [2018-01-11T04:32:21.491966 #90313]  INFO -- : [56c27704-78f6-4b9b-a68d-0cadccb4bb3c] Completed 200 OK in 14ms (Views: 11.1ms | ActiveRecord: 1.7ms)
+I, [2018-01-11T04:32:56.853655 #90313]  INFO -- : [e344d768-8efc-4350-a368-6164b7b6b6f7] Started GET "/conference_2018" for 69.28.68.86 at 2018-01-11 04:32:56 -0500
+I, [2018-01-11T04:32:56.855670 #90313]  INFO -- : [e344d768-8efc-4350-a368-6164b7b6b6f7] Processing by PagesController#conference_2018 as HTML
+I, [2018-01-11T04:32:56.873496 #90313]  INFO -- : [e344d768-8efc-4350-a368-6164b7b6b6f7]   Rendering pages/conference.html.erb within layouts/application.html.erb
+I, [2018-01-11T04:32:56.874699 #90313]  INFO -- : [e344d768-8efc-4350-a368-6164b7b6b6f7]   Rendered pages/conference.html.erb within layouts/application.html.erb (1.0ms)
+I, [2018-01-11T04:32:56.878673 #90313]  INFO -- : [e344d768-8efc-4350-a368-6164b7b6b6f7]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T04:32:56.879143 #90313]  INFO -- : [e344d768-8efc-4350-a368-6164b7b6b6f7]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T04:32:56.879601 #90313]  INFO -- : [e344d768-8efc-4350-a368-6164b7b6b6f7] Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T04:33:01.216601 #90313]  INFO -- : [c4d4e97a-b584-456a-bbcc-19e0f0678504] Started GET "/about" for 69.28.68.86 at 2018-01-11 04:33:01 -0500
+I, [2018-01-11T04:33:01.218558 #90313]  INFO -- : [c4d4e97a-b584-456a-bbcc-19e0f0678504] Processing by PagesController#about as HTML
+I, [2018-01-11T04:33:01.228992 #90313]  INFO -- : [c4d4e97a-b584-456a-bbcc-19e0f0678504]   Rendering pages/about.html.erb within layouts/application.html.erb
+I, [2018-01-11T04:33:01.232822 #90313]  INFO -- : [c4d4e97a-b584-456a-bbcc-19e0f0678504]   Rendered pages/about.html.erb within layouts/application.html.erb (3.6ms)
+I, [2018-01-11T04:33:01.235264 #90313]  INFO -- : [c4d4e97a-b584-456a-bbcc-19e0f0678504]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T04:33:01.235751 #90313]  INFO -- : [c4d4e97a-b584-456a-bbcc-19e0f0678504]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T04:33:01.236243 #90313]  INFO -- : [c4d4e97a-b584-456a-bbcc-19e0f0678504] Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T04:33:40.441573 #90313]  INFO -- : [2c0ad882-b317-45ff-8100-7ba75be4724b] Started GET "/under_construction" for 69.28.68.86 at 2018-01-11 04:33:40 -0500
+I, [2018-01-11T04:33:40.443369 #90313]  INFO -- : [2c0ad882-b317-45ff-8100-7ba75be4724b] Processing by PagesController#under_construction as HTML
+I, [2018-01-11T04:33:40.451561 #90313]  INFO -- : [2c0ad882-b317-45ff-8100-7ba75be4724b]   Rendering pages/under_construction.html.erb within layouts/application.html.erb
+I, [2018-01-11T04:33:40.452717 #90313]  INFO -- : [2c0ad882-b317-45ff-8100-7ba75be4724b]   Rendered pages/under_construction.html.erb within layouts/application.html.erb (0.9ms)
+I, [2018-01-11T04:33:40.454422 #90313]  INFO -- : [2c0ad882-b317-45ff-8100-7ba75be4724b]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T04:33:40.454854 #90313]  INFO -- : [2c0ad882-b317-45ff-8100-7ba75be4724b]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T04:33:40.455335 #90313]  INFO -- : [2c0ad882-b317-45ff-8100-7ba75be4724b] Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T04:33:48.831958 #90313]  INFO -- : [04d0cfe4-ef10-4414-a954-c53ec43345ac] Started GET "/under_construction" for 69.28.68.86 at 2018-01-11 04:33:48 -0500
+I, [2018-01-11T04:33:48.833603 #90313]  INFO -- : [04d0cfe4-ef10-4414-a954-c53ec43345ac] Processing by PagesController#under_construction as HTML
+I, [2018-01-11T04:33:48.835717 #90313]  INFO -- : [04d0cfe4-ef10-4414-a954-c53ec43345ac]   Rendering pages/under_construction.html.erb within layouts/application.html.erb
+I, [2018-01-11T04:33:48.836061 #90313]  INFO -- : [04d0cfe4-ef10-4414-a954-c53ec43345ac]   Rendered pages/under_construction.html.erb within layouts/application.html.erb (0.1ms)
+I, [2018-01-11T04:33:48.837473 #90313]  INFO -- : [04d0cfe4-ef10-4414-a954-c53ec43345ac]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T04:33:48.837916 #90313]  INFO -- : [04d0cfe4-ef10-4414-a954-c53ec43345ac]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T04:33:48.838390 #90313]  INFO -- : [04d0cfe4-ef10-4414-a954-c53ec43345ac] Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T04:33:55.598651 #90313]  INFO -- : [4a0a661c-e60b-41f3-be60-2a3a22560397] Started GET "/tax_rating_billing_solutions" for 69.28.68.86 at 2018-01-11 04:33:55 -0500
+I, [2018-01-11T04:33:55.600503 #90313]  INFO -- : [4a0a661c-e60b-41f3-be60-2a3a22560397] Processing by PagesController#trbs as HTML
+I, [2018-01-11T04:33:55.610679 #90313]  INFO -- : [4a0a661c-e60b-41f3-be60-2a3a22560397]   Rendering pages/trbs.html.erb within layouts/application.html.erb
+I, [2018-01-11T04:33:55.611932 #90313]  INFO -- : [4a0a661c-e60b-41f3-be60-2a3a22560397]   Rendered pages/trbs.html.erb within layouts/application.html.erb (1.0ms)
+I, [2018-01-11T04:33:55.613722 #90313]  INFO -- : [4a0a661c-e60b-41f3-be60-2a3a22560397]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T04:33:55.614241 #90313]  INFO -- : [4a0a661c-e60b-41f3-be60-2a3a22560397]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T04:33:55.614673 #90313]  INFO -- : [4a0a661c-e60b-41f3-be60-2a3a22560397] Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T04:33:58.892250 #90313]  INFO -- : [d436e785-93bc-4a33-bd84-ecdc35681f85] Started GET "/under_construction" for 69.28.68.86 at 2018-01-11 04:33:58 -0500
+I, [2018-01-11T04:33:58.893825 #90313]  INFO -- : [d436e785-93bc-4a33-bd84-ecdc35681f85] Processing by PagesController#under_construction as HTML
+I, [2018-01-11T04:33:58.895574 #90313]  INFO -- : [d436e785-93bc-4a33-bd84-ecdc35681f85]   Rendering pages/under_construction.html.erb within layouts/application.html.erb
+I, [2018-01-11T04:33:58.895883 #90313]  INFO -- : [d436e785-93bc-4a33-bd84-ecdc35681f85]   Rendered pages/under_construction.html.erb within layouts/application.html.erb (0.1ms)
+I, [2018-01-11T04:33:58.897302 #90313]  INFO -- : [d436e785-93bc-4a33-bd84-ecdc35681f85]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T04:33:58.897745 #90313]  INFO -- : [d436e785-93bc-4a33-bd84-ecdc35681f85]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T04:33:58.898221 #90313]  INFO -- : [d436e785-93bc-4a33-bd84-ecdc35681f85] Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T09:26:59.051135 #90313]  INFO -- : [1ea4c9ab-9df5-44d5-8632-90f5f27b3648] Started GET "/" for 69.28.68.86 at 2018-01-11 09:26:59 -0500
+I, [2018-01-11T09:26:59.052891 #90313]  INFO -- : [1ea4c9ab-9df5-44d5-8632-90f5f27b3648] Processing by PagesController#index as HTML
+I, [2018-01-11T09:26:59.054234 #90313]  INFO -- : [1ea4c9ab-9df5-44d5-8632-90f5f27b3648]   Rendering pages/index.html.erb
+I, [2018-01-11T09:26:59.054855 #90313]  INFO -- : [1ea4c9ab-9df5-44d5-8632-90f5f27b3648]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T09:26:59.057050 #90313] DEBUG -- : [1ea4c9ab-9df5-44d5-8632-90f5f27b3648]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T09:26:59.063684 #90313]  INFO -- : [1ea4c9ab-9df5-44d5-8632-90f5f27b3648]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T09:26:59.063934 #90313]  INFO -- : [1ea4c9ab-9df5-44d5-8632-90f5f27b3648]   Rendered pages/index.html.erb (9.5ms)
+I, [2018-01-11T09:26:59.064356 #90313]  INFO -- : [1ea4c9ab-9df5-44d5-8632-90f5f27b3648] Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T11:49:05.039025 #90313]  INFO -- : [e55e1428-de8e-4376-9ea6-de5e61e6a6ca] Started GET "/admin" for 66.249.88.42 at 2018-01-11 11:49:05 -0500
+I, [2018-01-11T11:49:05.043454 #90313]  INFO -- : [e55e1428-de8e-4376-9ea6-de5e61e6a6ca] Processing by Admin::DashboardController#index as HTML
+I, [2018-01-11T11:49:05.053969 #90313]  INFO -- : [e55e1428-de8e-4376-9ea6-de5e61e6a6ca] Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms)
+I, [2018-01-11T11:49:05.070081 #90313]  INFO -- : [668fd0a7-df31-41d5-9bb4-f32fde2263f7] Started GET "/" for 66.249.88.44 at 2018-01-11 11:49:05 -0500
+I, [2018-01-11T11:49:05.071777 #90313]  INFO -- : [668fd0a7-df31-41d5-9bb4-f32fde2263f7] Processing by PagesController#index as HTML
+I, [2018-01-11T11:49:05.073036 #90313]  INFO -- : [668fd0a7-df31-41d5-9bb4-f32fde2263f7]   Rendering pages/index.html.erb
+I, [2018-01-11T11:49:05.073650 #90313]  INFO -- : [668fd0a7-df31-41d5-9bb4-f32fde2263f7]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T11:49:05.075558 #90313] DEBUG -- : [668fd0a7-df31-41d5-9bb4-f32fde2263f7]   [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T11:49:05.082305 #90313]  INFO -- : [668fd0a7-df31-41d5-9bb4-f32fde2263f7]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T11:49:05.082503 #90313]  INFO -- : [668fd0a7-df31-41d5-9bb4-f32fde2263f7]   Rendered pages/index.html.erb (9.3ms)
+I, [2018-01-11T11:49:05.082935 #90313]  INFO -- : [668fd0a7-df31-41d5-9bb4-f32fde2263f7] Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.8ms)
+I, [2018-01-11T11:49:10.858534 #90313]  INFO -- : [d0de6cf9-184a-4e32-8d6e-82e631187fc8] Started GET "/" for 173.230.119.109 at 2018-01-11 11:49:10 -0500
+I, [2018-01-11T11:49:10.860322 #90313]  INFO -- : [d0de6cf9-184a-4e32-8d6e-82e631187fc8] Processing by PagesController#index as HTML
+I, [2018-01-11T11:49:10.861678 #90313]  INFO -- : [d0de6cf9-184a-4e32-8d6e-82e631187fc8]   Rendering pages/index.html.erb
+I, [2018-01-11T11:49:10.862224 #90313]  INFO -- : [d0de6cf9-184a-4e32-8d6e-82e631187fc8]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T11:49:10.864449 #90313] DEBUG -- : [d0de6cf9-184a-4e32-8d6e-82e631187fc8]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T11:49:10.871145 #90313]  INFO -- : [d0de6cf9-184a-4e32-8d6e-82e631187fc8]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T11:49:10.871373 #90313]  INFO -- : [d0de6cf9-184a-4e32-8d6e-82e631187fc8]   Rendered pages/index.html.erb (9.5ms)
+I, [2018-01-11T11:49:10.871786 #90313]  INFO -- : [d0de6cf9-184a-4e32-8d6e-82e631187fc8] Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T11:50:02.469371 #90313]  INFO -- : [34da34cf-02a8-464c-bd70-897acb2dfcc9] Started GET "/" for 208.184.162.169 at 2018-01-11 11:50:02 -0500
+I, [2018-01-11T11:50:02.471203 #90313]  INFO -- : [34da34cf-02a8-464c-bd70-897acb2dfcc9] Processing by PagesController#index as HTML
+I, [2018-01-11T11:50:02.472420 #90313]  INFO -- : [34da34cf-02a8-464c-bd70-897acb2dfcc9]   Rendering pages/index.html.erb
+I, [2018-01-11T11:50:02.472976 #90313]  INFO -- : [34da34cf-02a8-464c-bd70-897acb2dfcc9]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T11:50:02.475268 #90313] DEBUG -- : [34da34cf-02a8-464c-bd70-897acb2dfcc9]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T11:50:02.481917 #90313]  INFO -- : [34da34cf-02a8-464c-bd70-897acb2dfcc9]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T11:50:02.482128 #90313]  INFO -- : [34da34cf-02a8-464c-bd70-897acb2dfcc9]   Rendered pages/index.html.erb (9.5ms)
+I, [2018-01-11T11:50:02.482587 #90313]  INFO -- : [34da34cf-02a8-464c-bd70-897acb2dfcc9] Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T11:55:06.810776 #90313]  INFO -- : [78c899a5-6020-4b3b-84a6-854daf438c91] Started GET "/" for 66.249.88.38 at 2018-01-11 11:55:06 -0500
+I, [2018-01-11T11:55:06.812535 #90313]  INFO -- : [78c899a5-6020-4b3b-84a6-854daf438c91] Processing by PagesController#index as HTML
+I, [2018-01-11T11:55:06.813756 #90313]  INFO -- : [78c899a5-6020-4b3b-84a6-854daf438c91]   Rendering pages/index.html.erb
+I, [2018-01-11T11:55:06.814285 #90313]  INFO -- : [78c899a5-6020-4b3b-84a6-854daf438c91]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T11:55:06.816428 #90313] DEBUG -- : [78c899a5-6020-4b3b-84a6-854daf438c91]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T11:55:06.823671 #90313]  INFO -- : [78c899a5-6020-4b3b-84a6-854daf438c91]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T11:55:06.823878 #90313]  INFO -- : [78c899a5-6020-4b3b-84a6-854daf438c91]   Rendered pages/index.html.erb (9.9ms)
+I, [2018-01-11T11:55:06.824361 #90313]  INFO -- : [78c899a5-6020-4b3b-84a6-854daf438c91] Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T11:55:07.229010 #90313]  INFO -- : [ab142787-3dfd-41ff-b6cc-ba86f2dfa28e] Started GET "/" for 66.102.7.216 at 2018-01-11 11:55:07 -0500
+I, [2018-01-11T11:55:07.230343 #90313]  INFO -- : [ab142787-3dfd-41ff-b6cc-ba86f2dfa28e] Processing by PagesController#index as HTML
+I, [2018-01-11T11:55:07.231324 #90313]  INFO -- : [ab142787-3dfd-41ff-b6cc-ba86f2dfa28e]   Rendering pages/index.html.erb
+I, [2018-01-11T11:55:07.231752 #90313]  INFO -- : [ab142787-3dfd-41ff-b6cc-ba86f2dfa28e]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T11:55:07.233423 #90313] DEBUG -- : [ab142787-3dfd-41ff-b6cc-ba86f2dfa28e]   [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T11:55:07.239827 #90313]  INFO -- : [ab142787-3dfd-41ff-b6cc-ba86f2dfa28e]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T11:55:07.240045 #90313]  INFO -- : [ab142787-3dfd-41ff-b6cc-ba86f2dfa28e]   Rendered pages/index.html.erb (8.5ms)
+I, [2018-01-11T11:55:07.240485 #90313]  INFO -- : [ab142787-3dfd-41ff-b6cc-ba86f2dfa28e] Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.7ms)
+I, [2018-01-11T11:55:12.228956 #90313]  INFO -- : [5bf6e83a-787d-46f5-b6ce-7f0197a64961] Started GET "/" for 66.249.79.8 at 2018-01-11 11:55:12 -0500
+I, [2018-01-11T11:55:12.230730 #90313]  INFO -- : [5bf6e83a-787d-46f5-b6ce-7f0197a64961] Processing by PagesController#index as */*
+I, [2018-01-11T11:55:12.247448 #90313]  INFO -- : [5bf6e83a-787d-46f5-b6ce-7f0197a64961]   Rendering pages/index.html.erb
+I, [2018-01-11T11:55:12.272308 #90313]  INFO -- : [5bf6e83a-787d-46f5-b6ce-7f0197a64961]   Rendered partials/_header.html.erb (1.8ms)
+D, [2018-01-11T11:55:12.274428 #90313] DEBUG -- : [5bf6e83a-787d-46f5-b6ce-7f0197a64961]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T11:55:12.324702 #90313]  INFO -- : [5bf6e83a-787d-46f5-b6ce-7f0197a64961]   Rendered partials/_footer.html.erb (0.8ms)
+I, [2018-01-11T11:55:12.324925 #90313]  INFO -- : [5bf6e83a-787d-46f5-b6ce-7f0197a64961]   Rendered pages/index.html.erb (77.3ms)
+I, [2018-01-11T11:55:12.325430 #90313]  INFO -- : [5bf6e83a-787d-46f5-b6ce-7f0197a64961] Completed 200 OK in 94ms (Views: 92.8ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T12:33:47.130372 #90313]  INFO -- : [c2c27fd9-8e1b-4e21-86f0-98147b0e5adc] Started GET "/" for 69.28.68.86 at 2018-01-11 12:33:47 -0500
+I, [2018-01-11T12:33:47.132202 #90313]  INFO -- : [c2c27fd9-8e1b-4e21-86f0-98147b0e5adc] Processing by PagesController#index as HTML
+I, [2018-01-11T12:33:47.133495 #90313]  INFO -- : [c2c27fd9-8e1b-4e21-86f0-98147b0e5adc]   Rendering pages/index.html.erb
+I, [2018-01-11T12:33:47.134070 #90313]  INFO -- : [c2c27fd9-8e1b-4e21-86f0-98147b0e5adc]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T12:33:47.136297 #90313] DEBUG -- : [c2c27fd9-8e1b-4e21-86f0-98147b0e5adc]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T12:33:47.142737 #90313]  INFO -- : [c2c27fd9-8e1b-4e21-86f0-98147b0e5adc]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T12:33:47.142925 #90313]  INFO -- : [c2c27fd9-8e1b-4e21-86f0-98147b0e5adc]   Rendered pages/index.html.erb (9.3ms)
+I, [2018-01-11T12:33:47.143387 #90313]  INFO -- : [c2c27fd9-8e1b-4e21-86f0-98147b0e5adc] Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T12:36:27.954805 #90313]  INFO -- : [fab2f03b-8f11-4704-a1e9-7bfd2fb12b89] Started GET "/" for 173.230.119.109 at 2018-01-11 12:36:27 -0500
+I, [2018-01-11T12:36:27.956534 #90313]  INFO -- : [fab2f03b-8f11-4704-a1e9-7bfd2fb12b89] Processing by PagesController#index as HTML
+I, [2018-01-11T12:36:27.957697 #90313]  INFO -- : [fab2f03b-8f11-4704-a1e9-7bfd2fb12b89]   Rendering pages/index.html.erb
+I, [2018-01-11T12:36:27.958220 #90313]  INFO -- : [fab2f03b-8f11-4704-a1e9-7bfd2fb12b89]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T12:36:27.960294 #90313] DEBUG -- : [fab2f03b-8f11-4704-a1e9-7bfd2fb12b89]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T12:36:27.967834 #90313]  INFO -- : [fab2f03b-8f11-4704-a1e9-7bfd2fb12b89]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T12:36:27.968068 #90313]  INFO -- : [fab2f03b-8f11-4704-a1e9-7bfd2fb12b89]   Rendered pages/index.html.erb (10.2ms)
+I, [2018-01-11T12:36:27.968470 #90313]  INFO -- : [fab2f03b-8f11-4704-a1e9-7bfd2fb12b89] Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T12:46:20.854592 #90313]  INFO -- : [117365d1-f331-4434-a46c-31005718dbed] Started GET "/" for 69.28.68.86 at 2018-01-11 12:46:20 -0500
+I, [2018-01-11T12:46:20.856330 #90313]  INFO -- : [117365d1-f331-4434-a46c-31005718dbed] Processing by PagesController#index as HTML
+I, [2018-01-11T12:46:20.857532 #90313]  INFO -- : [117365d1-f331-4434-a46c-31005718dbed]   Rendering pages/index.html.erb
+I, [2018-01-11T12:46:20.858092 #90313]  INFO -- : [117365d1-f331-4434-a46c-31005718dbed]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T12:46:20.860283 #90313] DEBUG -- : [117365d1-f331-4434-a46c-31005718dbed]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T12:46:20.867314 #90313]  INFO -- : [117365d1-f331-4434-a46c-31005718dbed]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T12:46:20.867506 #90313]  INFO -- : [117365d1-f331-4434-a46c-31005718dbed]   Rendered pages/index.html.erb (9.8ms)
+I, [2018-01-11T12:46:20.867912 #90313]  INFO -- : [117365d1-f331-4434-a46c-31005718dbed] Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T13:26:23.387416 #90313]  INFO -- : [900036a3-8728-425b-85cf-c1626383b765] Started GET "/" for 128.186.31.84 at 2018-01-11 13:26:23 -0500
+I, [2018-01-11T13:26:23.389179 #90313]  INFO -- : [900036a3-8728-425b-85cf-c1626383b765] Processing by PagesController#index as HTML
+I, [2018-01-11T13:26:23.390409 #90313]  INFO -- : [900036a3-8728-425b-85cf-c1626383b765]   Rendering pages/index.html.erb
+I, [2018-01-11T13:26:23.390970 #90313]  INFO -- : [900036a3-8728-425b-85cf-c1626383b765]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T13:26:23.393211 #90313] DEBUG -- : [900036a3-8728-425b-85cf-c1626383b765]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T13:26:23.399921 #90313]  INFO -- : [900036a3-8728-425b-85cf-c1626383b765]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T13:26:23.400136 #90313]  INFO -- : [900036a3-8728-425b-85cf-c1626383b765]   Rendered pages/index.html.erb (9.5ms)
+I, [2018-01-11T13:26:23.400714 #90313]  INFO -- : [900036a3-8728-425b-85cf-c1626383b765] Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 1.0ms)
+I, [2018-01-11T13:36:53.192859 #9855]  INFO -- : [73b6716f-9c70-46fb-bf14-5754e9131d58] Started GET "/" for 128.186.31.84 at 2018-01-11 13:36:53 -0500
+I, [2018-01-11T13:36:53.236204 #9855]  INFO -- : [73b6716f-9c70-46fb-bf14-5754e9131d58] Processing by PagesController#index as HTML
+I, [2018-01-11T13:36:53.263031 #9855]  INFO -- : [73b6716f-9c70-46fb-bf14-5754e9131d58]   Rendering pages/index.html.erb
+I, [2018-01-11T13:36:53.271840 #9855]  INFO -- : [73b6716f-9c70-46fb-bf14-5754e9131d58]   Rendered partials/_header.html.erb (1.3ms)
+D, [2018-01-11T13:36:53.289580 #9855] DEBUG -- : [73b6716f-9c70-46fb-bf14-5754e9131d58]   [1m[35m (1.4ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T13:36:53.292970 #9855] DEBUG -- : [73b6716f-9c70-46fb-bf14-5754e9131d58]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T13:36:53.353166 #9855]  INFO -- : [73b6716f-9c70-46fb-bf14-5754e9131d58]   Rendered partials/_footer.html.erb (0.8ms)
+I, [2018-01-11T13:36:53.353398 #9855]  INFO -- : [73b6716f-9c70-46fb-bf14-5754e9131d58]   Rendered pages/index.html.erb (90.1ms)
+I, [2018-01-11T13:36:53.354438 #9855]  INFO -- : [73b6716f-9c70-46fb-bf14-5754e9131d58] Completed 200 OK in 118ms (Views: 96.1ms | ActiveRecord: 5.7ms)
+I, [2018-01-11T13:49:59.927033 #10216]  INFO -- : [5a13c46f-693d-437b-a049-ca398cfc68f6] Started GET "/" for 128.186.31.84 at 2018-01-11 13:49:59 -0500
+I, [2018-01-11T13:49:59.971936 #10216]  INFO -- : [5a13c46f-693d-437b-a049-ca398cfc68f6] Processing by PagesController#index as HTML
+I, [2018-01-11T13:50:00.000991 #10216]  INFO -- : [5a13c46f-693d-437b-a049-ca398cfc68f6]   Rendering pages/index.html.erb
+I, [2018-01-11T13:50:00.009095 #10216]  INFO -- : [5a13c46f-693d-437b-a049-ca398cfc68f6]   Rendered partials/_header.html.erb (1.4ms)
+D, [2018-01-11T13:50:00.034012 #10216] DEBUG -- : [5a13c46f-693d-437b-a049-ca398cfc68f6]   [1m[35m (0.9ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T13:50:00.037038 #10216] DEBUG -- : [5a13c46f-693d-437b-a049-ca398cfc68f6]   [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T13:50:00.096836 #10216]  INFO -- : [5a13c46f-693d-437b-a049-ca398cfc68f6]   Rendered partials/_footer.html.erb (0.8ms)
+I, [2018-01-11T13:50:00.097067 #10216]  INFO -- : [5a13c46f-693d-437b-a049-ca398cfc68f6]   Rendered pages/index.html.erb (95.9ms)
+I, [2018-01-11T13:50:00.098128 #10216]  INFO -- : [5a13c46f-693d-437b-a049-ca398cfc68f6] Completed 200 OK in 125ms (Views: 102.4ms | ActiveRecord: 4.4ms)
+I, [2018-01-11T13:59:13.421237 #10216]  INFO -- : [b76466a7-e078-4556-ae2b-fee1bb817b3b] Started GET "/" for 128.186.31.84 at 2018-01-11 13:59:13 -0500
+I, [2018-01-11T13:59:13.424302 #10216]  INFO -- : [b76466a7-e078-4556-ae2b-fee1bb817b3b] Processing by PagesController#index as HTML
+I, [2018-01-11T13:59:13.426266 #10216]  INFO -- : [b76466a7-e078-4556-ae2b-fee1bb817b3b]   Rendering pages/index.html.erb
+I, [2018-01-11T13:59:13.426897 #10216]  INFO -- : [b76466a7-e078-4556-ae2b-fee1bb817b3b]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T13:59:13.429516 #10216] DEBUG -- : [b76466a7-e078-4556-ae2b-fee1bb817b3b]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T13:59:13.436533 #10216]  INFO -- : [b76466a7-e078-4556-ae2b-fee1bb817b3b]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T13:59:13.436777 #10216]  INFO -- : [b76466a7-e078-4556-ae2b-fee1bb817b3b]   Rendered pages/index.html.erb (10.3ms)
+I, [2018-01-11T13:59:13.437262 #10216]  INFO -- : [b76466a7-e078-4556-ae2b-fee1bb817b3b] Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 1.0ms)
+I, [2018-01-11T14:00:58.574324 #10216]  INFO -- : [594493ac-a014-4129-ac24-742293c0a801] Started GET "/" for 128.186.31.84 at 2018-01-11 14:00:58 -0500
+I, [2018-01-11T14:00:58.576502 #10216]  INFO -- : [594493ac-a014-4129-ac24-742293c0a801] Processing by PagesController#index as HTML
+I, [2018-01-11T14:00:58.578137 #10216]  INFO -- : [594493ac-a014-4129-ac24-742293c0a801]   Rendering pages/index.html.erb
+I, [2018-01-11T14:00:58.578893 #10216]  INFO -- : [594493ac-a014-4129-ac24-742293c0a801]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T14:00:58.582026 #10216] DEBUG -- : [594493ac-a014-4129-ac24-742293c0a801]   [1m[36mArticle Load (1.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T14:00:58.588830 #10216]  INFO -- : [594493ac-a014-4129-ac24-742293c0a801]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T14:00:58.589028 #10216]  INFO -- : [594493ac-a014-4129-ac24-742293c0a801]   Rendered pages/index.html.erb (10.7ms)
+I, [2018-01-11T14:00:58.589475 #10216]  INFO -- : [594493ac-a014-4129-ac24-742293c0a801] Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 1.6ms)
+I, [2018-01-11T14:04:11.005307 #10641]  INFO -- : [f47ca79d-bc89-48bf-9a50-872905658f40] Started GET "/" for 128.186.31.84 at 2018-01-11 14:04:11 -0500
+I, [2018-01-11T14:04:11.050456 #10641]  INFO -- : [f47ca79d-bc89-48bf-9a50-872905658f40] Processing by PagesController#index as HTML
+I, [2018-01-11T14:04:11.078191 #10641]  INFO -- : [f47ca79d-bc89-48bf-9a50-872905658f40]   Rendering pages/index.html.erb
+I, [2018-01-11T14:04:11.087569 #10641]  INFO -- : [f47ca79d-bc89-48bf-9a50-872905658f40]   Rendered partials/_header.html.erb (2.0ms)
+D, [2018-01-11T14:04:11.106071 #10641] DEBUG -- : [f47ca79d-bc89-48bf-9a50-872905658f40]   [1m[35m (1.1ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T14:04:11.109419 #10641] DEBUG -- : [f47ca79d-bc89-48bf-9a50-872905658f40]   [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T14:04:11.169549 #10641]  INFO -- : [f47ca79d-bc89-48bf-9a50-872905658f40]   Rendered partials/_footer.html.erb (0.8ms)
+I, [2018-01-11T14:04:11.169822 #10641]  INFO -- : [f47ca79d-bc89-48bf-9a50-872905658f40]   Rendered pages/index.html.erb (91.4ms)
+I, [2018-01-11T14:04:11.170877 #10641]  INFO -- : [f47ca79d-bc89-48bf-9a50-872905658f40] Completed 200 OK in 120ms (Views: 98.0ms | ActiveRecord: 5.5ms)
+I, [2018-01-11T14:08:17.662564 #10764]  INFO -- : [2514bd2b-abfd-4d71-8009-490de64f53b7] Started GET "/" for 128.186.31.84 at 2018-01-11 14:08:17 -0500
+I, [2018-01-11T14:08:17.691717 #10764]  INFO -- : [2514bd2b-abfd-4d71-8009-490de64f53b7] Processing by PagesController#index as HTML
+I, [2018-01-11T14:08:17.709277 #10764]  INFO -- : [2514bd2b-abfd-4d71-8009-490de64f53b7]   Rendering pages/index.html.erb
+I, [2018-01-11T14:08:17.714980 #10764]  INFO -- : [2514bd2b-abfd-4d71-8009-490de64f53b7]   Rendered partials/_header.html.erb (1.5ms)
+D, [2018-01-11T14:08:17.726170 #10764] DEBUG -- : [2514bd2b-abfd-4d71-8009-490de64f53b7]   [1m[35m (0.7ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T14:08:17.728367 #10764] DEBUG -- : [2514bd2b-abfd-4d71-8009-490de64f53b7]   [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T14:08:17.766025 #10764]  INFO -- : [2514bd2b-abfd-4d71-8009-490de64f53b7]   Rendered partials/_footer.html.erb (0.5ms)
+I, [2018-01-11T14:08:17.766173 #10764]  INFO -- : [2514bd2b-abfd-4d71-8009-490de64f53b7]   Rendered pages/index.html.erb (56.8ms)
+I, [2018-01-11T14:08:17.766842 #10764]  INFO -- : [2514bd2b-abfd-4d71-8009-490de64f53b7] Completed 200 OK in 75ms (Views: 60.9ms | ActiveRecord: 4.3ms)
+I, [2018-01-11T14:14:58.928925 #10764]  INFO -- : [b82ec996-7ac1-4755-92c6-aa1908e47e40] Started GET "/" for 69.28.68.86 at 2018-01-11 14:14:58 -0500
+I, [2018-01-11T14:14:58.931526 #10764]  INFO -- : [b82ec996-7ac1-4755-92c6-aa1908e47e40] Processing by PagesController#index as HTML
+I, [2018-01-11T14:14:58.933466 #10764]  INFO -- : [b82ec996-7ac1-4755-92c6-aa1908e47e40]   Rendering pages/index.html.erb
+I, [2018-01-11T14:14:58.934139 #10764]  INFO -- : [b82ec996-7ac1-4755-92c6-aa1908e47e40]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T14:14:58.936875 #10764] DEBUG -- : [b82ec996-7ac1-4755-92c6-aa1908e47e40]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T14:14:58.943840 #10764]  INFO -- : [b82ec996-7ac1-4755-92c6-aa1908e47e40]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T14:14:58.944039 #10764]  INFO -- : [b82ec996-7ac1-4755-92c6-aa1908e47e40]   Rendered pages/index.html.erb (10.4ms)
+I, [2018-01-11T14:14:58.944519 #10764]  INFO -- : [b82ec996-7ac1-4755-92c6-aa1908e47e40] Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 1.0ms)
+I, [2018-01-11T14:15:22.041826 #10764]  INFO -- : [57f7df56-1ac9-4583-a7a3-37933eccd971] Started GET "/contact" for 69.28.68.86 at 2018-01-11 14:15:22 -0500
+I, [2018-01-11T14:15:22.043812 #10764]  INFO -- : [57f7df56-1ac9-4583-a7a3-37933eccd971] Processing by PagesController#contact as HTML
+I, [2018-01-11T14:15:22.054755 #10764]  INFO -- : [57f7df56-1ac9-4583-a7a3-37933eccd971]   Rendering pages/contact.html.erb within layouts/application.html.erb
+I, [2018-01-11T14:15:22.056224 #10764]  INFO -- : [57f7df56-1ac9-4583-a7a3-37933eccd971]   Rendered pages/contact.html.erb within layouts/application.html.erb (1.2ms)
+I, [2018-01-11T14:15:22.059989 #10764]  INFO -- : [57f7df56-1ac9-4583-a7a3-37933eccd971]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T14:15:22.060453 #10764]  INFO -- : [57f7df56-1ac9-4583-a7a3-37933eccd971]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T14:15:22.060940 #10764]  INFO -- : [57f7df56-1ac9-4583-a7a3-37933eccd971] Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T14:15:23.396068 #10764]  INFO -- : [68fa4084-f617-43ae-a51e-28b6239eacc7] Started GET "/contact" for 69.28.68.86 at 2018-01-11 14:15:23 -0500
+I, [2018-01-11T14:15:23.397560 #10764]  INFO -- : [68fa4084-f617-43ae-a51e-28b6239eacc7] Processing by PagesController#contact as HTML
+I, [2018-01-11T14:15:23.399644 #10764]  INFO -- : [68fa4084-f617-43ae-a51e-28b6239eacc7]   Rendering pages/contact.html.erb within layouts/application.html.erb
+I, [2018-01-11T14:15:23.399992 #10764]  INFO -- : [68fa4084-f617-43ae-a51e-28b6239eacc7]   Rendered pages/contact.html.erb within layouts/application.html.erb (0.1ms)
+I, [2018-01-11T14:15:23.401434 #10764]  INFO -- : [68fa4084-f617-43ae-a51e-28b6239eacc7]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T14:15:23.401959 #10764]  INFO -- : [68fa4084-f617-43ae-a51e-28b6239eacc7]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T14:15:23.402412 #10764]  INFO -- : [68fa4084-f617-43ae-a51e-28b6239eacc7] Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T14:15:26.696194 #10764]  INFO -- : [6de5d996-c187-41e3-82bd-68c8ebe0f1ad] Started GET "/conference_2018" for 69.28.68.86 at 2018-01-11 14:15:26 -0500
+I, [2018-01-11T14:15:26.697903 #10764]  INFO -- : [6de5d996-c187-41e3-82bd-68c8ebe0f1ad] Processing by PagesController#conference_2018 as HTML
+I, [2018-01-11T14:15:26.701206 #10764]  INFO -- : [6de5d996-c187-41e3-82bd-68c8ebe0f1ad]   Rendering pages/conference.html.erb within layouts/application.html.erb
+I, [2018-01-11T14:15:26.702277 #10764]  INFO -- : [6de5d996-c187-41e3-82bd-68c8ebe0f1ad]   Rendered pages/conference.html.erb within layouts/application.html.erb (0.8ms)
+I, [2018-01-11T14:15:26.703857 #10764]  INFO -- : [6de5d996-c187-41e3-82bd-68c8ebe0f1ad]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T14:15:26.704420 #10764]  INFO -- : [6de5d996-c187-41e3-82bd-68c8ebe0f1ad]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T14:15:26.704926 #10764]  INFO -- : [6de5d996-c187-41e3-82bd-68c8ebe0f1ad] Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T14:15:36.338880 #10764]  INFO -- : [4ef5f4ea-5b15-43b9-b0e3-05ac5fbd1857] Started GET "/contact" for 69.28.68.86 at 2018-01-11 14:15:36 -0500
+I, [2018-01-11T14:15:36.340677 #10764]  INFO -- : [4ef5f4ea-5b15-43b9-b0e3-05ac5fbd1857] Processing by PagesController#contact as HTML
+I, [2018-01-11T14:15:36.342337 #10764]  INFO -- : [4ef5f4ea-5b15-43b9-b0e3-05ac5fbd1857]   Rendering pages/contact.html.erb within layouts/application.html.erb
+I, [2018-01-11T14:15:36.342728 #10764]  INFO -- : [4ef5f4ea-5b15-43b9-b0e3-05ac5fbd1857]   Rendered pages/contact.html.erb within layouts/application.html.erb (0.2ms)
+I, [2018-01-11T14:15:36.344150 #10764]  INFO -- : [4ef5f4ea-5b15-43b9-b0e3-05ac5fbd1857]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T14:15:36.344793 #10764]  INFO -- : [4ef5f4ea-5b15-43b9-b0e3-05ac5fbd1857]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T14:15:36.345244 #10764]  INFO -- : [4ef5f4ea-5b15-43b9-b0e3-05ac5fbd1857] Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T14:15:51.657429 #10764]  INFO -- : [5beae635-d848-4fbc-a63e-0b3c1c555d23] Started GET "/events" for 69.28.68.86 at 2018-01-11 14:15:51 -0500
+I, [2018-01-11T14:15:51.659376 #10764]  INFO -- : [5beae635-d848-4fbc-a63e-0b3c1c555d23] Processing by PagesController#events as HTML
+I, [2018-01-11T14:15:51.667391 #10764]  INFO -- : [5beae635-d848-4fbc-a63e-0b3c1c555d23]   Rendering pages/events.html.erb within layouts/application.html.erb
+I, [2018-01-11T14:15:51.668770 #10764]  INFO -- : [5beae635-d848-4fbc-a63e-0b3c1c555d23]   Rendered pages/events.html.erb within layouts/application.html.erb (1.1ms)
+I, [2018-01-11T14:15:51.670538 #10764]  INFO -- : [5beae635-d848-4fbc-a63e-0b3c1c555d23]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T14:15:51.671049 #10764]  INFO -- : [5beae635-d848-4fbc-a63e-0b3c1c555d23]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T14:15:51.671505 #10764]  INFO -- : [5beae635-d848-4fbc-a63e-0b3c1c555d23] Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T14:19:07.753906 #11090]  INFO -- : [cee2542b-a568-4b20-8e8a-3b97c0bc1f4d] Started GET "/" for 128.186.31.84 at 2018-01-11 14:19:07 -0500
+I, [2018-01-11T14:19:07.797090 #11090]  INFO -- : [cee2542b-a568-4b20-8e8a-3b97c0bc1f4d] Processing by PagesController#index as HTML
+I, [2018-01-11T14:19:07.824454 #11090]  INFO -- : [cee2542b-a568-4b20-8e8a-3b97c0bc1f4d]   Rendering pages/index.html.erb
+I, [2018-01-11T14:19:07.832880 #11090]  INFO -- : [cee2542b-a568-4b20-8e8a-3b97c0bc1f4d]   Rendered partials/_header.html.erb (1.5ms)
+D, [2018-01-11T14:19:07.850755 #11090] DEBUG -- : [cee2542b-a568-4b20-8e8a-3b97c0bc1f4d]   [1m[35m (1.0ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T14:19:07.853897 #11090] DEBUG -- : [cee2542b-a568-4b20-8e8a-3b97c0bc1f4d]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T14:19:07.913108 #11090]  INFO -- : [cee2542b-a568-4b20-8e8a-3b97c0bc1f4d]   Rendered partials/_footer.html.erb (0.8ms)
+I, [2018-01-11T14:19:07.913341 #11090]  INFO -- : [cee2542b-a568-4b20-8e8a-3b97c0bc1f4d]   Rendered pages/index.html.erb (88.4ms)
+I, [2018-01-11T14:19:07.914370 #11090]  INFO -- : [cee2542b-a568-4b20-8e8a-3b97c0bc1f4d] Completed 200 OK in 117ms (Views: 95.1ms | ActiveRecord: 5.8ms)
+I, [2018-01-11T14:23:47.378913 #11271]  INFO -- : [83331459-19d7-4ed7-9821-c8aa92c36997] Started GET "/" for 128.186.31.84 at 2018-01-11 14:23:47 -0500
+I, [2018-01-11T14:23:47.422250 #11271]  INFO -- : [83331459-19d7-4ed7-9821-c8aa92c36997] Processing by PagesController#index as HTML
+I, [2018-01-11T14:23:47.449891 #11271]  INFO -- : [83331459-19d7-4ed7-9821-c8aa92c36997]   Rendering pages/index.html.erb
+I, [2018-01-11T14:23:47.457859 #11271]  INFO -- : [83331459-19d7-4ed7-9821-c8aa92c36997]   Rendered partials/_header.html.erb (1.3ms)
+D, [2018-01-11T14:23:47.475865 #11271] DEBUG -- : [83331459-19d7-4ed7-9821-c8aa92c36997]   [1m[35m (1.0ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T14:23:47.479185 #11271] DEBUG -- : [83331459-19d7-4ed7-9821-c8aa92c36997]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T14:23:47.540416 #11271]  INFO -- : [83331459-19d7-4ed7-9821-c8aa92c36997]   Rendered partials/_footer.html.erb (0.8ms)
+I, [2018-01-11T14:23:47.540687 #11271]  INFO -- : [83331459-19d7-4ed7-9821-c8aa92c36997]   Rendered pages/index.html.erb (90.5ms)
+I, [2018-01-11T14:23:47.541727 #11271]  INFO -- : [83331459-19d7-4ed7-9821-c8aa92c36997] Completed 200 OK in 119ms (Views: 96.5ms | ActiveRecord: 5.5ms)
+I, [2018-01-11T14:25:22.688609 #11365]  INFO -- : [64ac4578-ce75-4ce9-bf57-4534f3d1f807] Started GET "/" for 128.186.31.84 at 2018-01-11 14:25:22 -0500
+I, [2018-01-11T14:25:22.732892 #11365]  INFO -- : [64ac4578-ce75-4ce9-bf57-4534f3d1f807] Processing by PagesController#index as HTML
+I, [2018-01-11T14:25:22.760023 #11365]  INFO -- : [64ac4578-ce75-4ce9-bf57-4534f3d1f807]   Rendering pages/index.html.erb
+I, [2018-01-11T14:25:22.767908 #11365]  INFO -- : [64ac4578-ce75-4ce9-bf57-4534f3d1f807]   Rendered partials/_header.html.erb (1.3ms)
+D, [2018-01-11T14:25:22.785748 #11365] DEBUG -- : [64ac4578-ce75-4ce9-bf57-4534f3d1f807]   [1m[35m (1.0ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T14:25:22.789055 #11365] DEBUG -- : [64ac4578-ce75-4ce9-bf57-4534f3d1f807]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T14:25:22.848345 #11365]  INFO -- : [64ac4578-ce75-4ce9-bf57-4534f3d1f807]   Rendered partials/_footer.html.erb (0.8ms)
+I, [2018-01-11T14:25:22.848627 #11365]  INFO -- : [64ac4578-ce75-4ce9-bf57-4534f3d1f807]   Rendered pages/index.html.erb (88.3ms)
+I, [2018-01-11T14:25:22.850375 #11365]  INFO -- : [64ac4578-ce75-4ce9-bf57-4534f3d1f807] Completed 200 OK in 117ms (Views: 94.5ms | ActiveRecord: 5.0ms)
+I, [2018-01-11T14:28:20.421988 #11365]  INFO -- : [bc27bc0f-f949-4787-af53-dce4bf659fd1] Started GET "/" for 128.186.31.84 at 2018-01-11 14:28:20 -0500
+I, [2018-01-11T14:28:20.424389 #11365]  INFO -- : [bc27bc0f-f949-4787-af53-dce4bf659fd1] Processing by PagesController#index as HTML
+I, [2018-01-11T14:28:20.426225 #11365]  INFO -- : [bc27bc0f-f949-4787-af53-dce4bf659fd1]   Rendering pages/index.html.erb
+I, [2018-01-11T14:28:20.426920 #11365]  INFO -- : [bc27bc0f-f949-4787-af53-dce4bf659fd1]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T14:28:20.430170 #11365] DEBUG -- : [bc27bc0f-f949-4787-af53-dce4bf659fd1]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T14:28:20.437666 #11365]  INFO -- : [bc27bc0f-f949-4787-af53-dce4bf659fd1]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T14:28:20.437862 #11365]  INFO -- : [bc27bc0f-f949-4787-af53-dce4bf659fd1]   Rendered pages/index.html.erb (11.4ms)
+I, [2018-01-11T14:28:20.438390 #11365]  INFO -- : [bc27bc0f-f949-4787-af53-dce4bf659fd1] Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 1.0ms)
+I, [2018-01-11T14:33:03.279129 #11609]  INFO -- : [926cac68-d60e-4983-8399-535a73efdebd] Started GET "/" for 128.186.31.84 at 2018-01-11 14:33:03 -0500
+I, [2018-01-11T14:33:03.323223 #11609]  INFO -- : [926cac68-d60e-4983-8399-535a73efdebd] Processing by PagesController#index as HTML
+I, [2018-01-11T14:33:03.350231 #11609]  INFO -- : [926cac68-d60e-4983-8399-535a73efdebd]   Rendering pages/index.html.erb
+I, [2018-01-11T14:33:03.359617 #11609]  INFO -- : [926cac68-d60e-4983-8399-535a73efdebd]   Rendered partials/_header.html.erb (1.3ms)
+D, [2018-01-11T14:33:03.376842 #11609] DEBUG -- : [926cac68-d60e-4983-8399-535a73efdebd]   [1m[35m (1.0ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T14:33:03.380146 #11609] DEBUG -- : [926cac68-d60e-4983-8399-535a73efdebd]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T14:33:03.440270 #11609]  INFO -- : [926cac68-d60e-4983-8399-535a73efdebd]   Rendered partials/_footer.html.erb (0.8ms)
+I, [2018-01-11T14:33:03.440535 #11609]  INFO -- : [926cac68-d60e-4983-8399-535a73efdebd]   Rendered pages/index.html.erb (90.0ms)
+I, [2018-01-11T14:33:03.441629 #11609]  INFO -- : [926cac68-d60e-4983-8399-535a73efdebd] Completed 200 OK in 118ms (Views: 96.5ms | ActiveRecord: 4.9ms)
+I, [2018-01-11T14:35:15.112041 #11699]  INFO -- : [91e4a8da-84d9-4115-8e92-b814fed17128] Started GET "/" for 128.186.31.84 at 2018-01-11 14:35:15 -0500
+I, [2018-01-11T14:35:15.155952 #11699]  INFO -- : [91e4a8da-84d9-4115-8e92-b814fed17128] Processing by PagesController#index as HTML
+I, [2018-01-11T14:35:15.183957 #11699]  INFO -- : [91e4a8da-84d9-4115-8e92-b814fed17128]   Rendering pages/index.html.erb
+I, [2018-01-11T14:35:15.192909 #11699]  INFO -- : [91e4a8da-84d9-4115-8e92-b814fed17128]   Rendered partials/_header.html.erb (1.4ms)
+D, [2018-01-11T14:35:15.210612 #11699] DEBUG -- : [91e4a8da-84d9-4115-8e92-b814fed17128]   [1m[35m (0.9ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T14:35:15.214005 #11699] DEBUG -- : [91e4a8da-84d9-4115-8e92-b814fed17128]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T14:35:15.276244 #11699]  INFO -- : [91e4a8da-84d9-4115-8e92-b814fed17128]   Rendered partials/_footer.html.erb (1.7ms)
+I, [2018-01-11T14:35:15.276473 #11699]  INFO -- : [91e4a8da-84d9-4115-8e92-b814fed17128]   Rendered pages/index.html.erb (92.2ms)
+I, [2018-01-11T14:35:15.277549 #11699]  INFO -- : [91e4a8da-84d9-4115-8e92-b814fed17128] Completed 200 OK in 121ms (Views: 99.2ms | ActiveRecord: 5.4ms)
+I, [2018-01-11T14:36:43.357673 #11785]  INFO -- : [0bf7c803-6bff-494b-8159-39481a9a0f43] Started GET "/" for 128.186.31.84 at 2018-01-11 14:36:43 -0500
+I, [2018-01-11T14:36:43.402095 #11785]  INFO -- : [0bf7c803-6bff-494b-8159-39481a9a0f43] Processing by PagesController#index as HTML
+I, [2018-01-11T14:36:43.428863 #11785]  INFO -- : [0bf7c803-6bff-494b-8159-39481a9a0f43]   Rendering pages/index.html.erb
+I, [2018-01-11T14:36:43.436859 #11785]  INFO -- : [0bf7c803-6bff-494b-8159-39481a9a0f43]   Rendered partials/_header.html.erb (1.3ms)
+D, [2018-01-11T14:36:43.454024 #11785] DEBUG -- : [0bf7c803-6bff-494b-8159-39481a9a0f43]   [1m[35m (1.1ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T14:36:43.457421 #11785] DEBUG -- : [0bf7c803-6bff-494b-8159-39481a9a0f43]   [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T14:36:43.517796 #11785]  INFO -- : [0bf7c803-6bff-494b-8159-39481a9a0f43]   Rendered partials/_footer.html.erb (0.8ms)
+I, [2018-01-11T14:36:43.518023 #11785]  INFO -- : [0bf7c803-6bff-494b-8159-39481a9a0f43]   Rendered pages/index.html.erb (88.9ms)
+I, [2018-01-11T14:36:43.519065 #11785]  INFO -- : [0bf7c803-6bff-494b-8159-39481a9a0f43] Completed 200 OK in 117ms (Views: 94.8ms | ActiveRecord: 5.5ms)
+I, [2018-01-11T14:38:02.242631 #11871]  INFO -- : [7523fec9-de74-47ef-9642-9417e6919967] Started GET "/" for 128.186.31.84 at 2018-01-11 14:38:02 -0500
+I, [2018-01-11T14:38:02.286770 #11871]  INFO -- : [7523fec9-de74-47ef-9642-9417e6919967] Processing by PagesController#index as HTML
+I, [2018-01-11T14:38:02.314665 #11871]  INFO -- : [7523fec9-de74-47ef-9642-9417e6919967]   Rendering pages/index.html.erb
+I, [2018-01-11T14:38:02.322790 #11871]  INFO -- : [7523fec9-de74-47ef-9642-9417e6919967]   Rendered partials/_header.html.erb (1.3ms)
+D, [2018-01-11T14:38:02.340193 #11871] DEBUG -- : [7523fec9-de74-47ef-9642-9417e6919967]   [1m[35m (1.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T14:38:02.348134 #11871] DEBUG -- : [7523fec9-de74-47ef-9642-9417e6919967]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T14:38:02.409859 #11871]  INFO -- : [7523fec9-de74-47ef-9642-9417e6919967]   Rendered partials/_footer.html.erb (0.9ms)
+I, [2018-01-11T14:38:02.410100 #11871]  INFO -- : [7523fec9-de74-47ef-9642-9417e6919967]   Rendered pages/index.html.erb (95.2ms)
+I, [2018-01-11T14:38:02.411196 #11871]  INFO -- : [7523fec9-de74-47ef-9642-9417e6919967] Completed 200 OK in 124ms (Views: 102.2ms | ActiveRecord: 5.5ms)
+I, [2018-01-11T14:38:23.497692 #11871]  INFO -- : [b2bf6765-96de-4daf-8ae8-e753340fc843] Started GET "/" for 128.186.31.84 at 2018-01-11 14:38:23 -0500
+I, [2018-01-11T14:38:23.499841 #11871]  INFO -- : [b2bf6765-96de-4daf-8ae8-e753340fc843] Processing by PagesController#index as HTML
+I, [2018-01-11T14:38:23.501581 #11871]  INFO -- : [b2bf6765-96de-4daf-8ae8-e753340fc843]   Rendering pages/index.html.erb
+I, [2018-01-11T14:38:23.502210 #11871]  INFO -- : [b2bf6765-96de-4daf-8ae8-e753340fc843]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T14:38:23.504893 #11871] DEBUG -- : [b2bf6765-96de-4daf-8ae8-e753340fc843]   [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T14:38:23.512184 #11871]  INFO -- : [b2bf6765-96de-4daf-8ae8-e753340fc843]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T14:38:23.513095 #11871]  INFO -- : [b2bf6765-96de-4daf-8ae8-e753340fc843]   Rendered pages/index.html.erb (11.3ms)
+I, [2018-01-11T14:38:23.513613 #11871]  INFO -- : [b2bf6765-96de-4daf-8ae8-e753340fc843] Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 1.1ms)
+I, [2018-01-11T14:45:43.068172 #11871]  INFO -- : [e2bfc35e-b5f7-480d-8aa4-dd587f309ed0] Started GET "/" for 69.28.68.86 at 2018-01-11 14:45:43 -0500
+I, [2018-01-11T14:45:43.070352 #11871]  INFO -- : [e2bfc35e-b5f7-480d-8aa4-dd587f309ed0] Processing by PagesController#index as HTML
+I, [2018-01-11T14:45:43.071929 #11871]  INFO -- : [e2bfc35e-b5f7-480d-8aa4-dd587f309ed0]   Rendering pages/index.html.erb
+I, [2018-01-11T14:45:43.072593 #11871]  INFO -- : [e2bfc35e-b5f7-480d-8aa4-dd587f309ed0]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T14:45:43.075031 #11871] DEBUG -- : [e2bfc35e-b5f7-480d-8aa4-dd587f309ed0]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T14:45:43.082536 #11871]  INFO -- : [e2bfc35e-b5f7-480d-8aa4-dd587f309ed0]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T14:45:43.082740 #11871]  INFO -- : [e2bfc35e-b5f7-480d-8aa4-dd587f309ed0]   Rendered pages/index.html.erb (10.6ms)
+I, [2018-01-11T14:45:43.083185 #11871]  INFO -- : [e2bfc35e-b5f7-480d-8aa4-dd587f309ed0] Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 1.0ms)
+I, [2018-01-11T14:46:34.092974 #11871]  INFO -- : [55ff832b-ce39-4e2b-bb71-324a55aa0158] Started GET "/" for 69.28.68.86 at 2018-01-11 14:46:34 -0500
+I, [2018-01-11T14:46:34.094834 #11871]  INFO -- : [55ff832b-ce39-4e2b-bb71-324a55aa0158] Processing by PagesController#index as HTML
+I, [2018-01-11T14:46:34.096110 #11871]  INFO -- : [55ff832b-ce39-4e2b-bb71-324a55aa0158]   Rendering pages/index.html.erb
+I, [2018-01-11T14:46:34.096699 #11871]  INFO -- : [55ff832b-ce39-4e2b-bb71-324a55aa0158]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T14:46:34.099635 #11871] DEBUG -- : [55ff832b-ce39-4e2b-bb71-324a55aa0158]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T14:46:34.106242 #11871]  INFO -- : [55ff832b-ce39-4e2b-bb71-324a55aa0158]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T14:46:34.106519 #11871]  INFO -- : [55ff832b-ce39-4e2b-bb71-324a55aa0158]   Rendered pages/index.html.erb (10.2ms)
+I, [2018-01-11T14:46:34.106967 #11871]  INFO -- : [55ff832b-ce39-4e2b-bb71-324a55aa0158] Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T14:47:24.688394 #11871]  INFO -- : [6bf008c6-1501-4a73-927d-97545207b8cb] Started GET "/" for 72.165.227.123 at 2018-01-11 14:47:24 -0500
+I, [2018-01-11T14:47:24.690637 #11871]  INFO -- : [6bf008c6-1501-4a73-927d-97545207b8cb] Processing by PagesController#index as HTML
+I, [2018-01-11T14:47:24.692963 #11871]  INFO -- : [6bf008c6-1501-4a73-927d-97545207b8cb]   Rendering pages/index.html.erb
+I, [2018-01-11T14:47:24.693567 #11871]  INFO -- : [6bf008c6-1501-4a73-927d-97545207b8cb]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T14:47:24.695882 #11871] DEBUG -- : [6bf008c6-1501-4a73-927d-97545207b8cb]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T14:47:24.702721 #11871]  INFO -- : [6bf008c6-1501-4a73-927d-97545207b8cb]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T14:47:24.702923 #11871]  INFO -- : [6bf008c6-1501-4a73-927d-97545207b8cb]   Rendered pages/index.html.erb (9.8ms)
+I, [2018-01-11T14:47:24.703357 #11871]  INFO -- : [6bf008c6-1501-4a73-927d-97545207b8cb] Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T14:50:17.548875 #11871]  INFO -- : [63975970-9de9-4fe8-8d75-c09f291246e9] Started GET "/" for 72.165.227.123 at 2018-01-11 14:50:17 -0500
+I, [2018-01-11T14:50:17.550798 #11871]  INFO -- : [63975970-9de9-4fe8-8d75-c09f291246e9] Processing by PagesController#index as HTML
+I, [2018-01-11T14:50:17.552883 #11871]  INFO -- : [63975970-9de9-4fe8-8d75-c09f291246e9]   Rendering pages/index.html.erb
+I, [2018-01-11T14:50:17.553454 #11871]  INFO -- : [63975970-9de9-4fe8-8d75-c09f291246e9]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T14:50:17.555790 #11871] DEBUG -- : [63975970-9de9-4fe8-8d75-c09f291246e9]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T14:50:17.562649 #11871]  INFO -- : [63975970-9de9-4fe8-8d75-c09f291246e9]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T14:50:17.562858 #11871]  INFO -- : [63975970-9de9-4fe8-8d75-c09f291246e9]   Rendered pages/index.html.erb (9.8ms)
+I, [2018-01-11T14:50:17.563319 #11871]  INFO -- : [63975970-9de9-4fe8-8d75-c09f291246e9] Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T15:02:42.701094 #12567]  INFO -- : [c7914b57-38e2-4c80-88a5-4337eec45e77] Started GET "/" for 128.186.31.84 at 2018-01-11 15:02:42 -0500
+I, [2018-01-11T15:02:42.745106 #12567]  INFO -- : [c7914b57-38e2-4c80-88a5-4337eec45e77] Processing by PagesController#index as HTML
+I, [2018-01-11T15:02:42.773975 #12567]  INFO -- : [c7914b57-38e2-4c80-88a5-4337eec45e77]   Rendering pages/index.html.erb
+I, [2018-01-11T15:02:42.782753 #12567]  INFO -- : [c7914b57-38e2-4c80-88a5-4337eec45e77]   Rendered partials/_header.html.erb (1.4ms)
+D, [2018-01-11T15:02:42.802116 #12567] DEBUG -- : [c7914b57-38e2-4c80-88a5-4337eec45e77]   [1m[35m (0.9ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T15:02:42.805238 #12567] DEBUG -- : [c7914b57-38e2-4c80-88a5-4337eec45e77]   [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T15:02:42.809470 #12568]  INFO -- : [6fbe9b98-a721-411f-8bbe-b6c0d7d82188] Started GET "/" for 128.186.31.84 at 2018-01-11 15:02:42 -0500
+I, [2018-01-11T15:02:42.853925 #12568]  INFO -- : [6fbe9b98-a721-411f-8bbe-b6c0d7d82188] Processing by PagesController#index as HTML
+I, [2018-01-11T15:02:42.864761 #12567]  INFO -- : [c7914b57-38e2-4c80-88a5-4337eec45e77]   Rendered partials/_footer.html.erb (0.9ms)
+I, [2018-01-11T15:02:42.865015 #12567]  INFO -- : [c7914b57-38e2-4c80-88a5-4337eec45e77]   Rendered pages/index.html.erb (90.7ms)
+I, [2018-01-11T15:02:42.866114 #12567]  INFO -- : [c7914b57-38e2-4c80-88a5-4337eec45e77] Completed 200 OK in 121ms (Views: 98.2ms | ActiveRecord: 4.4ms)
+I, [2018-01-11T15:02:42.882940 #12568]  INFO -- : [6fbe9b98-a721-411f-8bbe-b6c0d7d82188]   Rendering pages/index.html.erb
+I, [2018-01-11T15:02:42.890871 #12568]  INFO -- : [6fbe9b98-a721-411f-8bbe-b6c0d7d82188]   Rendered partials/_header.html.erb (1.4ms)
+D, [2018-01-11T15:02:42.909638 #12568] DEBUG -- : [6fbe9b98-a721-411f-8bbe-b6c0d7d82188]   [1m[35m (0.9ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T15:02:42.912886 #12568] DEBUG -- : [6fbe9b98-a721-411f-8bbe-b6c0d7d82188]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T15:02:42.972722 #12568]  INFO -- : [6fbe9b98-a721-411f-8bbe-b6c0d7d82188]   Rendered partials/_footer.html.erb (0.8ms)
+I, [2018-01-11T15:02:42.972953 #12568]  INFO -- : [6fbe9b98-a721-411f-8bbe-b6c0d7d82188]   Rendered pages/index.html.erb (89.8ms)
+I, [2018-01-11T15:02:42.973989 #12568]  INFO -- : [6fbe9b98-a721-411f-8bbe-b6c0d7d82188] Completed 200 OK in 120ms (Views: 95.6ms | ActiveRecord: 4.9ms)
+I, [2018-01-11T15:08:02.287591 #12568]  INFO -- : [581972b6-fc1f-480e-9df4-98e8379a7455] Started GET "/" for 82.102.16.82 at 2018-01-11 15:08:02 -0500
+I, [2018-01-11T15:08:02.290069 #12568]  INFO -- : [581972b6-fc1f-480e-9df4-98e8379a7455] Processing by PagesController#index as HTML
+I, [2018-01-11T15:08:02.291981 #12568]  INFO -- : [581972b6-fc1f-480e-9df4-98e8379a7455]   Rendering pages/index.html.erb
+I, [2018-01-11T15:08:02.292644 #12568]  INFO -- : [581972b6-fc1f-480e-9df4-98e8379a7455]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T15:08:02.295901 #12568] DEBUG -- : [581972b6-fc1f-480e-9df4-98e8379a7455]   [1m[36mArticle Load (1.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T15:08:02.303255 #12568]  INFO -- : [581972b6-fc1f-480e-9df4-98e8379a7455]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T15:08:02.303494 #12568]  INFO -- : [581972b6-fc1f-480e-9df4-98e8379a7455]   Rendered pages/index.html.erb (11.3ms)
+I, [2018-01-11T15:08:02.303966 #12568]  INFO -- : [581972b6-fc1f-480e-9df4-98e8379a7455] Completed 200 OK in 14ms (Views: 10.8ms | ActiveRecord: 1.7ms)
+I, [2018-01-11T15:10:00.075213 #12568]  INFO -- : [e6ff4f2d-d856-4238-891a-caa7d14820ee] Started GET "/" for 72.165.227.123 at 2018-01-11 15:10:00 -0500
+I, [2018-01-11T15:10:00.076965 #12568]  INFO -- : [e6ff4f2d-d856-4238-891a-caa7d14820ee] Processing by PagesController#index as HTML
+I, [2018-01-11T15:10:00.078938 #12568]  INFO -- : [e6ff4f2d-d856-4238-891a-caa7d14820ee]   Rendering pages/index.html.erb
+I, [2018-01-11T15:10:00.079523 #12568]  INFO -- : [e6ff4f2d-d856-4238-891a-caa7d14820ee]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T15:10:00.081589 #12568] DEBUG -- : [e6ff4f2d-d856-4238-891a-caa7d14820ee]   [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T15:10:00.088203 #12568]  INFO -- : [e6ff4f2d-d856-4238-891a-caa7d14820ee]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T15:10:00.088450 #12568]  INFO -- : [e6ff4f2d-d856-4238-891a-caa7d14820ee]   Rendered pages/index.html.erb (9.3ms)
+I, [2018-01-11T15:10:00.088874 #12568]  INFO -- : [e6ff4f2d-d856-4238-891a-caa7d14820ee] Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.8ms)
+I, [2018-01-11T15:25:45.254836 #12568]  INFO -- : [388b7c50-e322-4fd4-8d07-cc25c98e1607] Started GET "/" for 144.174.210.69 at 2018-01-11 15:25:45 -0500
+I, [2018-01-11T15:25:45.257055 #12568]  INFO -- : [388b7c50-e322-4fd4-8d07-cc25c98e1607] Processing by PagesController#index as HTML
+I, [2018-01-11T15:25:45.258755 #12568]  INFO -- : [388b7c50-e322-4fd4-8d07-cc25c98e1607]   Rendering pages/index.html.erb
+I, [2018-01-11T15:25:45.259446 #12568]  INFO -- : [388b7c50-e322-4fd4-8d07-cc25c98e1607]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T15:25:45.262063 #12568] DEBUG -- : [388b7c50-e322-4fd4-8d07-cc25c98e1607]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T15:25:45.268649 #12568]  INFO -- : [388b7c50-e322-4fd4-8d07-cc25c98e1607]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T15:25:45.268835 #12568]  INFO -- : [388b7c50-e322-4fd4-8d07-cc25c98e1607]   Rendered pages/index.html.erb (9.9ms)
+I, [2018-01-11T15:25:45.269327 #12568]  INFO -- : [388b7c50-e322-4fd4-8d07-cc25c98e1607] Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 1.0ms)
+I, [2018-01-11T15:25:52.976099 #12568]  INFO -- : [a35b893c-13d4-47c6-957e-c6cd1be905fa] Started GET "/about" for 144.174.210.69 at 2018-01-11 15:25:52 -0500
+I, [2018-01-11T15:25:52.978194 #12568]  INFO -- : [a35b893c-13d4-47c6-957e-c6cd1be905fa] Processing by PagesController#about as HTML
+I, [2018-01-11T15:25:52.982963 #12568]  INFO -- : [a35b893c-13d4-47c6-957e-c6cd1be905fa]   Rendering pages/about.html.erb within layouts/application.html.erb
+I, [2018-01-11T15:25:52.987520 #12568]  INFO -- : [a35b893c-13d4-47c6-957e-c6cd1be905fa]   Rendered pages/about.html.erb within layouts/application.html.erb (4.3ms)
+I, [2018-01-11T15:25:52.991342 #12568]  INFO -- : [a35b893c-13d4-47c6-957e-c6cd1be905fa]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T15:25:52.991863 #12568]  INFO -- : [a35b893c-13d4-47c6-957e-c6cd1be905fa]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T15:25:52.992364 #12568]  INFO -- : [a35b893c-13d4-47c6-957e-c6cd1be905fa] Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T15:25:59.195738 #12568]  INFO -- : [e853bf86-b204-421e-b998-0e3fae3c49d3] Started GET "/" for 144.174.210.69 at 2018-01-11 15:25:59 -0500
+I, [2018-01-11T15:25:59.197586 #12568]  INFO -- : [e853bf86-b204-421e-b998-0e3fae3c49d3] Processing by PagesController#index as HTML
+I, [2018-01-11T15:25:59.199706 #12568]  INFO -- : [e853bf86-b204-421e-b998-0e3fae3c49d3]   Rendering pages/index.html.erb
+I, [2018-01-11T15:25:59.200285 #12568]  INFO -- : [e853bf86-b204-421e-b998-0e3fae3c49d3]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T15:25:59.202465 #12568] DEBUG -- : [e853bf86-b204-421e-b998-0e3fae3c49d3]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T15:25:59.209324 #12568]  INFO -- : [e853bf86-b204-421e-b998-0e3fae3c49d3]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T15:25:59.209536 #12568]  INFO -- : [e853bf86-b204-421e-b998-0e3fae3c49d3]   Rendered pages/index.html.erb (9.6ms)
+I, [2018-01-11T15:25:59.209986 #12568]  INFO -- : [e853bf86-b204-421e-b998-0e3fae3c49d3] Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T15:25:59.277011 #12568]  INFO -- : [da2525d6-fb01-4473-b5a9-2be67b7ceea7] Started GET "/" for 144.174.210.69 at 2018-01-11 15:25:59 -0500
+I, [2018-01-11T15:25:59.278406 #12568]  INFO -- : [da2525d6-fb01-4473-b5a9-2be67b7ceea7] Processing by PagesController#index as HTML
+I, [2018-01-11T15:25:59.279701 #12568]  INFO -- : [da2525d6-fb01-4473-b5a9-2be67b7ceea7]   Rendering pages/index.html.erb
+I, [2018-01-11T15:25:59.280153 #12568]  INFO -- : [da2525d6-fb01-4473-b5a9-2be67b7ceea7]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T15:25:59.281902 #12568] DEBUG -- : [da2525d6-fb01-4473-b5a9-2be67b7ceea7]   [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T15:25:59.288546 #12568]  INFO -- : [da2525d6-fb01-4473-b5a9-2be67b7ceea7]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T15:25:59.288738 #12568]  INFO -- : [da2525d6-fb01-4473-b5a9-2be67b7ceea7]   Rendered pages/index.html.erb (8.9ms)
+I, [2018-01-11T15:25:59.289124 #12568]  INFO -- : [da2525d6-fb01-4473-b5a9-2be67b7ceea7] Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.7ms)
+I, [2018-01-11T15:36:54.433921 #13430]  INFO -- : [ac3fd932-dde9-49fe-a4c3-07ef2845acfb] Started GET "/" for 72.165.227.123 at 2018-01-11 15:36:54 -0500
+I, [2018-01-11T15:36:54.479572 #13430]  INFO -- : [ac3fd932-dde9-49fe-a4c3-07ef2845acfb] Processing by PagesController#index as HTML
+I, [2018-01-11T15:36:54.506171 #13430]  INFO -- : [ac3fd932-dde9-49fe-a4c3-07ef2845acfb]   Rendering pages/index.html.erb
+I, [2018-01-11T15:36:54.513995 #13430]  INFO -- : [ac3fd932-dde9-49fe-a4c3-07ef2845acfb]   Rendered partials/_header.html.erb (1.3ms)
+D, [2018-01-11T15:36:54.532917 #13430] DEBUG -- : [ac3fd932-dde9-49fe-a4c3-07ef2845acfb]   [1m[35m (1.1ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T15:36:54.536275 #13430] DEBUG -- : [ac3fd932-dde9-49fe-a4c3-07ef2845acfb]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T15:36:54.596750 #13430]  INFO -- : [ac3fd932-dde9-49fe-a4c3-07ef2845acfb]   Rendered partials/_footer.html.erb (0.8ms)
+I, [2018-01-11T15:36:54.596981 #13430]  INFO -- : [ac3fd932-dde9-49fe-a4c3-07ef2845acfb]   Rendered pages/index.html.erb (90.5ms)
+I, [2018-01-11T15:36:54.598029 #13430]  INFO -- : [ac3fd932-dde9-49fe-a4c3-07ef2845acfb] Completed 200 OK in 118ms (Views: 96.5ms | ActiveRecord: 5.4ms)
+I, [2018-01-11T15:55:35.522340 #13596]  INFO -- : [8cd9f53a-b076-48d0-aa67-d620f1d53634] Started GET "/" for 72.165.227.123 at 2018-01-11 15:55:35 -0500
+I, [2018-01-11T15:55:35.559549 #13596]  INFO -- : [8cd9f53a-b076-48d0-aa67-d620f1d53634] Processing by PagesController#index as HTML
+I, [2018-01-11T15:55:35.583875 #13596]  INFO -- : [8cd9f53a-b076-48d0-aa67-d620f1d53634]   Rendering pages/index.html.erb
+I, [2018-01-11T15:55:35.591216 #13596]  INFO -- : [8cd9f53a-b076-48d0-aa67-d620f1d53634]   Rendered partials/_header.html.erb (1.2ms)
+D, [2018-01-11T15:55:35.606745 #13596] DEBUG -- : [8cd9f53a-b076-48d0-aa67-d620f1d53634]   [1m[35m (0.9ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T15:55:35.609801 #13596] DEBUG -- : [8cd9f53a-b076-48d0-aa67-d620f1d53634]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T15:55:35.661658 #13596]  INFO -- : [8cd9f53a-b076-48d0-aa67-d620f1d53634]   Rendered partials/_footer.html.erb (0.7ms)
+I, [2018-01-11T15:55:35.661860 #13596]  INFO -- : [8cd9f53a-b076-48d0-aa67-d620f1d53634]   Rendered pages/index.html.erb (77.8ms)
+I, [2018-01-11T15:55:35.662776 #13596]  INFO -- : [8cd9f53a-b076-48d0-aa67-d620f1d53634] Completed 200 OK in 103ms (Views: 83.3ms | ActiveRecord: 5.1ms)
+I, [2018-01-11T16:00:08.562439 #13596]  INFO -- : [d1247710-ffc1-4f01-8900-e4c97fb57e9f] Started GET "/" for 58.218.200.91 at 2018-01-11 16:00:08 -0500
+I, [2018-01-11T16:00:08.582448 #13596]  INFO -- : [d1247710-ffc1-4f01-8900-e4c97fb57e9f] Processing by PagesController#index as */*
+I, [2018-01-11T16:00:08.597457 #13596]  INFO -- : [d1247710-ffc1-4f01-8900-e4c97fb57e9f]   Rendering pages/index.html.erb
+I, [2018-01-11T16:00:08.616076 #13596]  INFO -- : [d1247710-ffc1-4f01-8900-e4c97fb57e9f]   Rendered partials/_header.html.erb (1.2ms)
+D, [2018-01-11T16:00:08.618631 #13596] DEBUG -- : [d1247710-ffc1-4f01-8900-e4c97fb57e9f]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T16:00:08.639854 #13596]  INFO -- : [d1247710-ffc1-4f01-8900-e4c97fb57e9f]   Rendered partials/_footer.html.erb (0.9ms)
+I, [2018-01-11T16:00:08.640067 #13596]  INFO -- : [d1247710-ffc1-4f01-8900-e4c97fb57e9f]   Rendered pages/index.html.erb (42.4ms)
+I, [2018-01-11T16:00:08.640622 #13596]  INFO -- : [d1247710-ffc1-4f01-8900-e4c97fb57e9f] Completed 200 OK in 58ms (Views: 55.8ms | ActiveRecord: 1.0ms)
+I, [2018-01-11T16:02:29.626397 #13596]  INFO -- : [5f8989d7-fd4d-46bb-8554-fe5c9ce1040c] Started GET "/" for 144.174.210.69 at 2018-01-11 16:02:29 -0500
+I, [2018-01-11T16:02:29.628364 #13596]  INFO -- : [5f8989d7-fd4d-46bb-8554-fe5c9ce1040c] Processing by PagesController#index as HTML
+I, [2018-01-11T16:02:29.630707 #13596]  INFO -- : [5f8989d7-fd4d-46bb-8554-fe5c9ce1040c]   Rendering pages/index.html.erb
+I, [2018-01-11T16:02:29.631312 #13596]  INFO -- : [5f8989d7-fd4d-46bb-8554-fe5c9ce1040c]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T16:02:29.633589 #13596] DEBUG -- : [5f8989d7-fd4d-46bb-8554-fe5c9ce1040c]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T16:02:29.640209 #13596]  INFO -- : [5f8989d7-fd4d-46bb-8554-fe5c9ce1040c]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T16:02:29.640425 #13596]  INFO -- : [5f8989d7-fd4d-46bb-8554-fe5c9ce1040c]   Rendered pages/index.html.erb (9.5ms)
+I, [2018-01-11T16:02:29.640831 #13596]  INFO -- : [5f8989d7-fd4d-46bb-8554-fe5c9ce1040c] Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T16:06:11.177286 #13893]  INFO -- : [d2f31df7-12ec-4265-b48d-feb9442c015b] Started GET "/" for 144.174.210.69 at 2018-01-11 16:06:11 -0500
+I, [2018-01-11T16:06:11.221056 #13893]  INFO -- : [d2f31df7-12ec-4265-b48d-feb9442c015b] Processing by PagesController#index as HTML
+I, [2018-01-11T16:06:11.249982 #13893]  INFO -- : [d2f31df7-12ec-4265-b48d-feb9442c015b]   Rendering pages/index.html.erb
+I, [2018-01-11T16:06:11.258240 #13893]  INFO -- : [d2f31df7-12ec-4265-b48d-feb9442c015b]   Rendered partials/_header.html.erb (1.3ms)
+D, [2018-01-11T16:06:11.276165 #13893] DEBUG -- : [d2f31df7-12ec-4265-b48d-feb9442c015b]   [1m[35m (1.1ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-11T16:06:11.279541 #13893] DEBUG -- : [d2f31df7-12ec-4265-b48d-feb9442c015b]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T16:06:11.339905 #13893]  INFO -- : [d2f31df7-12ec-4265-b48d-feb9442c015b]   Rendered partials/_footer.html.erb (0.8ms)
+I, [2018-01-11T16:06:11.340206 #13893]  INFO -- : [d2f31df7-12ec-4265-b48d-feb9442c015b]   Rendered pages/index.html.erb (89.9ms)
+I, [2018-01-11T16:06:11.341231 #13893]  INFO -- : [d2f31df7-12ec-4265-b48d-feb9442c015b] Completed 200 OK in 120ms (Views: 96.4ms | ActiveRecord: 5.7ms)
+I, [2018-01-11T16:06:50.854613 #13893]  INFO -- : [2e7b958c-e9e3-4e55-a181-c569a1e0e68c] Started GET "/admin" for 144.174.210.69 at 2018-01-11 16:06:50 -0500
+I, [2018-01-11T16:06:50.857531 #13893]  INFO -- : [2e7b958c-e9e3-4e55-a181-c569a1e0e68c] Processing by Admin::DashboardController#index as HTML
+I, [2018-01-11T16:06:50.863623 #13893]  INFO -- : [2e7b958c-e9e3-4e55-a181-c569a1e0e68c] Completed 401 Unauthorized in 6ms (ActiveRecord: 0.0ms)
+I, [2018-01-11T16:06:50.897107 #13893]  INFO -- : [732c8855-a997-4ec5-b7a1-0c786eeab4ae] Started GET "/admin/login" for 144.174.210.69 at 2018-01-11 16:06:50 -0500
+I, [2018-01-11T16:06:50.899342 #13893]  INFO -- : [732c8855-a997-4ec5-b7a1-0c786eeab4ae] Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+I, [2018-01-11T16:06:50.960278 #13893]  INFO -- : [732c8855-a997-4ec5-b7a1-0c786eeab4ae]   Rendering /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+I, [2018-01-11T16:06:51.029345 #13893]  INFO -- : [732c8855-a997-4ec5-b7a1-0c786eeab4ae]   Rendered /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/devise/shared/_links.erb (2.0ms)
+I, [2018-01-11T16:06:51.029466 #13893]  INFO -- : [732c8855-a997-4ec5-b7a1-0c786eeab4ae]   Rendered /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (69.1ms)
+I, [2018-01-11T16:06:51.032413 #13893]  INFO -- : [732c8855-a997-4ec5-b7a1-0c786eeab4ae] Completed 200 OK in 133ms (Views: 97.4ms | ActiveRecord: 1.6ms)
+I, [2018-01-11T16:06:59.487607 #13893]  INFO -- : [0c0f7165-c7f0-4978-b347-42699c5ea5b8] Started POST "/admin/login" for 144.174.210.69 at 2018-01-11 16:06:59 -0500
+I, [2018-01-11T16:06:59.489844 #13893]  INFO -- : [0c0f7165-c7f0-4978-b347-42699c5ea5b8] Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+I, [2018-01-11T16:06:59.489978 #13893]  INFO -- : [0c0f7165-c7f0-4978-b347-42699c5ea5b8]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"U0qhTeLagZBTMWmB1SxC3coQZ3zfumXo7V5GTJWINvQZeyqDBEr3U9FgwlWTIEunP2so6cKWBA1KYNKVmNA89g==", "admin_user"=>{"email"=>"admin@csilongwood.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+D, [2018-01-11T16:06:59.503876 #13893] DEBUG -- : [0c0f7165-c7f0-4978-b347-42699c5ea5b8]   [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT  `admin_users`.* FROM `admin_users` WHERE `admin_users`.`email` = 'admin@csilongwood.com' ORDER BY `admin_users`.`id` ASC LIMIT 1[0m
+I, [2018-01-11T16:06:59.868232 #13893]  INFO -- : [0c0f7165-c7f0-4978-b347-42699c5ea5b8] Completed 401 Unauthorized in 378ms (ActiveRecord: 0.8ms)
+I, [2018-01-11T16:06:59.870751 #13893]  INFO -- : [0c0f7165-c7f0-4978-b347-42699c5ea5b8] Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+I, [2018-01-11T16:06:59.870914 #13893]  INFO -- : [0c0f7165-c7f0-4978-b347-42699c5ea5b8]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"U0qhTeLagZBTMWmB1SxC3coQZ3zfumXo7V5GTJWINvQZeyqDBEr3U9FgwlWTIEunP2so6cKWBA1KYNKVmNA89g==", "admin_user"=>{"email"=>"admin@csilongwood.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+I, [2018-01-11T16:07:00.168288 #13893]  INFO -- : [0c0f7165-c7f0-4978-b347-42699c5ea5b8]   Rendering /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+I, [2018-01-11T16:07:00.180466 #13893]  INFO -- : [0c0f7165-c7f0-4978-b347-42699c5ea5b8]   Rendered /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/devise/shared/_links.erb (0.5ms)
+I, [2018-01-11T16:07:00.180613 #13893]  INFO -- : [0c0f7165-c7f0-4978-b347-42699c5ea5b8]   Rendered /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (12.2ms)
+I, [2018-01-11T16:07:00.181978 #13893]  INFO -- : [0c0f7165-c7f0-4978-b347-42699c5ea5b8] Completed 200 OK in 311ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T16:07:03.558748 #13893]  INFO -- : [144434ed-2be3-4001-bec8-0d19ebdfbe0e] Started POST "/admin/login" for 144.174.210.69 at 2018-01-11 16:07:03 -0500
+I, [2018-01-11T16:07:03.561220 #13893]  INFO -- : [144434ed-2be3-4001-bec8-0d19ebdfbe0e] Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+I, [2018-01-11T16:07:03.561394 #13893]  INFO -- : [144434ed-2be3-4001-bec8-0d19ebdfbe0e]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"2WMklzN2X83on4/BXa5NcgC6IUrVPU2uyH3P0GlEcBWTUq9Z1eYpDmrOJBUbokQI9cFu38gRLEtvQ1sJZBx6Fw==", "admin_user"=>{"email"=>"admin@csilongwood.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+D, [2018-01-11T16:07:03.566883 #13893] DEBUG -- : [144434ed-2be3-4001-bec8-0d19ebdfbe0e]   [1m[36mAdminUser Load (1.0ms)[0m  [1m[34mSELECT  `admin_users`.* FROM `admin_users` WHERE `admin_users`.`email` = 'admin@csilongwood.com' ORDER BY `admin_users`.`id` ASC LIMIT 1[0m
+D, [2018-01-11T16:07:03.920572 #13893] DEBUG -- : [144434ed-2be3-4001-bec8-0d19ebdfbe0e]   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2018-01-11T16:07:03.928765 #13893] DEBUG -- : [144434ed-2be3-4001-bec8-0d19ebdfbe0e]   [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE `admin_users` SET `current_sign_in_at` = '2018-01-11 21:07:03', `current_sign_in_ip` = '144.174.210.69', `sign_in_count` = 2, `updated_at` = '2018-01-11 21:07:03' WHERE `admin_users`.`id` = 1[0m
+D, [2018-01-11T16:07:03.932848 #13893] DEBUG -- : [144434ed-2be3-4001-bec8-0d19ebdfbe0e]   [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+I, [2018-01-11T16:07:03.977319 #13893]  INFO -- : [144434ed-2be3-4001-bec8-0d19ebdfbe0e] Redirected to http://cbslongwood.com/admin
+I, [2018-01-11T16:07:03.977765 #13893]  INFO -- : [144434ed-2be3-4001-bec8-0d19ebdfbe0e] Completed 302 Found in 416ms (ActiveRecord: 4.8ms)
+I, [2018-01-11T16:07:04.011500 #13893]  INFO -- : [f5c63362-4c6c-430c-b939-fbc7eb9acf5b] Started GET "/admin" for 144.174.210.69 at 2018-01-11 16:07:04 -0500
+I, [2018-01-11T16:07:04.013155 #13893]  INFO -- : [f5c63362-4c6c-430c-b939-fbc7eb9acf5b] Processing by Admin::DashboardController#index as HTML
+D, [2018-01-11T16:07:04.016639 #13893] DEBUG -- : [f5c63362-4c6c-430c-b939-fbc7eb9acf5b]   [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT  `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 ORDER BY `admin_users`.`id` ASC LIMIT 1[0m
+I, [2018-01-11T16:07:04.047012 #13893]  INFO -- : [f5c63362-4c6c-430c-b939-fbc7eb9acf5b]   Rendering /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/page/index.html.arb
+D, [2018-01-11T16:07:04.130962 #13893] DEBUG -- : [f5c63362-4c6c-430c-b939-fbc7eb9acf5b]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+D, [2018-01-11T16:07:04.159176 #13893] DEBUG -- : [f5c63362-4c6c-430c-b939-fbc7eb9acf5b]   [1m[36mTag Load (0.7ms)[0m  [1m[34mSELECT `tags`.* FROM `tags` WHERE `tags`.`article_id` = 5[0m
+D, [2018-01-11T16:07:04.180405 #13893] DEBUG -- : [f5c63362-4c6c-430c-b939-fbc7eb9acf5b]   [1m[36mTag Load (0.8ms)[0m  [1m[34mSELECT `tags`.* FROM `tags` WHERE `tags`.`article_id` = 6[0m
+D, [2018-01-11T16:07:04.183392 #13893] DEBUG -- : [f5c63362-4c6c-430c-b939-fbc7eb9acf5b]   [1m[36mTag Load (0.7ms)[0m  [1m[34mSELECT `tags`.* FROM `tags` WHERE `tags`.`article_id` = 7[0m
+D, [2018-01-11T16:07:04.186410 #13893] DEBUG -- : [f5c63362-4c6c-430c-b939-fbc7eb9acf5b]   [1m[36mTag Load (0.7ms)[0m  [1m[34mSELECT `tags`.* FROM `tags` WHERE `tags`.`article_id` = 8[0m
+D, [2018-01-11T16:07:04.189151 #13893] DEBUG -- : [f5c63362-4c6c-430c-b939-fbc7eb9acf5b]   [1m[36mTag Load (0.5ms)[0m  [1m[34mSELECT `tags`.* FROM `tags` WHERE `tags`.`article_id` = 9[0m
+D, [2018-01-11T16:07:04.192062 #13893] DEBUG -- : [f5c63362-4c6c-430c-b939-fbc7eb9acf5b]   [1m[36mTag Load (0.7ms)[0m  [1m[34mSELECT `tags`.* FROM `tags` WHERE `tags`.`article_id` = 10[0m
+D, [2018-01-11T16:07:04.194766 #13893] DEBUG -- : [f5c63362-4c6c-430c-b939-fbc7eb9acf5b]   [1m[36mTag Load (0.6ms)[0m  [1m[34mSELECT `tags`.* FROM `tags` WHERE `tags`.`article_id` = 11[0m
+D, [2018-01-11T16:07:04.197539 #13893] DEBUG -- : [f5c63362-4c6c-430c-b939-fbc7eb9acf5b]   [1m[36mTag Load (0.7ms)[0m  [1m[34mSELECT `tags`.* FROM `tags` WHERE `tags`.`article_id` = 12[0m
+D, [2018-01-11T16:07:04.205462 #13893] DEBUG -- : [f5c63362-4c6c-430c-b939-fbc7eb9acf5b]   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+D, [2018-01-11T16:07:04.215021 #13893] DEBUG -- : [f5c63362-4c6c-430c-b939-fbc7eb9acf5b]   [1m[36mWiki Load (0.6ms)[0m  [1m[34mSELECT `wikis`.* FROM `wikis`[0m
+I, [2018-01-11T16:07:04.239575 #13893]  INFO -- : [f5c63362-4c6c-430c-b939-fbc7eb9acf5b]   Rendered /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/page/index.html.arb (192.3ms)
+I, [2018-01-11T16:07:04.240203 #13893]  INFO -- : [f5c63362-4c6c-430c-b939-fbc7eb9acf5b] Completed 200 OK in 227ms (Views: 193.1ms | ActiveRecord: 15.1ms)
+I, [2018-01-11T16:07:08.344778 #13893]  INFO -- : [a25c0aa7-2230-4bba-8ae7-ce9454446601] Started GET "/admin/admin_users" for 144.174.210.69 at 2018-01-11 16:07:08 -0500
+I, [2018-01-11T16:07:08.347247 #13893]  INFO -- : [a25c0aa7-2230-4bba-8ae7-ce9454446601] Processing by Admin::AdminUsersController#index as HTML
+D, [2018-01-11T16:07:08.352681 #13893] DEBUG -- : [a25c0aa7-2230-4bba-8ae7-ce9454446601]   [1m[36mAdminUser Load (0.9ms)[0m  [1m[34mSELECT  `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 ORDER BY `admin_users`.`id` ASC LIMIT 1[0m
+I, [2018-01-11T16:07:08.370966 #13893]  INFO -- : [a25c0aa7-2230-4bba-8ae7-ce9454446601]   Rendering /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/resource/index.html.arb
+D, [2018-01-11T16:07:08.449131 #13893] DEBUG -- : [a25c0aa7-2230-4bba-8ae7-ce9454446601]   [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 FROM `admin_users` LIMIT 30 OFFSET 0) subquery_for_count[0m
+D, [2018-01-11T16:07:08.451729 #13893] DEBUG -- : [a25c0aa7-2230-4bba-8ae7-ce9454446601]   [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 FROM `admin_users` LIMIT 30 OFFSET 0) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+D, [2018-01-11T16:07:08.454951 #13893] DEBUG -- : [a25c0aa7-2230-4bba-8ae7-ce9454446601]   [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `admin_users`[0m
+D, [2018-01-11T16:07:08.465924 #13893] DEBUG -- : [a25c0aa7-2230-4bba-8ae7-ce9454446601]   [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 FROM `admin_users` LIMIT 30 OFFSET 0) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+D, [2018-01-11T16:07:08.469938 #13893] DEBUG -- : [a25c0aa7-2230-4bba-8ae7-ce9454446601]   [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT  `admin_users`.* FROM `admin_users` ORDER BY `admin_users`.`id` desc LIMIT 30 OFFSET 0[0m
+I, [2018-01-11T16:07:08.576026 #13893]  INFO -- : [a25c0aa7-2230-4bba-8ae7-ce9454446601]   Rendered /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/resource/index.html.arb (204.8ms)
+I, [2018-01-11T16:07:08.576698 #13893]  INFO -- : [a25c0aa7-2230-4bba-8ae7-ce9454446601] Completed 200 OK in 229ms (Views: 215.8ms | ActiveRecord: 2.8ms)
+I, [2018-01-11T16:07:10.436454 #13893]  INFO -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf] Started GET "/admin/articles" for 144.174.210.69 at 2018-01-11 16:07:10 -0500
+I, [2018-01-11T16:07:10.440604 #13893]  INFO -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf] Processing by Admin::ArticlesController#index as HTML
+D, [2018-01-11T16:07:10.446594 #13893] DEBUG -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf]   [1m[36mAdminUser Load (1.0ms)[0m  [1m[34mSELECT  `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 ORDER BY `admin_users`.`id` ASC LIMIT 1[0m
+I, [2018-01-11T16:07:10.455950 #13893]  INFO -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf]   Rendering /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/resource/index.html.arb
+D, [2018-01-11T16:07:10.529281 #13893] DEBUG -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf]   [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 FROM `articles` LIMIT 30 OFFSET 0) subquery_for_count[0m
+D, [2018-01-11T16:07:10.531483 #13893] DEBUG -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf]   [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 FROM `articles` LIMIT 30 OFFSET 0) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+D, [2018-01-11T16:07:10.534553 #13893] DEBUG -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf]   [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `articles`[0m
+D, [2018-01-11T16:07:10.537675 #13893] DEBUG -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf]   [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 FROM `articles` LIMIT 30 OFFSET 0) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+D, [2018-01-11T16:07:10.541668 #13893] DEBUG -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf]   [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` ORDER BY `articles`.`id` desc LIMIT 30 OFFSET 0[0m
+D, [2018-01-11T16:07:10.561956 #13893] DEBUG -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf]   [1m[36mTag Load (0.7ms)[0m  [1m[34mSELECT `tags`.* FROM `tags` WHERE `tags`.`article_id` = 12[0m
+D, [2018-01-11T16:07:10.564975 #13893] DEBUG -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf]   [1m[36mTag Load (0.7ms)[0m  [1m[34mSELECT `tags`.* FROM `tags` WHERE `tags`.`article_id` = 11[0m
+D, [2018-01-11T16:07:10.568570 #13893] DEBUG -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf]   [1m[36mTag Load (0.7ms)[0m  [1m[34mSELECT `tags`.* FROM `tags` WHERE `tags`.`article_id` = 10[0m
+D, [2018-01-11T16:07:10.571396 #13893] DEBUG -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf]   [1m[36mTag Load (0.7ms)[0m  [1m[34mSELECT `tags`.* FROM `tags` WHERE `tags`.`article_id` = 9[0m
+D, [2018-01-11T16:07:10.574273 #13893] DEBUG -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf]   [1m[36mTag Load (0.7ms)[0m  [1m[34mSELECT `tags`.* FROM `tags` WHERE `tags`.`article_id` = 8[0m
+D, [2018-01-11T16:07:10.577222 #13893] DEBUG -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf]   [1m[36mTag Load (0.7ms)[0m  [1m[34mSELECT `tags`.* FROM `tags` WHERE `tags`.`article_id` = 7[0m
+D, [2018-01-11T16:07:10.580035 #13893] DEBUG -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf]   [1m[36mTag Load (0.6ms)[0m  [1m[34mSELECT `tags`.* FROM `tags` WHERE `tags`.`article_id` = 6[0m
+D, [2018-01-11T16:07:10.583671 #13893] DEBUG -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf]   [1m[36mTag Load (1.6ms)[0m  [1m[34mSELECT `tags`.* FROM `tags` WHERE `tags`.`article_id` = 5[0m
+D, [2018-01-11T16:07:10.611181 #13893] DEBUG -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf]   [1m[36mTag Load (0.6ms)[0m  [1m[34mSELECT `tags`.* FROM `tags`[0m
+I, [2018-01-11T16:07:10.701299 #13893]  INFO -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf]   Rendered /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/resource/index.html.arb (245.1ms)
+I, [2018-01-11T16:07:10.701928 #13893]  INFO -- : [f1bcf30a-c2bb-4dae-b70a-13cb8ad31ddf] Completed 200 OK in 261ms (Views: 241.9ms | ActiveRecord: 10.2ms)
+I, [2018-01-11T16:07:11.198735 #13893]  INFO -- : [0bbf4663-6b29-4373-905e-cfd871bb307b] Started GET "/admin/comments" for 144.174.210.69 at 2018-01-11 16:07:11 -0500
+I, [2018-01-11T16:07:11.202729 #13893]  INFO -- : [0bbf4663-6b29-4373-905e-cfd871bb307b] Processing by Admin::CommentsController#index as HTML
+D, [2018-01-11T16:07:11.206923 #13893] DEBUG -- : [0bbf4663-6b29-4373-905e-cfd871bb307b]   [1m[36mAdminUser Load (0.9ms)[0m  [1m[34mSELECT  `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 ORDER BY `admin_users`.`id` ASC LIMIT 1[0m
+I, [2018-01-11T16:07:11.222042 #13893]  INFO -- : [0bbf4663-6b29-4373-905e-cfd871bb307b]   Rendering /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/resource/index.html.arb
+D, [2018-01-11T16:07:11.299834 #13893] DEBUG -- : [0bbf4663-6b29-4373-905e-cfd871bb307b]   [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM `active_admin_comments` WHERE `active_admin_comments`.`namespace` = 'admin'[0m
+D, [2018-01-11T16:07:11.302500 #13893] DEBUG -- : [0bbf4663-6b29-4373-905e-cfd871bb307b]   [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 FROM `active_admin_comments` WHERE `active_admin_comments`.`namespace` = 'admin' LIMIT 30 OFFSET 0) subquery_for_count[0m
+D, [2018-01-11T16:07:11.313396 #13893] DEBUG -- : [0bbf4663-6b29-4373-905e-cfd871bb307b]   [1m[35m (0.7ms)[0m  [1m[34mSELECT DISTINCT `active_admin_comments`.`resource_type` FROM `active_admin_comments` ORDER BY resource_type asc[0m
+D, [2018-01-11T16:07:11.322380 #13893] DEBUG -- : [0bbf4663-6b29-4373-905e-cfd871bb307b]   [1m[35m (0.7ms)[0m  [1m[34mSELECT DISTINCT `active_admin_comments`.`author_type` FROM `active_admin_comments` ORDER BY author_type asc[0m
+I, [2018-01-11T16:07:11.370049 #13893]  INFO -- : [0bbf4663-6b29-4373-905e-cfd871bb307b]   Rendered /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/resource/index.html.arb (147.8ms)
+I, [2018-01-11T16:07:11.370687 #13893]  INFO -- : [0bbf4663-6b29-4373-905e-cfd871bb307b] Completed 200 OK in 168ms (Views: 150.8ms | ActiveRecord: 6.4ms)
+I, [2018-01-11T16:07:11.985930 #13893]  INFO -- : [425f4768-a612-47c9-a236-6e70efcaba79] Started GET "/admin/corps" for 144.174.210.69 at 2018-01-11 16:07:11 -0500
+I, [2018-01-11T16:07:11.989989 #13893]  INFO -- : [425f4768-a612-47c9-a236-6e70efcaba79] Processing by Admin::CorpsController#index as HTML
+D, [2018-01-11T16:07:11.994273 #13893] DEBUG -- : [425f4768-a612-47c9-a236-6e70efcaba79]   [1m[36mAdminUser Load (1.2ms)[0m  [1m[34mSELECT  `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 ORDER BY `admin_users`.`id` ASC LIMIT 1[0m
+I, [2018-01-11T16:07:12.008538 #13893]  INFO -- : [425f4768-a612-47c9-a236-6e70efcaba79]   Rendering /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/resource/index.html.arb
+D, [2018-01-11T16:07:12.077212 #13893] DEBUG -- : [425f4768-a612-47c9-a236-6e70efcaba79]   [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 FROM `corps` LIMIT 30 OFFSET 0) subquery_for_count[0m
+D, [2018-01-11T16:07:12.088228 #13893] DEBUG -- : [425f4768-a612-47c9-a236-6e70efcaba79]   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+I, [2018-01-11T16:07:12.113241 #13893]  INFO -- : [425f4768-a612-47c9-a236-6e70efcaba79]   Rendered /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/resource/index.html.arb (104.5ms)
+I, [2018-01-11T16:07:12.114609 #13893]  INFO -- : [425f4768-a612-47c9-a236-6e70efcaba79] Completed 200 OK in 124ms (Views: 110.5ms | ActiveRecord: 4.9ms)
+I, [2018-01-11T16:07:12.895824 #13893]  INFO -- : [b37d1c44-770c-44c5-8187-2dca1a03b787] Started GET "/admin/admin_users" for 144.174.210.69 at 2018-01-11 16:07:12 -0500
+I, [2018-01-11T16:07:12.897518 #13893]  INFO -- : [b37d1c44-770c-44c5-8187-2dca1a03b787] Processing by Admin::AdminUsersController#index as HTML
+D, [2018-01-11T16:07:12.901293 #13893] DEBUG -- : [b37d1c44-770c-44c5-8187-2dca1a03b787]   [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT  `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 ORDER BY `admin_users`.`id` ASC LIMIT 1[0m
+I, [2018-01-11T16:07:12.904865 #13893]  INFO -- : [b37d1c44-770c-44c5-8187-2dca1a03b787]   Rendering /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/resource/index.html.arb
+D, [2018-01-11T16:07:12.972592 #13893] DEBUG -- : [b37d1c44-770c-44c5-8187-2dca1a03b787]   [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 FROM `admin_users` LIMIT 30 OFFSET 0) subquery_for_count[0m
+D, [2018-01-11T16:07:12.975299 #13893] DEBUG -- : [b37d1c44-770c-44c5-8187-2dca1a03b787]   [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 FROM `admin_users` LIMIT 30 OFFSET 0) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+D, [2018-01-11T16:07:12.978148 #13893] DEBUG -- : [b37d1c44-770c-44c5-8187-2dca1a03b787]   [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `admin_users`[0m
+D, [2018-01-11T16:07:12.980189 #13893] DEBUG -- : [b37d1c44-770c-44c5-8187-2dca1a03b787]   [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 FROM `admin_users` LIMIT 30 OFFSET 0) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+D, [2018-01-11T16:07:12.983659 #13893] DEBUG -- : [b37d1c44-770c-44c5-8187-2dca1a03b787]   [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  `admin_users`.* FROM `admin_users` ORDER BY `admin_users`.`id` desc LIMIT 30 OFFSET 0[0m
+I, [2018-01-11T16:07:13.032303 #13893]  INFO -- : [b37d1c44-770c-44c5-8187-2dca1a03b787]   Rendered /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/resource/index.html.arb (127.2ms)
+I, [2018-01-11T16:07:13.032818 #13893]  INFO -- : [b37d1c44-770c-44c5-8187-2dca1a03b787] Completed 200 OK in 135ms (Views: 126.5ms | ActiveRecord: 2.7ms)
+I, [2018-01-11T16:07:30.505305 #13893]  INFO -- : [7a6a2c32-43ff-457a-b1d5-db65157bdce2] Started DELETE "/admin/admin_users/2" for 144.174.210.69 at 2018-01-11 16:07:30 -0500
+I, [2018-01-11T16:07:30.507686 #13893]  INFO -- : [7a6a2c32-43ff-457a-b1d5-db65157bdce2] Processing by Admin::AdminUsersController#destroy as HTML
+I, [2018-01-11T16:07:30.507823 #13893]  INFO -- : [7a6a2c32-43ff-457a-b1d5-db65157bdce2]   Parameters: {"authenticity_token"=>"pDoTcCjjBrYRjUUdSSfd09bKojjq1ceSwfwlOTcW+KkYBxAprNmt7qb03wy3TfaRn33oOOl9tC81wRsRuQ5zdA==", "id"=>"2"}
+D, [2018-01-11T16:07:30.511984 #13893] DEBUG -- : [7a6a2c32-43ff-457a-b1d5-db65157bdce2]   [1m[36mAdminUser Load (0.9ms)[0m  [1m[34mSELECT  `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 ORDER BY `admin_users`.`id` ASC LIMIT 1[0m
+D, [2018-01-11T16:07:30.515176 #13893] DEBUG -- : [7a6a2c32-43ff-457a-b1d5-db65157bdce2]   [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT  `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 2 LIMIT 1[0m
+D, [2018-01-11T16:07:30.516954 #13893] DEBUG -- : [7a6a2c32-43ff-457a-b1d5-db65157bdce2]   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2018-01-11T16:07:30.519139 #13893] DEBUG -- : [7a6a2c32-43ff-457a-b1d5-db65157bdce2]   [1m[35mSQL (0.7ms)[0m  [1m[31mDELETE FROM `admin_users` WHERE `admin_users`.`id` = 2[0m
+D, [2018-01-11T16:07:30.522101 #13893] DEBUG -- : [7a6a2c32-43ff-457a-b1d5-db65157bdce2]   [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+I, [2018-01-11T16:07:30.546286 #13893]  INFO -- : [7a6a2c32-43ff-457a-b1d5-db65157bdce2] Redirected to http://cbslongwood.com/admin/admin_users
+I, [2018-01-11T16:07:30.546650 #13893]  INFO -- : [7a6a2c32-43ff-457a-b1d5-db65157bdce2] Completed 302 Found in 39ms (ActiveRecord: 5.0ms)
+I, [2018-01-11T16:07:30.573789 #13893]  INFO -- : [8f29ad3b-e173-45d6-84ee-4be3b8a7f67d] Started GET "/admin/admin_users" for 144.174.210.69 at 2018-01-11 16:07:30 -0500
+I, [2018-01-11T16:07:30.574983 #13893]  INFO -- : [8f29ad3b-e173-45d6-84ee-4be3b8a7f67d] Processing by Admin::AdminUsersController#index as HTML
+D, [2018-01-11T16:07:30.578048 #13893] DEBUG -- : [8f29ad3b-e173-45d6-84ee-4be3b8a7f67d]   [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  `admin_users`.* FROM `admin_users` WHERE `admin_users`.`id` = 1 ORDER BY `admin_users`.`id` ASC LIMIT 1[0m
+I, [2018-01-11T16:07:30.581285 #13893]  INFO -- : [8f29ad3b-e173-45d6-84ee-4be3b8a7f67d]   Rendering /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/resource/index.html.arb
+D, [2018-01-11T16:07:30.649805 #13893] DEBUG -- : [8f29ad3b-e173-45d6-84ee-4be3b8a7f67d]   [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 FROM `admin_users` LIMIT 30 OFFSET 0) subquery_for_count[0m
+D, [2018-01-11T16:07:30.651901 #13893] DEBUG -- : [8f29ad3b-e173-45d6-84ee-4be3b8a7f67d]   [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 FROM `admin_users` LIMIT 30 OFFSET 0) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+D, [2018-01-11T16:07:30.654889 #13893] DEBUG -- : [8f29ad3b-e173-45d6-84ee-4be3b8a7f67d]   [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `admin_users`[0m
+D, [2018-01-11T16:07:30.657049 #13893] DEBUG -- : [8f29ad3b-e173-45d6-84ee-4be3b8a7f67d]   [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 FROM `admin_users` LIMIT 30 OFFSET 0) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+D, [2018-01-11T16:07:30.660702 #13893] DEBUG -- : [8f29ad3b-e173-45d6-84ee-4be3b8a7f67d]   [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT  `admin_users`.* FROM `admin_users` ORDER BY `admin_users`.`id` desc LIMIT 30 OFFSET 0[0m
+I, [2018-01-11T16:07:30.704347 #13893]  INFO -- : [8f29ad3b-e173-45d6-84ee-4be3b8a7f67d]   Rendered /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/resource/index.html.arb (122.9ms)
+I, [2018-01-11T16:07:30.704866 #13893]  INFO -- : [8f29ad3b-e173-45d6-84ee-4be3b8a7f67d] Completed 200 OK in 130ms (Views: 121.9ms | ActiveRecord: 2.7ms)
+I, [2018-01-11T16:08:28.700875 #13893]  INFO -- : [c06eefef-370e-40f1-bfad-a34e48b9b84a] Started GET "/" for 72.165.227.123 at 2018-01-11 16:08:28 -0500
+I, [2018-01-11T16:08:28.702606 #13893]  INFO -- : [c06eefef-370e-40f1-bfad-a34e48b9b84a] Processing by PagesController#index as HTML
+I, [2018-01-11T16:08:28.704048 #13893]  INFO -- : [c06eefef-370e-40f1-bfad-a34e48b9b84a]   Rendering pages/index.html.erb
+I, [2018-01-11T16:08:28.704550 #13893]  INFO -- : [c06eefef-370e-40f1-bfad-a34e48b9b84a]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T16:08:28.706518 #13893] DEBUG -- : [c06eefef-370e-40f1-bfad-a34e48b9b84a]   [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T16:08:28.712605 #13893]  INFO -- : [c06eefef-370e-40f1-bfad-a34e48b9b84a]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T16:08:28.712762 #13893]  INFO -- : [c06eefef-370e-40f1-bfad-a34e48b9b84a]   Rendered pages/index.html.erb (8.5ms)
+I, [2018-01-11T16:08:28.713221 #13893]  INFO -- : [c06eefef-370e-40f1-bfad-a34e48b9b84a] Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.8ms)
+I, [2018-01-11T19:01:15.957804 #13893]  INFO -- : [6ba0b7dd-da0d-46e4-9597-2916d3e04b3a] Started GET "/" for 72.165.227.123 at 2018-01-11 19:01:15 -0500
+I, [2018-01-11T19:01:15.961290 #13893]  INFO -- : [6ba0b7dd-da0d-46e4-9597-2916d3e04b3a] Processing by PagesController#index as HTML
+I, [2018-01-11T19:01:15.963133 #13893]  INFO -- : [6ba0b7dd-da0d-46e4-9597-2916d3e04b3a]   Rendering pages/index.html.erb
+I, [2018-01-11T19:01:15.963865 #13893]  INFO -- : [6ba0b7dd-da0d-46e4-9597-2916d3e04b3a]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T19:01:15.966578 #13893] DEBUG -- : [6ba0b7dd-da0d-46e4-9597-2916d3e04b3a]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T19:01:15.973429 #13893]  INFO -- : [6ba0b7dd-da0d-46e4-9597-2916d3e04b3a]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T19:01:15.973626 #13893]  INFO -- : [6ba0b7dd-da0d-46e4-9597-2916d3e04b3a]   Rendered pages/index.html.erb (10.3ms)
+I, [2018-01-11T19:01:15.974135 #13893]  INFO -- : [6ba0b7dd-da0d-46e4-9597-2916d3e04b3a] Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T19:02:42.331730 #13893]  INFO -- : [9cab61f6-281e-4991-be87-b6d17f6fdd85] Started GET "/about" for 72.165.227.123 at 2018-01-11 19:02:42 -0500
+I, [2018-01-11T19:02:42.333801 #13893]  INFO -- : [9cab61f6-281e-4991-be87-b6d17f6fdd85] Processing by PagesController#about as HTML
+I, [2018-01-11T19:02:42.338829 #13893]  INFO -- : [9cab61f6-281e-4991-be87-b6d17f6fdd85]   Rendering pages/about.html.erb within layouts/application.html.erb
+I, [2018-01-11T19:02:42.342522 #13893]  INFO -- : [9cab61f6-281e-4991-be87-b6d17f6fdd85]   Rendered pages/about.html.erb within layouts/application.html.erb (3.4ms)
+I, [2018-01-11T19:02:42.345457 #13893]  INFO -- : [9cab61f6-281e-4991-be87-b6d17f6fdd85]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T19:02:42.345932 #13893]  INFO -- : [9cab61f6-281e-4991-be87-b6d17f6fdd85]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T19:02:42.346387 #13893]  INFO -- : [9cab61f6-281e-4991-be87-b6d17f6fdd85] Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T19:04:59.703906 #13893]  INFO -- : [b9fc2ad0-c8ba-4859-9746-a1d2744e136b] Started GET "/contact" for 72.165.227.123 at 2018-01-11 19:04:59 -0500
+I, [2018-01-11T19:04:59.705832 #13893]  INFO -- : [b9fc2ad0-c8ba-4859-9746-a1d2744e136b] Processing by PagesController#contact as HTML
+I, [2018-01-11T19:04:59.709132 #13893]  INFO -- : [b9fc2ad0-c8ba-4859-9746-a1d2744e136b]   Rendering pages/contact.html.erb within layouts/application.html.erb
+I, [2018-01-11T19:04:59.710505 #13893]  INFO -- : [b9fc2ad0-c8ba-4859-9746-a1d2744e136b]   Rendered pages/contact.html.erb within layouts/application.html.erb (1.1ms)
+I, [2018-01-11T19:04:59.712099 #13893]  INFO -- : [b9fc2ad0-c8ba-4859-9746-a1d2744e136b]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T19:04:59.712550 #13893]  INFO -- : [b9fc2ad0-c8ba-4859-9746-a1d2744e136b]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T19:04:59.712978 #13893]  INFO -- : [b9fc2ad0-c8ba-4859-9746-a1d2744e136b] Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T19:05:25.827093 #13893]  INFO -- : [65570615-1540-4e4e-99ff-0ef715b711bf] Started GET "/contact" for 72.165.227.123 at 2018-01-11 19:05:25 -0500
+I, [2018-01-11T19:05:25.828627 #13893]  INFO -- : [65570615-1540-4e4e-99ff-0ef715b711bf] Processing by PagesController#contact as HTML
+I, [2018-01-11T19:05:25.830310 #13893]  INFO -- : [65570615-1540-4e4e-99ff-0ef715b711bf]   Rendering pages/contact.html.erb within layouts/application.html.erb
+I, [2018-01-11T19:05:25.830711 #13893]  INFO -- : [65570615-1540-4e4e-99ff-0ef715b711bf]   Rendered pages/contact.html.erb within layouts/application.html.erb (0.1ms)
+I, [2018-01-11T19:05:25.832029 #13893]  INFO -- : [65570615-1540-4e4e-99ff-0ef715b711bf]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T19:05:25.832496 #13893]  INFO -- : [65570615-1540-4e4e-99ff-0ef715b711bf]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T19:05:25.832912 #13893]  INFO -- : [65570615-1540-4e4e-99ff-0ef715b711bf] Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T19:15:23.756351 #13893]  INFO -- : [9657ed31-2009-48e3-9d8b-24b21d5971fd] Started GET "/" for 104.236.188.251 at 2018-01-11 19:15:23 -0500
+I, [2018-01-11T19:15:23.757767 #13893]  INFO -- : [9657ed31-2009-48e3-9d8b-24b21d5971fd] Processing by PagesController#index as HTML
+I, [2018-01-11T19:15:23.759080 #13893]  INFO -- : [9657ed31-2009-48e3-9d8b-24b21d5971fd]   Rendering pages/index.html.erb
+I, [2018-01-11T19:15:23.759637 #13893]  INFO -- : [9657ed31-2009-48e3-9d8b-24b21d5971fd]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T19:15:23.761735 #13893] DEBUG -- : [9657ed31-2009-48e3-9d8b-24b21d5971fd]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T19:15:23.768812 #13893]  INFO -- : [9657ed31-2009-48e3-9d8b-24b21d5971fd]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T19:15:23.769010 #13893]  INFO -- : [9657ed31-2009-48e3-9d8b-24b21d5971fd]   Rendered pages/index.html.erb (9.8ms)
+I, [2018-01-11T19:15:23.769525 #13893]  INFO -- : [9657ed31-2009-48e3-9d8b-24b21d5971fd] Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T20:23:48.104154 #13893]  INFO -- : [898ee657-e61c-4a85-ab97-b825afcf336d] Started GET "/" for 72.239.86.37 at 2018-01-11 20:23:48 -0500
+I, [2018-01-11T20:23:48.106463 #13893]  INFO -- : [898ee657-e61c-4a85-ab97-b825afcf336d] Processing by PagesController#index as HTML
+I, [2018-01-11T20:23:48.107643 #13893]  INFO -- : [898ee657-e61c-4a85-ab97-b825afcf336d]   Rendering pages/index.html.erb
+I, [2018-01-11T20:23:48.108230 #13893]  INFO -- : [898ee657-e61c-4a85-ab97-b825afcf336d]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T20:23:48.110333 #13893] DEBUG -- : [898ee657-e61c-4a85-ab97-b825afcf336d]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T20:23:48.116751 #13893]  INFO -- : [898ee657-e61c-4a85-ab97-b825afcf336d]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T20:23:48.116941 #13893]  INFO -- : [898ee657-e61c-4a85-ab97-b825afcf336d]   Rendered pages/index.html.erb (9.1ms)
+I, [2018-01-11T20:23:48.117396 #13893]  INFO -- : [898ee657-e61c-4a85-ab97-b825afcf336d] Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T20:25:06.090410 #13893]  INFO -- : [c2175369-60ec-447b-aeac-1416c988ffab] Started GET "/about" for 72.239.86.37 at 2018-01-11 20:25:06 -0500
+I, [2018-01-11T20:25:06.092193 #13893]  INFO -- : [c2175369-60ec-447b-aeac-1416c988ffab] Processing by PagesController#about as HTML
+I, [2018-01-11T20:25:06.093342 #13893]  INFO -- : [c2175369-60ec-447b-aeac-1416c988ffab]   Rendering pages/about.html.erb within layouts/application.html.erb
+I, [2018-01-11T20:25:06.093764 #13893]  INFO -- : [c2175369-60ec-447b-aeac-1416c988ffab]   Rendered pages/about.html.erb within layouts/application.html.erb (0.2ms)
+I, [2018-01-11T20:25:06.095146 #13893]  INFO -- : [c2175369-60ec-447b-aeac-1416c988ffab]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T20:25:06.095596 #13893]  INFO -- : [c2175369-60ec-447b-aeac-1416c988ffab]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T20:25:06.096017 #13893]  INFO -- : [c2175369-60ec-447b-aeac-1416c988ffab] Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T20:26:25.628381 #13893]  INFO -- : [dc710930-7470-4787-82d7-8fdab488c217] Started GET "/under_construction" for 72.239.86.37 at 2018-01-11 20:26:25 -0500
+I, [2018-01-11T20:26:25.630150 #13893]  INFO -- : [dc710930-7470-4787-82d7-8fdab488c217] Processing by PagesController#under_construction as HTML
+I, [2018-01-11T20:26:25.633443 #13893]  INFO -- : [dc710930-7470-4787-82d7-8fdab488c217]   Rendering pages/under_construction.html.erb within layouts/application.html.erb
+I, [2018-01-11T20:26:25.634551 #13893]  INFO -- : [dc710930-7470-4787-82d7-8fdab488c217]   Rendered pages/under_construction.html.erb within layouts/application.html.erb (0.9ms)
+I, [2018-01-11T20:26:25.636106 #13893]  INFO -- : [dc710930-7470-4787-82d7-8fdab488c217]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T20:26:25.636529 #13893]  INFO -- : [dc710930-7470-4787-82d7-8fdab488c217]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T20:26:25.636970 #13893]  INFO -- : [dc710930-7470-4787-82d7-8fdab488c217] Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T20:27:17.834361 #13893]  INFO -- : [556f62ea-1fb1-46d1-9349-f75fd2022d82] Started GET "/" for 72.239.86.37 at 2018-01-11 20:27:17 -0500
+I, [2018-01-11T20:27:17.835895 #13893]  INFO -- : [556f62ea-1fb1-46d1-9349-f75fd2022d82] Processing by PagesController#index as HTML
+I, [2018-01-11T20:27:17.837600 #13893]  INFO -- : [556f62ea-1fb1-46d1-9349-f75fd2022d82]   Rendering pages/index.html.erb
+I, [2018-01-11T20:27:17.838158 #13893]  INFO -- : [556f62ea-1fb1-46d1-9349-f75fd2022d82]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T20:27:17.840298 #13893] DEBUG -- : [556f62ea-1fb1-46d1-9349-f75fd2022d82]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T20:27:17.846969 #13893]  INFO -- : [556f62ea-1fb1-46d1-9349-f75fd2022d82]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T20:27:17.847201 #13893]  INFO -- : [556f62ea-1fb1-46d1-9349-f75fd2022d82]   Rendered pages/index.html.erb (9.4ms)
+I, [2018-01-11T20:27:17.847620 #13893]  INFO -- : [556f62ea-1fb1-46d1-9349-f75fd2022d82] Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T20:27:17.931494 #13893]  INFO -- : [a44f22db-74b1-4efd-8a07-88a2b09970d9] Started GET "/" for 72.239.86.37 at 2018-01-11 20:27:17 -0500
+I, [2018-01-11T20:27:17.932877 #13893]  INFO -- : [a44f22db-74b1-4efd-8a07-88a2b09970d9] Processing by PagesController#index as HTML
+I, [2018-01-11T20:27:17.934219 #13893]  INFO -- : [a44f22db-74b1-4efd-8a07-88a2b09970d9]   Rendering pages/index.html.erb
+I, [2018-01-11T20:27:17.934642 #13893]  INFO -- : [a44f22db-74b1-4efd-8a07-88a2b09970d9]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T20:27:17.936339 #13893] DEBUG -- : [a44f22db-74b1-4efd-8a07-88a2b09970d9]   [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T20:27:17.943396 #13893]  INFO -- : [a44f22db-74b1-4efd-8a07-88a2b09970d9]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T20:27:17.943656 #13893]  INFO -- : [a44f22db-74b1-4efd-8a07-88a2b09970d9]   Rendered pages/index.html.erb (9.2ms)
+I, [2018-01-11T20:27:17.944105 #13893]  INFO -- : [a44f22db-74b1-4efd-8a07-88a2b09970d9] Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.7ms)
+I, [2018-01-11T20:57:24.639593 #13893]  INFO -- : [d746ade5-401c-4b97-9887-fd96f9b2592e] Started GET "/" for 97.102.33.13 at 2018-01-11 20:57:24 -0500
+I, [2018-01-11T20:57:24.641404 #13893]  INFO -- : [d746ade5-401c-4b97-9887-fd96f9b2592e] Processing by PagesController#index as HTML
+I, [2018-01-11T20:57:24.642603 #13893]  INFO -- : [d746ade5-401c-4b97-9887-fd96f9b2592e]   Rendering pages/index.html.erb
+I, [2018-01-11T20:57:24.643143 #13893]  INFO -- : [d746ade5-401c-4b97-9887-fd96f9b2592e]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T20:57:24.645261 #13893] DEBUG -- : [d746ade5-401c-4b97-9887-fd96f9b2592e]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T20:57:24.651719 #13893]  INFO -- : [d746ade5-401c-4b97-9887-fd96f9b2592e]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T20:57:24.651945 #13893]  INFO -- : [d746ade5-401c-4b97-9887-fd96f9b2592e]   Rendered pages/index.html.erb (9.1ms)
+I, [2018-01-11T20:57:24.652365 #13893]  INFO -- : [d746ade5-401c-4b97-9887-fd96f9b2592e] Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T20:58:59.713552 #13893]  INFO -- : [cbd944a0-0245-4ea5-ab40-93f7f84d5028] Started GET "/about" for 97.102.33.13 at 2018-01-11 20:58:59 -0500
+I, [2018-01-11T20:58:59.715296 #13893]  INFO -- : [cbd944a0-0245-4ea5-ab40-93f7f84d5028] Processing by PagesController#about as HTML
+I, [2018-01-11T20:58:59.716575 #13893]  INFO -- : [cbd944a0-0245-4ea5-ab40-93f7f84d5028]   Rendering pages/about.html.erb within layouts/application.html.erb
+I, [2018-01-11T20:58:59.716989 #13893]  INFO -- : [cbd944a0-0245-4ea5-ab40-93f7f84d5028]   Rendered pages/about.html.erb within layouts/application.html.erb (0.2ms)
+I, [2018-01-11T20:58:59.719331 #13893]  INFO -- : [cbd944a0-0245-4ea5-ab40-93f7f84d5028]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T20:58:59.719757 #13893]  INFO -- : [cbd944a0-0245-4ea5-ab40-93f7f84d5028]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T20:58:59.720229 #13893]  INFO -- : [cbd944a0-0245-4ea5-ab40-93f7f84d5028] Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T21:01:49.331514 #13893]  INFO -- : [65b09946-791e-4e77-9479-1ef2ec297ffc] Started GET "/conference_2018" for 97.102.33.13 at 2018-01-11 21:01:49 -0500
+I, [2018-01-11T21:01:49.333257 #13893]  INFO -- : [65b09946-791e-4e77-9479-1ef2ec297ffc] Processing by PagesController#conference_2018 as HTML
+I, [2018-01-11T21:01:49.336492 #13893]  INFO -- : [65b09946-791e-4e77-9479-1ef2ec297ffc]   Rendering pages/conference.html.erb within layouts/application.html.erb
+I, [2018-01-11T21:01:49.337631 #13893]  INFO -- : [65b09946-791e-4e77-9479-1ef2ec297ffc]   Rendered pages/conference.html.erb within layouts/application.html.erb (0.9ms)
+I, [2018-01-11T21:01:49.339194 #13893]  INFO -- : [65b09946-791e-4e77-9479-1ef2ec297ffc]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T21:01:49.339607 #13893]  INFO -- : [65b09946-791e-4e77-9479-1ef2ec297ffc]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T21:01:49.340126 #13893]  INFO -- : [65b09946-791e-4e77-9479-1ef2ec297ffc] Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T21:02:21.690289 #13893]  INFO -- : [64ab05a7-caf7-4bd1-a1fe-cab04661f25e] Started GET "/" for 97.102.33.13 at 2018-01-11 21:02:21 -0500
+I, [2018-01-11T21:02:21.691800 #13893]  INFO -- : [64ab05a7-caf7-4bd1-a1fe-cab04661f25e] Processing by PagesController#index as HTML
+I, [2018-01-11T21:02:21.693468 #13893]  INFO -- : [64ab05a7-caf7-4bd1-a1fe-cab04661f25e]   Rendering pages/index.html.erb
+I, [2018-01-11T21:02:21.694005 #13893]  INFO -- : [64ab05a7-caf7-4bd1-a1fe-cab04661f25e]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T21:02:21.696223 #13893] DEBUG -- : [64ab05a7-caf7-4bd1-a1fe-cab04661f25e]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T21:02:21.702424 #13893]  INFO -- : [64ab05a7-caf7-4bd1-a1fe-cab04661f25e]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T21:02:21.702612 #13893]  INFO -- : [64ab05a7-caf7-4bd1-a1fe-cab04661f25e]   Rendered pages/index.html.erb (9.0ms)
+I, [2018-01-11T21:02:21.703181 #13893]  INFO -- : [64ab05a7-caf7-4bd1-a1fe-cab04661f25e] Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T21:02:21.842523 #13893]  INFO -- : [c99a9339-e063-4a91-a6e4-48579b404d90] Started GET "/" for 97.102.33.13 at 2018-01-11 21:02:21 -0500
+I, [2018-01-11T21:02:21.844008 #13893]  INFO -- : [c99a9339-e063-4a91-a6e4-48579b404d90] Processing by PagesController#index as HTML
+I, [2018-01-11T21:02:21.845225 #13893]  INFO -- : [c99a9339-e063-4a91-a6e4-48579b404d90]   Rendering pages/index.html.erb
+I, [2018-01-11T21:02:21.845710 #13893]  INFO -- : [c99a9339-e063-4a91-a6e4-48579b404d90]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T21:02:21.847463 #13893] DEBUG -- : [c99a9339-e063-4a91-a6e4-48579b404d90]   [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T21:02:21.853674 #13893]  INFO -- : [c99a9339-e063-4a91-a6e4-48579b404d90]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T21:02:21.853904 #13893]  INFO -- : [c99a9339-e063-4a91-a6e4-48579b404d90]   Rendered pages/index.html.erb (8.4ms)
+I, [2018-01-11T21:02:21.854274 #13893]  INFO -- : [c99a9339-e063-4a91-a6e4-48579b404d90] Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.7ms)
+I, [2018-01-11T21:21:19.207837 #13893]  INFO -- : [ee6a8bed-05cf-4402-b59b-6753c10de3c9] Started GET "/" for 97.102.33.13 at 2018-01-11 21:21:19 -0500
+I, [2018-01-11T21:21:19.209527 #13893]  INFO -- : [ee6a8bed-05cf-4402-b59b-6753c10de3c9] Processing by PagesController#index as HTML
+I, [2018-01-11T21:21:19.211147 #13893]  INFO -- : [ee6a8bed-05cf-4402-b59b-6753c10de3c9]   Rendering pages/index.html.erb
+I, [2018-01-11T21:21:19.211660 #13893]  INFO -- : [ee6a8bed-05cf-4402-b59b-6753c10de3c9]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T21:21:19.213901 #13893] DEBUG -- : [ee6a8bed-05cf-4402-b59b-6753c10de3c9]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T21:21:19.220311 #13893]  INFO -- : [ee6a8bed-05cf-4402-b59b-6753c10de3c9]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T21:21:19.220508 #13893]  INFO -- : [ee6a8bed-05cf-4402-b59b-6753c10de3c9]   Rendered pages/index.html.erb (9.2ms)
+I, [2018-01-11T21:21:19.220971 #13893]  INFO -- : [ee6a8bed-05cf-4402-b59b-6753c10de3c9] Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T21:21:33.188822 #13893]  INFO -- : [8f2511c9-0a85-4da6-bde9-c8672955e9ab] Started GET "/about" for 97.102.33.13 at 2018-01-11 21:21:33 -0500
+I, [2018-01-11T21:21:33.190500 #13893]  INFO -- : [8f2511c9-0a85-4da6-bde9-c8672955e9ab] Processing by PagesController#about as HTML
+I, [2018-01-11T21:21:33.192974 #13893]  INFO -- : [8f2511c9-0a85-4da6-bde9-c8672955e9ab]   Rendering pages/about.html.erb within layouts/application.html.erb
+I, [2018-01-11T21:21:33.193359 #13893]  INFO -- : [8f2511c9-0a85-4da6-bde9-c8672955e9ab]   Rendered pages/about.html.erb within layouts/application.html.erb (0.2ms)
+I, [2018-01-11T21:21:33.194691 #13893]  INFO -- : [8f2511c9-0a85-4da6-bde9-c8672955e9ab]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T21:21:33.195150 #13893]  INFO -- : [8f2511c9-0a85-4da6-bde9-c8672955e9ab]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T21:21:33.195574 #13893]  INFO -- : [8f2511c9-0a85-4da6-bde9-c8672955e9ab] Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T21:25:00.411287 #13893]  INFO -- : [85dc6d29-ab2f-4ed9-9897-3c4f223f3029] Started GET "/" for 97.102.33.13 at 2018-01-11 21:25:00 -0500
+I, [2018-01-11T21:25:00.412858 #13893]  INFO -- : [85dc6d29-ab2f-4ed9-9897-3c4f223f3029] Processing by PagesController#index as HTML
+I, [2018-01-11T21:25:00.414023 #13893]  INFO -- : [85dc6d29-ab2f-4ed9-9897-3c4f223f3029]   Rendering pages/index.html.erb
+I, [2018-01-11T21:25:00.414559 #13893]  INFO -- : [85dc6d29-ab2f-4ed9-9897-3c4f223f3029]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T21:25:00.416742 #13893] DEBUG -- : [85dc6d29-ab2f-4ed9-9897-3c4f223f3029]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T21:25:00.423114 #13893]  INFO -- : [85dc6d29-ab2f-4ed9-9897-3c4f223f3029]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T21:25:00.423318 #13893]  INFO -- : [85dc6d29-ab2f-4ed9-9897-3c4f223f3029]   Rendered pages/index.html.erb (9.1ms)
+I, [2018-01-11T21:25:00.423833 #13893]  INFO -- : [85dc6d29-ab2f-4ed9-9897-3c4f223f3029] Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T21:27:04.889649 #13893]  INFO -- : [c3a5190c-fdb3-40b3-98a9-3bfa2a88aa0f] Started GET "/" for 97.102.33.13 at 2018-01-11 21:27:04 -0500
+I, [2018-01-11T21:27:04.891373 #13893]  INFO -- : [c3a5190c-fdb3-40b3-98a9-3bfa2a88aa0f] Processing by PagesController#index as HTML
+I, [2018-01-11T21:27:04.892653 #13893]  INFO -- : [c3a5190c-fdb3-40b3-98a9-3bfa2a88aa0f]   Rendering pages/index.html.erb
+I, [2018-01-11T21:27:04.893179 #13893]  INFO -- : [c3a5190c-fdb3-40b3-98a9-3bfa2a88aa0f]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T21:27:04.895382 #13893] DEBUG -- : [c3a5190c-fdb3-40b3-98a9-3bfa2a88aa0f]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T21:27:04.902268 #13893]  INFO -- : [c3a5190c-fdb3-40b3-98a9-3bfa2a88aa0f]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T21:27:04.902462 #13893]  INFO -- : [c3a5190c-fdb3-40b3-98a9-3bfa2a88aa0f]   Rendered pages/index.html.erb (9.6ms)
+I, [2018-01-11T21:27:04.902911 #13893]  INFO -- : [c3a5190c-fdb3-40b3-98a9-3bfa2a88aa0f] Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T21:27:08.198461 #13893]  INFO -- : [c9f36864-96a5-4dad-beab-5e007b4dc357] Started GET "/conference_2018" for 97.102.33.13 at 2018-01-11 21:27:08 -0500
+I, [2018-01-11T21:27:08.200263 #13893]  INFO -- : [c9f36864-96a5-4dad-beab-5e007b4dc357] Processing by PagesController#conference_2018 as HTML
+I, [2018-01-11T21:27:08.201509 #13893]  INFO -- : [c9f36864-96a5-4dad-beab-5e007b4dc357]   Rendering pages/conference.html.erb within layouts/application.html.erb
+I, [2018-01-11T21:27:08.201941 #13893]  INFO -- : [c9f36864-96a5-4dad-beab-5e007b4dc357]   Rendered pages/conference.html.erb within layouts/application.html.erb (0.1ms)
+I, [2018-01-11T21:27:08.203430 #13893]  INFO -- : [c9f36864-96a5-4dad-beab-5e007b4dc357]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T21:27:08.203825 #13893]  INFO -- : [c9f36864-96a5-4dad-beab-5e007b4dc357]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T21:27:08.204250 #13893]  INFO -- : [c9f36864-96a5-4dad-beab-5e007b4dc357] Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T21:27:15.340021 #13893]  INFO -- : [08d85c31-1404-483f-94a6-f63672e047cd] Started GET "/about" for 97.102.33.13 at 2018-01-11 21:27:15 -0500
+I, [2018-01-11T21:27:15.341670 #13893]  INFO -- : [08d85c31-1404-483f-94a6-f63672e047cd] Processing by PagesController#about as HTML
+I, [2018-01-11T21:27:15.343242 #13893]  INFO -- : [08d85c31-1404-483f-94a6-f63672e047cd]   Rendering pages/about.html.erb within layouts/application.html.erb
+I, [2018-01-11T21:27:15.343669 #13893]  INFO -- : [08d85c31-1404-483f-94a6-f63672e047cd]   Rendered pages/about.html.erb within layouts/application.html.erb (0.2ms)
+I, [2018-01-11T21:27:15.344966 #13893]  INFO -- : [08d85c31-1404-483f-94a6-f63672e047cd]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T21:27:15.345411 #13893]  INFO -- : [08d85c31-1404-483f-94a6-f63672e047cd]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T21:27:15.345833 #13893]  INFO -- : [08d85c31-1404-483f-94a6-f63672e047cd] Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T21:28:25.521947 #13893]  INFO -- : [df8e3668-9490-4437-b1d9-168d7f90f07c] Started GET "/services" for 97.102.33.13 at 2018-01-11 21:28:25 -0500
+I, [2018-01-11T21:28:25.523716 #13893]  INFO -- : [df8e3668-9490-4437-b1d9-168d7f90f07c] Processing by PagesController#services as HTML
+I, [2018-01-11T21:28:25.532427 #13893]  INFO -- : [df8e3668-9490-4437-b1d9-168d7f90f07c]   Rendering pages/services.html.erb within layouts/application.html.erb
+I, [2018-01-11T21:28:25.534140 #13893]  INFO -- : [df8e3668-9490-4437-b1d9-168d7f90f07c]   Rendered pages/services.html.erb within layouts/application.html.erb (1.5ms)
+I, [2018-01-11T21:28:25.535669 #13893]  INFO -- : [df8e3668-9490-4437-b1d9-168d7f90f07c]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T21:28:25.536233 #13893]  INFO -- : [df8e3668-9490-4437-b1d9-168d7f90f07c]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T21:28:25.536681 #13893]  INFO -- : [df8e3668-9490-4437-b1d9-168d7f90f07c] Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T21:29:20.613579 #13893]  INFO -- : [a30ac5d7-51ff-4d72-b46a-b45f6832fcb8] Started GET "/" for 97.102.33.13 at 2018-01-11 21:29:20 -0500
+I, [2018-01-11T21:29:20.615033 #13893]  INFO -- : [a30ac5d7-51ff-4d72-b46a-b45f6832fcb8] Processing by PagesController#index as HTML
+I, [2018-01-11T21:29:20.616693 #13893]  INFO -- : [a30ac5d7-51ff-4d72-b46a-b45f6832fcb8]   Rendering pages/index.html.erb
+I, [2018-01-11T21:29:20.617293 #13893]  INFO -- : [a30ac5d7-51ff-4d72-b46a-b45f6832fcb8]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T21:29:20.619467 #13893] DEBUG -- : [a30ac5d7-51ff-4d72-b46a-b45f6832fcb8]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T21:29:20.625943 #13893]  INFO -- : [a30ac5d7-51ff-4d72-b46a-b45f6832fcb8]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T21:29:20.626140 #13893]  INFO -- : [a30ac5d7-51ff-4d72-b46a-b45f6832fcb8]   Rendered pages/index.html.erb (9.2ms)
+I, [2018-01-11T21:29:20.626542 #13893]  INFO -- : [a30ac5d7-51ff-4d72-b46a-b45f6832fcb8] Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T21:30:04.194840 #13893]  INFO -- : [ebbc0801-be3a-45df-8f85-7f3b7aa5b609] Started GET "/events" for 97.102.33.13 at 2018-01-11 21:30:04 -0500
+I, [2018-01-11T21:30:04.196781 #13893]  INFO -- : [ebbc0801-be3a-45df-8f85-7f3b7aa5b609] Processing by PagesController#events as HTML
+I, [2018-01-11T21:30:04.200016 #13893]  INFO -- : [ebbc0801-be3a-45df-8f85-7f3b7aa5b609]   Rendering pages/events.html.erb within layouts/application.html.erb
+I, [2018-01-11T21:30:04.201383 #13893]  INFO -- : [ebbc0801-be3a-45df-8f85-7f3b7aa5b609]   Rendered pages/events.html.erb within layouts/application.html.erb (1.1ms)
+I, [2018-01-11T21:30:04.203065 #13893]  INFO -- : [ebbc0801-be3a-45df-8f85-7f3b7aa5b609]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T21:30:04.203546 #13893]  INFO -- : [ebbc0801-be3a-45df-8f85-7f3b7aa5b609]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T21:30:04.204017 #13893]  INFO -- : [ebbc0801-be3a-45df-8f85-7f3b7aa5b609] Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T21:30:21.031468 #13893]  INFO -- : [1d3d3a7e-d576-461f-a13b-4b328cb69fc1] Started GET "/contact" for 97.102.33.13 at 2018-01-11 21:30:21 -0500
+I, [2018-01-11T21:30:21.033046 #13893]  INFO -- : [1d3d3a7e-d576-461f-a13b-4b328cb69fc1] Processing by PagesController#contact as HTML
+I, [2018-01-11T21:30:21.035116 #13893]  INFO -- : [1d3d3a7e-d576-461f-a13b-4b328cb69fc1]   Rendering pages/contact.html.erb within layouts/application.html.erb
+I, [2018-01-11T21:30:21.035441 #13893]  INFO -- : [1d3d3a7e-d576-461f-a13b-4b328cb69fc1]   Rendered pages/contact.html.erb within layouts/application.html.erb (0.1ms)
+I, [2018-01-11T21:30:21.036810 #13893]  INFO -- : [1d3d3a7e-d576-461f-a13b-4b328cb69fc1]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T21:30:21.037245 #13893]  INFO -- : [1d3d3a7e-d576-461f-a13b-4b328cb69fc1]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T21:30:21.037698 #13893]  INFO -- : [1d3d3a7e-d576-461f-a13b-4b328cb69fc1] Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T21:30:28.997139 #13893]  INFO -- : [7e968fd7-c78e-46ad-8342-100a286dd2fb] Started GET "/map" for 97.102.33.13 at 2018-01-11 21:30:28 -0500
+I, [2018-01-11T21:30:28.998815 #13893]  INFO -- : [7e968fd7-c78e-46ad-8342-100a286dd2fb] Processing by PagesController#map as HTML
+I, [2018-01-11T21:30:29.010154 #13893]  INFO -- : [7e968fd7-c78e-46ad-8342-100a286dd2fb]   Rendering pages/map.html.erb within layouts/application.html.erb
+I, [2018-01-11T21:30:29.012659 #13893]  INFO -- : [7e968fd7-c78e-46ad-8342-100a286dd2fb]   Rendered pages/map.html.erb within layouts/application.html.erb (2.3ms)
+I, [2018-01-11T21:30:29.014306 #13893]  INFO -- : [7e968fd7-c78e-46ad-8342-100a286dd2fb]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T21:30:29.014961 #13893]  INFO -- : [7e968fd7-c78e-46ad-8342-100a286dd2fb]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T21:30:29.015438 #13893]  INFO -- : [7e968fd7-c78e-46ad-8342-100a286dd2fb] Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T21:31:01.491816 #13893]  INFO -- : [d49937db-460d-4c75-a3ed-eb853934efc3] Started GET "/under_construction" for 97.102.33.13 at 2018-01-11 21:31:01 -0500
+I, [2018-01-11T21:31:01.493377 #13893]  INFO -- : [d49937db-460d-4c75-a3ed-eb853934efc3] Processing by PagesController#under_construction as HTML
+I, [2018-01-11T21:31:01.495038 #13893]  INFO -- : [d49937db-460d-4c75-a3ed-eb853934efc3]   Rendering pages/under_construction.html.erb within layouts/application.html.erb
+I, [2018-01-11T21:31:01.495350 #13893]  INFO -- : [d49937db-460d-4c75-a3ed-eb853934efc3]   Rendered pages/under_construction.html.erb within layouts/application.html.erb (0.1ms)
+I, [2018-01-11T21:31:01.496700 #13893]  INFO -- : [d49937db-460d-4c75-a3ed-eb853934efc3]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T21:31:01.497138 #13893]  INFO -- : [d49937db-460d-4c75-a3ed-eb853934efc3]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T21:31:01.497611 #13893]  INFO -- : [d49937db-460d-4c75-a3ed-eb853934efc3] Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T22:04:08.238359 #13893]  INFO -- : [f596da5d-6e06-47bd-8c88-051247dbf8af] Started GET "/" for 97.102.33.13 at 2018-01-11 22:04:08 -0500
+I, [2018-01-11T22:04:08.239864 #13893]  INFO -- : [f596da5d-6e06-47bd-8c88-051247dbf8af] Processing by PagesController#index as HTML
+I, [2018-01-11T22:04:08.241095 #13893]  INFO -- : [f596da5d-6e06-47bd-8c88-051247dbf8af]   Rendering pages/index.html.erb
+I, [2018-01-11T22:04:08.241651 #13893]  INFO -- : [f596da5d-6e06-47bd-8c88-051247dbf8af]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T22:04:08.243812 #13893] DEBUG -- : [f596da5d-6e06-47bd-8c88-051247dbf8af]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T22:04:08.250228 #13893]  INFO -- : [f596da5d-6e06-47bd-8c88-051247dbf8af]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T22:04:08.250486 #13893]  INFO -- : [f596da5d-6e06-47bd-8c88-051247dbf8af]   Rendered pages/index.html.erb (9.2ms)
+I, [2018-01-11T22:04:08.250959 #13893]  INFO -- : [f596da5d-6e06-47bd-8c88-051247dbf8af] Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.9ms)
+I, [2018-01-11T22:05:01.612576 #13893]  INFO -- : [3bb0982f-7730-4414-abf4-92a13d32d690] Started GET "/conference_2018" for 97.102.33.13 at 2018-01-11 22:05:01 -0500
+I, [2018-01-11T22:05:01.614331 #13893]  INFO -- : [3bb0982f-7730-4414-abf4-92a13d32d690] Processing by PagesController#conference_2018 as HTML
+I, [2018-01-11T22:05:01.615554 #13893]  INFO -- : [3bb0982f-7730-4414-abf4-92a13d32d690]   Rendering pages/conference.html.erb within layouts/application.html.erb
+I, [2018-01-11T22:05:01.615919 #13893]  INFO -- : [3bb0982f-7730-4414-abf4-92a13d32d690]   Rendered pages/conference.html.erb within layouts/application.html.erb (0.1ms)
+I, [2018-01-11T22:05:01.617387 #13893]  INFO -- : [3bb0982f-7730-4414-abf4-92a13d32d690]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T22:05:01.617833 #13893]  INFO -- : [3bb0982f-7730-4414-abf4-92a13d32d690]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T22:05:01.618280 #13893]  INFO -- : [3bb0982f-7730-4414-abf4-92a13d32d690] Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T22:05:14.151919 #13893]  INFO -- : [5c65ec73-9950-4e2d-9ce5-09f9f79f544e] Started GET "/about" for 97.102.33.13 at 2018-01-11 22:05:14 -0500
+I, [2018-01-11T22:05:14.153532 #13893]  INFO -- : [5c65ec73-9950-4e2d-9ce5-09f9f79f544e] Processing by PagesController#about as HTML
+I, [2018-01-11T22:05:14.155142 #13893]  INFO -- : [5c65ec73-9950-4e2d-9ce5-09f9f79f544e]   Rendering pages/about.html.erb within layouts/application.html.erb
+I, [2018-01-11T22:05:14.155537 #13893]  INFO -- : [5c65ec73-9950-4e2d-9ce5-09f9f79f544e]   Rendered pages/about.html.erb within layouts/application.html.erb (0.2ms)
+I, [2018-01-11T22:05:14.156900 #13893]  INFO -- : [5c65ec73-9950-4e2d-9ce5-09f9f79f544e]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T22:05:14.157347 #13893]  INFO -- : [5c65ec73-9950-4e2d-9ce5-09f9f79f544e]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T22:05:14.158664 #13893]  INFO -- : [5c65ec73-9950-4e2d-9ce5-09f9f79f544e] Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T22:06:13.005334 #13893]  INFO -- : [bd47d806-2df5-4c40-b299-6e28a9312f5f] Started GET "/contact" for 97.102.33.13 at 2018-01-11 22:06:13 -0500
+I, [2018-01-11T22:06:13.006958 #13893]  INFO -- : [bd47d806-2df5-4c40-b299-6e28a9312f5f] Processing by PagesController#contact as HTML
+I, [2018-01-11T22:06:13.008511 #13893]  INFO -- : [bd47d806-2df5-4c40-b299-6e28a9312f5f]   Rendering pages/contact.html.erb within layouts/application.html.erb
+I, [2018-01-11T22:06:13.008983 #13893]  INFO -- : [bd47d806-2df5-4c40-b299-6e28a9312f5f]   Rendered pages/contact.html.erb within layouts/application.html.erb (0.1ms)
+I, [2018-01-11T22:06:13.010320 #13893]  INFO -- : [bd47d806-2df5-4c40-b299-6e28a9312f5f]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-11T22:06:13.010793 #13893]  INFO -- : [bd47d806-2df5-4c40-b299-6e28a9312f5f]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T22:06:13.011248 #13893]  INFO -- : [bd47d806-2df5-4c40-b299-6e28a9312f5f] Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+I, [2018-01-11T22:11:49.398275 #13893]  INFO -- : [29447165-9d1e-4617-a9b4-bf721ba1a944] Started GET "/" for 172.104.108.109 at 2018-01-11 22:11:49 -0500
+I, [2018-01-11T22:11:49.399827 #13893]  INFO -- : [29447165-9d1e-4617-a9b4-bf721ba1a944] Processing by PagesController#index as HTML
+I, [2018-01-11T22:11:49.401001 #13893]  INFO -- : [29447165-9d1e-4617-a9b4-bf721ba1a944]   Rendering pages/index.html.erb
+I, [2018-01-11T22:11:49.401491 #13893]  INFO -- : [29447165-9d1e-4617-a9b4-bf721ba1a944]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-11T22:11:49.403791 #13893] DEBUG -- : [29447165-9d1e-4617-a9b4-bf721ba1a944]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-11T22:11:49.410381 #13893]  INFO -- : [29447165-9d1e-4617-a9b4-bf721ba1a944]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-11T22:11:49.410597 #13893]  INFO -- : [29447165-9d1e-4617-a9b4-bf721ba1a944]   Rendered pages/index.html.erb (9.4ms)
+I, [2018-01-11T22:11:49.411008 #13893]  INFO -- : [29447165-9d1e-4617-a9b4-bf721ba1a944] Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 1.0ms)
+I, [2018-01-11T23:34:55.961446 #13893]  INFO -- : [fe92093d-ba86-4570-950c-dbf3fa86b5d7] Started GET "/" for 91.210.146.82 at 2018-01-11 23:34:55 -0500
+I, [2018-01-11T23:34:55.963439 #13893]  INFO -- : [fe92093d-ba86-4570-950c-dbf3fa86b5d7] Processing by PagesController#index as GIF
+I, [2018-01-11T23:34:55.983026 #13893]  INFO -- : [fe92093d-ba86-4570-950c-dbf3fa86b5d7] Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+F, [2018-01-11T23:34:55.984936 #13893] FATAL -- : [fe92093d-ba86-4570-950c-dbf3fa86b5d7]   
+F, [2018-01-11T23:34:55.985048 #13893] FATAL -- : [fe92093d-ba86-4570-950c-dbf3fa86b5d7] ActionView::MissingTemplate (Missing template pages/index with {:locale=>[:en], :formats=>[:gif, "image/x-xbitmap", :jpeg, "image/pjpeg", "application/x-shockwave-flash", "application/vnd.ms-excel", "application/vnd.ms-powerpoint", "application/msword"], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :arb, :coffee, :jbuilder]}. Searched in:
+  * "/usr/home/isigman/csi_wrapper/csi/app/views"
+  * "/usr/local/lib/ruby/gems/2.3/gems/devise-4.3.0/app/views"
+  * "/usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views"
+  * "/usr/local/lib/ruby/gems/2.3/gems/kaminari-core-1.1.1/app/views"
+):
+F, [2018-01-11T23:34:55.985137 #13893] FATAL -- : [fe92093d-ba86-4570-950c-dbf3fa86b5d7]   
+F, [2018-01-11T23:34:55.985223 #13893] FATAL -- : [fe92093d-ba86-4570-950c-dbf3fa86b5d7] app/controllers/pages_controller.rb:7:in `index'
+I, [2018-01-11T23:34:57.312594 #13893]  INFO -- : [dcb0d003-637a-4e70-965b-accbc454c585] Started GET "/" for 91.210.146.82 at 2018-01-11 23:34:57 -0500
+I, [2018-01-11T23:34:57.314262 #13893]  INFO -- : [dcb0d003-637a-4e70-965b-accbc454c585] Processing by PagesController#index as GIF
+I, [2018-01-11T23:34:57.316098 #13893]  INFO -- : [dcb0d003-637a-4e70-965b-accbc454c585] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+F, [2018-01-11T23:34:57.317784 #13893] FATAL -- : [dcb0d003-637a-4e70-965b-accbc454c585]   
+F, [2018-01-11T23:34:57.317923 #13893] FATAL -- : [dcb0d003-637a-4e70-965b-accbc454c585] ActionView::MissingTemplate (Missing template pages/index with {:locale=>[:en], :formats=>[:gif, "image/x-xbitmap", :jpeg, "image/pjpeg", "application/x-shockwave-flash", "application/vnd.ms-excel", "application/vnd.ms-powerpoint", "application/msword"], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :arb, :coffee, :jbuilder]}. Searched in:
+  * "/usr/home/isigman/csi_wrapper/csi/app/views"
+  * "/usr/local/lib/ruby/gems/2.3/gems/devise-4.3.0/app/views"
+  * "/usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views"
+  * "/usr/local/lib/ruby/gems/2.3/gems/kaminari-core-1.1.1/app/views"
+):
+F, [2018-01-11T23:34:57.318009 #13893] FATAL -- : [dcb0d003-637a-4e70-965b-accbc454c585]   
+F, [2018-01-11T23:34:57.318089 #13893] FATAL -- : [dcb0d003-637a-4e70-965b-accbc454c585] app/controllers/pages_controller.rb:7:in `index'
+I, [2018-01-11T23:35:01.508429 #13893]  INFO -- : [b9f92116-96e0-443f-8f3c-0b69c80476f0] Started GET "/" for 91.210.146.82 at 2018-01-11 23:35:01 -0500
+I, [2018-01-11T23:35:01.510134 #13893]  INFO -- : [b9f92116-96e0-443f-8f3c-0b69c80476f0] Processing by PagesController#index as GIF
+I, [2018-01-11T23:35:01.511971 #13893]  INFO -- : [b9f92116-96e0-443f-8f3c-0b69c80476f0] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+F, [2018-01-11T23:35:01.513954 #13893] FATAL -- : [b9f92116-96e0-443f-8f3c-0b69c80476f0]   
+F, [2018-01-11T23:35:01.514070 #13893] FATAL -- : [b9f92116-96e0-443f-8f3c-0b69c80476f0] ActionView::MissingTemplate (Missing template pages/index with {:locale=>[:en], :formats=>[:gif, "image/x-xbitmap", :jpeg, "image/pjpeg", "application/x-shockwave-flash", "application/vnd.ms-excel", "application/vnd.ms-powerpoint", "application/msword"], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :arb, :coffee, :jbuilder]}. Searched in:
+  * "/usr/home/isigman/csi_wrapper/csi/app/views"
+  * "/usr/local/lib/ruby/gems/2.3/gems/devise-4.3.0/app/views"
+  * "/usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views"
+  * "/usr/local/lib/ruby/gems/2.3/gems/kaminari-core-1.1.1/app/views"
+):
+F, [2018-01-11T23:35:01.514155 #13893] FATAL -- : [b9f92116-96e0-443f-8f3c-0b69c80476f0]   
+F, [2018-01-11T23:35:01.514236 #13893] FATAL -- : [b9f92116-96e0-443f-8f3c-0b69c80476f0] app/controllers/pages_controller.rb:7:in `index'
+I, [2018-01-11T23:35:10.846205 #13893]  INFO -- : [8685748a-849f-4fcd-a981-3e7068669777] Started GET "/" for 91.210.146.82 at 2018-01-11 23:35:10 -0500
+I, [2018-01-11T23:35:10.847947 #13893]  INFO -- : [8685748a-849f-4fcd-a981-3e7068669777] Processing by PagesController#index as GIF
+I, [2018-01-11T23:35:10.849821 #13893]  INFO -- : [8685748a-849f-4fcd-a981-3e7068669777] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+F, [2018-01-11T23:35:10.851520 #13893] FATAL -- : [8685748a-849f-4fcd-a981-3e7068669777]   
+F, [2018-01-11T23:35:10.851627 #13893] FATAL -- : [8685748a-849f-4fcd-a981-3e7068669777] ActionView::MissingTemplate (Missing template pages/index with {:locale=>[:en], :formats=>[:gif, "image/x-xbitmap", :jpeg, "image/pjpeg", "application/x-shockwave-flash", "application/vnd.ms-excel", "application/vnd.ms-powerpoint", "application/msword"], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :arb, :coffee, :jbuilder]}. Searched in:
+  * "/usr/home/isigman/csi_wrapper/csi/app/views"
+  * "/usr/local/lib/ruby/gems/2.3/gems/devise-4.3.0/app/views"
+  * "/usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views"
+  * "/usr/local/lib/ruby/gems/2.3/gems/kaminari-core-1.1.1/app/views"
+):
+F, [2018-01-11T23:35:10.851722 #13893] FATAL -- : [8685748a-849f-4fcd-a981-3e7068669777]   
+F, [2018-01-11T23:35:10.851803 #13893] FATAL -- : [8685748a-849f-4fcd-a981-3e7068669777] app/controllers/pages_controller.rb:7:in `index'
+I, [2018-01-11T23:35:11.746076 #13893]  INFO -- : [88553348-2501-4f61-863c-53de869ec9ea] Started GET "/blog/" for 91.210.146.82 at 2018-01-11 23:35:11 -0500
+F, [2018-01-11T23:35:11.747493 #13893] FATAL -- : [88553348-2501-4f61-863c-53de869ec9ea]   
+F, [2018-01-11T23:35:11.747605 #13893] FATAL -- : [88553348-2501-4f61-863c-53de869ec9ea] ActionController::RoutingError (No route matches [GET] "/blog"):
+F, [2018-01-11T23:35:11.747700 #13893] FATAL -- : [88553348-2501-4f61-863c-53de869ec9ea]   
+F, [2018-01-11T23:35:11.747796 #13893] FATAL -- : [88553348-2501-4f61-863c-53de869ec9ea] actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+[88553348-2501-4f61-863c-53de869ec9ea] actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+[88553348-2501-4f61-863c-53de869ec9ea] railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+[88553348-2501-4f61-863c-53de869ec9ea] railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+[88553348-2501-4f61-863c-53de869ec9ea] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+[88553348-2501-4f61-863c-53de869ec9ea] activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+[88553348-2501-4f61-863c-53de869ec9ea] activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+[88553348-2501-4f61-863c-53de869ec9ea] railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+[88553348-2501-4f61-863c-53de869ec9ea] actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+[88553348-2501-4f61-863c-53de869ec9ea] actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+[88553348-2501-4f61-863c-53de869ec9ea] rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+[88553348-2501-4f61-863c-53de869ec9ea] rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+[88553348-2501-4f61-863c-53de869ec9ea] activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+[88553348-2501-4f61-863c-53de869ec9ea] actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+[88553348-2501-4f61-863c-53de869ec9ea] rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+[88553348-2501-4f61-863c-53de869ec9ea] railties (5.1.4) lib/rails/engine.rb:522:in `call'
+[88553348-2501-4f61-863c-53de869ec9ea] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+[88553348-2501-4f61-863c-53de869ec9ea] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+[88553348-2501-4f61-863c-53de869ec9ea] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+[88553348-2501-4f61-863c-53de869ec9ea] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+[88553348-2501-4f61-863c-53de869ec9ea] passenger (5.1.12) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+I, [2018-01-12T00:05:00.859890 #13893]  INFO -- : [087e7a4e-4df9-40b6-bc4d-05a0abccd453] Started HEAD "/" for 185.207.205.93 at 2018-01-12 00:05:00 -0500
+I, [2018-01-12T00:05:00.861938 #13893]  INFO -- : [087e7a4e-4df9-40b6-bc4d-05a0abccd453] Processing by PagesController#index as */*
+I, [2018-01-12T00:05:00.876976 #13893]  INFO -- : [087e7a4e-4df9-40b6-bc4d-05a0abccd453]   Rendering pages/index.html.erb
+I, [2018-01-12T00:05:00.896088 #13893]  INFO -- : [087e7a4e-4df9-40b6-bc4d-05a0abccd453]   Rendered partials/_header.html.erb (1.2ms)
+D, [2018-01-12T00:05:00.898644 #13893] DEBUG -- : [087e7a4e-4df9-40b6-bc4d-05a0abccd453]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-12T00:05:00.919323 #13893]  INFO -- : [087e7a4e-4df9-40b6-bc4d-05a0abccd453]   Rendered partials/_footer.html.erb (0.7ms)
+I, [2018-01-12T00:05:00.919532 #13893]  INFO -- : [087e7a4e-4df9-40b6-bc4d-05a0abccd453]   Rendered pages/index.html.erb (42.4ms)
+I, [2018-01-12T00:05:00.919996 #13893]  INFO -- : [087e7a4e-4df9-40b6-bc4d-05a0abccd453] Completed 200 OK in 58ms (Views: 56.2ms | ActiveRecord: 0.9ms)
+I, [2018-01-12T00:05:01.153311 #13893]  INFO -- : [2667dd00-2f9a-449a-b5e3-33e25ae7ed3e] Started GET "/" for 185.207.205.93 at 2018-01-12 00:05:01 -0500
+I, [2018-01-12T00:05:01.154795 #13893]  INFO -- : [2667dd00-2f9a-449a-b5e3-33e25ae7ed3e] Processing by PagesController#index as */*
+I, [2018-01-12T00:05:01.155918 #13893]  INFO -- : [2667dd00-2f9a-449a-b5e3-33e25ae7ed3e]   Rendering pages/index.html.erb
+I, [2018-01-12T00:05:01.156397 #13893]  INFO -- : [2667dd00-2f9a-449a-b5e3-33e25ae7ed3e]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-12T00:05:01.158166 #13893] DEBUG -- : [2667dd00-2f9a-449a-b5e3-33e25ae7ed3e]   [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-12T00:05:01.164354 #13893]  INFO -- : [2667dd00-2f9a-449a-b5e3-33e25ae7ed3e]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-12T00:05:01.164540 #13893]  INFO -- : [2667dd00-2f9a-449a-b5e3-33e25ae7ed3e]   Rendered pages/index.html.erb (8.4ms)
+I, [2018-01-12T00:05:01.164956 #13893]  INFO -- : [2667dd00-2f9a-449a-b5e3-33e25ae7ed3e] Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.7ms)
+I, [2018-01-12T01:58:02.497952 #13893]  INFO -- : [bc0f8a53-da2d-4d5f-a2cc-c696e9ad958a] Started GET "/" for 66.249.88.42 at 2018-01-12 01:58:02 -0500
+I, [2018-01-12T01:58:02.499193 #13893]  INFO -- : [bc0f8a53-da2d-4d5f-a2cc-c696e9ad958a] Processing by PagesController#index as HTML
+I, [2018-01-12T01:58:02.500094 #13893]  INFO -- : [bc0f8a53-da2d-4d5f-a2cc-c696e9ad958a]   Rendering pages/index.html.erb
+I, [2018-01-12T01:58:02.500664 #13893]  INFO -- : [bc0f8a53-da2d-4d5f-a2cc-c696e9ad958a]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-12T01:58:02.503090 #13893] DEBUG -- : [bc0f8a53-da2d-4d5f-a2cc-c696e9ad958a]   [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-12T01:58:02.508155 #13893]  INFO -- : [bc0f8a53-da2d-4d5f-a2cc-c696e9ad958a]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-12T01:58:02.508329 #13893]  INFO -- : [bc0f8a53-da2d-4d5f-a2cc-c696e9ad958a]   Rendered pages/index.html.erb (8.1ms)
+I, [2018-01-12T01:58:02.508642 #13893]  INFO -- : [bc0f8a53-da2d-4d5f-a2cc-c696e9ad958a] Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.7ms)
+I, [2018-01-12T01:58:02.510924 #13893]  INFO -- : [6cadd54b-4a5a-4686-9da6-59684e8775a6] Started GET "/admin" for 66.249.88.44 at 2018-01-12 01:58:02 -0500
+I, [2018-01-12T01:58:02.511966 #13893]  INFO -- : [6cadd54b-4a5a-4686-9da6-59684e8775a6] Processing by Admin::DashboardController#index as HTML
+I, [2018-01-12T01:58:02.513048 #13893]  INFO -- : [6cadd54b-4a5a-4686-9da6-59684e8775a6] Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+I, [2018-01-12T01:58:02.523679 #13893]  INFO -- : [909dd2ee-54ad-41ad-9d24-26c5416418cb] Started GET "/" for 66.249.88.34 at 2018-01-12 01:58:02 -0500
+I, [2018-01-12T01:58:02.524709 #13893]  INFO -- : [909dd2ee-54ad-41ad-9d24-26c5416418cb] Processing by PagesController#index as HTML
+I, [2018-01-12T01:58:02.525403 #13893]  INFO -- : [909dd2ee-54ad-41ad-9d24-26c5416418cb]   Rendering pages/index.html.erb
+I, [2018-01-12T01:58:02.525734 #13893]  INFO -- : [909dd2ee-54ad-41ad-9d24-26c5416418cb]   Rendered partials/_header.html.erb (0.0ms)
+D, [2018-01-12T01:58:02.526753 #13893] DEBUG -- : [909dd2ee-54ad-41ad-9d24-26c5416418cb]   [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-12T01:58:02.531013 #13893]  INFO -- : [909dd2ee-54ad-41ad-9d24-26c5416418cb]   Rendered partials/_footer.html.erb (0.0ms)
+I, [2018-01-12T01:58:02.531135 #13893]  INFO -- : [909dd2ee-54ad-41ad-9d24-26c5416418cb]   Rendered pages/index.html.erb (5.6ms)
+I, [2018-01-12T01:58:02.531431 #13893]  INFO -- : [909dd2ee-54ad-41ad-9d24-26c5416418cb] Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.4ms)
+I, [2018-01-12T01:58:02.554676 #13893]  INFO -- : [094e85de-007f-4064-b1d6-06dc6b4bea1b] Started GET "/admin/login" for 66.249.88.44 at 2018-01-12 01:58:02 -0500
+I, [2018-01-12T01:58:02.556085 #13893]  INFO -- : [094e85de-007f-4064-b1d6-06dc6b4bea1b] Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+I, [2018-01-12T01:58:02.558064 #13893]  INFO -- : [094e85de-007f-4064-b1d6-06dc6b4bea1b]   Rendering /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+I, [2018-01-12T01:58:02.568990 #13893]  INFO -- : [094e85de-007f-4064-b1d6-06dc6b4bea1b]   Rendered /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/devise/shared/_links.erb (0.5ms)
+I, [2018-01-12T01:58:02.569130 #13893]  INFO -- : [094e85de-007f-4064-b1d6-06dc6b4bea1b]   Rendered /usr/local/lib/ruby/gems/2.3/gems/activeadmin-1.1.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (10.9ms)
+I, [2018-01-12T01:58:02.570562 #13893]  INFO -- : [094e85de-007f-4064-b1d6-06dc6b4bea1b] Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+I, [2018-01-12T02:25:41.160055 #29198]  INFO -- : [2b167180-2891-4f42-93cf-65ddc3ace877] Started GET "/" for 13.56.229.65 at 2018-01-12 02:25:41 -0500
+I, [2018-01-12T02:25:41.197245 #29198]  INFO -- : [2b167180-2891-4f42-93cf-65ddc3ace877] Processing by PagesController#index as HTML
+I, [2018-01-12T02:25:41.222418 #29198]  INFO -- : [2b167180-2891-4f42-93cf-65ddc3ace877]   Rendering pages/index.html.erb
+I, [2018-01-12T02:25:41.229248 #29198]  INFO -- : [2b167180-2891-4f42-93cf-65ddc3ace877]   Rendered partials/_header.html.erb (1.1ms)
+D, [2018-01-12T02:25:41.244513 #29198] DEBUG -- : [2b167180-2891-4f42-93cf-65ddc3ace877]   [1m[35m (1.0ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2018-01-12T02:25:41.247348 #29198] DEBUG -- : [2b167180-2891-4f42-93cf-65ddc3ace877]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-12T02:25:41.300186 #29198]  INFO -- : [2b167180-2891-4f42-93cf-65ddc3ace877]   Rendered partials/_footer.html.erb (1.4ms)
+I, [2018-01-12T02:25:41.300407 #29198]  INFO -- : [2b167180-2891-4f42-93cf-65ddc3ace877]   Rendered pages/index.html.erb (77.8ms)
+I, [2018-01-12T02:25:41.301158 #29198]  INFO -- : [2b167180-2891-4f42-93cf-65ddc3ace877] Completed 200 OK in 104ms (Views: 83.2ms | ActiveRecord: 5.3ms)
+I, [2018-01-12T04:38:27.829763 #29198]  INFO -- : [fa190f93-67a7-4d0b-9865-fd3aa03da63f] Started GET "/" for 72.165.227.123 at 2018-01-12 04:38:27 -0500
+I, [2018-01-12T04:38:27.833806 #29198]  INFO -- : [fa190f93-67a7-4d0b-9865-fd3aa03da63f] Processing by PagesController#index as HTML
+I, [2018-01-12T04:38:27.836048 #29198]  INFO -- : [fa190f93-67a7-4d0b-9865-fd3aa03da63f]   Rendering pages/index.html.erb
+I, [2018-01-12T04:38:27.836732 #29198]  INFO -- : [fa190f93-67a7-4d0b-9865-fd3aa03da63f]   Rendered partials/_header.html.erb (0.1ms)
+D, [2018-01-12T04:38:27.839471 #29198] DEBUG -- : [fa190f93-67a7-4d0b-9865-fd3aa03da63f]   [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+I, [2018-01-12T04:38:27.846890 #29198]  INFO -- : [fa190f93-67a7-4d0b-9865-fd3aa03da63f]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-12T04:38:27.847088 #29198]  INFO -- : [fa190f93-67a7-4d0b-9865-fd3aa03da63f]   Rendered pages/index.html.erb (10.8ms)
+I, [2018-01-12T04:38:27.847607 #29198]  INFO -- : [fa190f93-67a7-4d0b-9865-fd3aa03da63f] Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 1.0ms)
+I, [2018-01-12T04:39:26.459323 #29198]  INFO -- : [136028b4-7427-48ee-af52-87187150eccd] Started GET "/conference_2018" for 72.165.227.123 at 2018-01-12 04:39:26 -0500
+I, [2018-01-12T04:39:26.461363 #29198]  INFO -- : [136028b4-7427-48ee-af52-87187150eccd] Processing by PagesController#conference_2018 as HTML
+I, [2018-01-12T04:39:26.483748 #29198]  INFO -- : [136028b4-7427-48ee-af52-87187150eccd]   Rendering pages/conference.html.erb within layouts/application.html.erb
+I, [2018-01-12T04:39:26.484917 #29198]  INFO -- : [136028b4-7427-48ee-af52-87187150eccd]   Rendered pages/conference.html.erb within layouts/application.html.erb (0.9ms)
+I, [2018-01-12T04:39:26.488702 #29198]  INFO -- : [136028b4-7427-48ee-af52-87187150eccd]   Rendered partials/_header.html.erb (0.1ms)
+I, [2018-01-12T04:39:26.489159 #29198]  INFO -- : [136028b4-7427-48ee-af52-87187150eccd]   Rendered partials/_footer.html.erb (0.1ms)
+I, [2018-01-12T04:39:26.489640 #29198]  INFO -- : [136028b4-7427-48ee-af52-87187150eccd] Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms)

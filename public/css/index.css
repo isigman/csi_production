@@ -159,8 +159,16 @@ a:link:active, a:visited:active {
   min-height: 120px;
   position: absolute;
   width: 100%;
-  z-index: 2;
+  z-index: 999;
 }
+
+
+@media only screen and (min-width:1400px) {
+	.slide-caption {
+	     margin-bottom: 8%;	
+	}
+}
+
 
 #header-wrapper * {
     margin-top: 25px;
